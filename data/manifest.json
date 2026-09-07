@@ -1,0 +1,5389 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "functional_0001",
+      "file": "images/functional_0001.png",
+      "category": "functional",
+      "expected_alt": "Email us",
+      "must_include": [
+        "email"
+      ],
+      "must_not_include": [
+        "envelope",
+        "letter",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<footer><a href=\"mailto:hello@kestrelbooks.test\"><img src=\"images/functional_0001.png\"></a></footer>",
+        "nearby_text": "Get in touch"
+      },
+      "notes": "icon-only control, icon mail, style solid_pill, accent #15803d; rendered 138x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0002",
+      "file": "images/functional_0002.png",
+      "category": "functional",
+      "expected_alt": "Open in a new tab",
+      "must_include": [
+        "new tab"
+      ],
+      "must_not_include": [
+        "square",
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<p>Read the <a href=\"https://example.test/spec\" target=\"_blank\">full specification<img src=\"images/functional_0002.png\"></a></p>",
+        "nearby_text": "full specification"
+      },
+      "notes": "icon-only control, icon external, style solid_round, accent #1a73e8; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0003",
+      "file": "images/functional_0003.png",
+      "category": "functional",
+      "expected_alt": "Call us",
+      "must_include": [
+        "call"
+      ],
+      "must_not_include": [
+        "handset",
+        "receiver",
+        "telephone",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<footer><a href=\"tel:+15550142200\"><img src=\"images/functional_0003.png\"></a></footer>",
+        "nearby_text": "Customer service"
+      },
+      "notes": "icon-only control, icon phone, style circle, accent #be185d; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0004",
+      "file": "images/functional_0004.png",
+      "category": "functional",
+      "expected_alt": "Home",
+      "must_include": [
+        "home"
+      ],
+      "must_not_include": [
+        "house",
+        "roof",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header><a href=\"/\" class=\"home\"><img src=\"images/functional_0004.png\"></a></header>",
+        "nearby_text": "Kestrel Books"
+      },
+      "notes": "icon-only control, icon home, style outline, accent #0369a1; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0005",
+      "file": "images/functional_0005.png",
+      "category": "functional",
+      "expected_alt": "Open live chat",
+      "must_include": [
+        "chat"
+      ],
+      "must_not_include": [
+        "speech",
+        "bubble",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<button type=\"button\" class=\"chat-launcher\" data-widget=\"support\"><img src=\"images/functional_0005.png\"></button>",
+        "nearby_text": "Support"
+      },
+      "notes": "icon-only control, icon chat, style ghost, accent #1a73e8; rendered 120x120 px, seed 20260906"
+    },
+    {
+      "id": "functional_0006",
+      "file": "images/functional_0006.png",
+      "category": "functional",
+      "expected_alt": "Next",
+      "must_include": [
+        "next"
+      ],
+      "must_not_include": [
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<nav class=\"pager\"><a href=\"/results?page=4\"><img src=\"images/functional_0006.png\"></a></nav>",
+        "nearby_text": "Page 3 of 9"
+      },
+      "notes": "icon-only control, icon next, style dark, accent #059669; rendered 162x116 px, seed 20260906"
+    },
+    {
+      "id": "functional_0007",
+      "file": "images/functional_0007.png",
+      "category": "functional",
+      "expected_alt": "Your account",
+      "must_include": [
+        "account"
+      ],
+      "must_not_include": [
+        "person",
+        "silhouette",
+        "avatar",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header><a href=\"/account\"><img src=\"images/functional_0007.png\"></a></header>",
+        "nearby_text": "Signed in as Rana"
+      },
+      "notes": "icon-only control, icon user, style soft, accent #2563eb; rendered 116x116 px, seed 20260906"
+    },
+    {
+      "id": "functional_0008",
+      "file": "images/functional_0008.png",
+      "category": "functional",
+      "expected_alt": "Go back",
+      "must_include": [
+        "back"
+      ],
+      "must_not_include": [
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<nav class=\"pager\"><a href=\"/results?page=2\"><img src=\"images/functional_0008.png\"></a></nav>",
+        "nearby_text": "Page 3 of 9"
+      },
+      "notes": "icon-only control, icon back, style square_flat, accent #334155; rendered 96x96 px, seed 20260906"
+    },
+    {
+      "id": "functional_0009",
+      "file": "images/functional_0009.png",
+      "category": "functional",
+      "expected_alt": "Save to wishlist",
+      "must_include": [
+        "wishlist"
+      ],
+      "must_not_include": [
+        "heart",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"product-card\"><h3>Walnut desk lamp</h3><button type=\"button\" class=\"wishlist\" data-sku=\"LMP-22\"><img src=\"images/functional_0009.png\"></button></div>",
+        "nearby_text": "Walnut desk lamp"
+      },
+      "notes": "icon-only control, icon heart, style solid_pill, accent #0f766e; rendered 150x100 px, seed 20260906"
+    },
+    {
+      "id": "functional_0010",
+      "file": "images/functional_0010.png",
+      "category": "functional",
+      "expected_alt": "View cart",
+      "must_include": [
+        "cart"
+      ],
+      "must_not_include": [
+        "trolley",
+        "basket",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header><a href=\"/cart\" class=\"cart-link\"><img src=\"images/functional_0010.png\"><span class=\"count\">3</span></a></header>",
+        "nearby_text": "3 items"
+      },
+      "notes": "icon-only control, icon cart, style solid_round, accent #1a73e8; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0011",
+      "file": "images/functional_0011.png",
+      "category": "functional",
+      "expected_alt": "Bookmark this page",
+      "must_include": [
+        "bookmark"
+      ],
+      "must_not_include": [
+        "ribbon",
+        "flag",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<article><h1>The tide tables</h1><button type=\"button\" class=\"save\"><img src=\"images/functional_0011.png\"></button></article>",
+        "nearby_text": "The tide tables"
+      },
+      "notes": "icon-only control, icon bookmark, style circle, accent #7c3aed; rendered 100x100 px, seed 20260906"
+    },
+    {
+      "id": "functional_0012",
+      "file": "images/functional_0012.png",
+      "category": "functional",
+      "expected_alt": "Close",
+      "must_include": [
+        "close"
+      ],
+      "must_not_include": [
+        "cross",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"modal\"><h2>Newsletter</h2><button type=\"button\" class=\"modal-close\" data-dismiss=\"modal\"><img src=\"images/functional_0012.png\"></button></div>",
+        "nearby_text": "Newsletter"
+      },
+      "notes": "icon-only control, icon close, style outline, accent #b91c1c; rendered 140x140 px, seed 20260906"
+    },
+    {
+      "id": "functional_0013",
+      "file": "images/functional_0013.png",
+      "category": "functional",
+      "expected_alt": "Print",
+      "must_include": [
+        "print"
+      ],
+      "must_not_include": [
+        "printer",
+        "machine",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"toolbar\"><button type=\"button\" onclick=\"window.print()\"><img src=\"images/functional_0013.png\"></button></div>",
+        "nearby_text": "Invoice 2291"
+      },
+      "notes": "icon-only control, icon print, style ghost, accent #1a73e8; rendered 100x100 px, seed 20260906"
+    },
+    {
+      "id": "functional_0014",
+      "file": "images/functional_0014.png",
+      "category": "functional",
+      "expected_alt": "Secure checkout",
+      "must_include": [
+        "secure"
+      ],
+      "must_not_include": [
+        "padlock",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout\"><button type=\"submit\" class=\"pay\"><img src=\"images/functional_0014.png\"></button></form>",
+        "nearby_text": "Total 84.00"
+      },
+      "notes": "icon-only control, icon lock, style dark, accent #1a73e8; rendered 151x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0015",
+      "file": "images/functional_0015.png",
+      "category": "functional",
+      "expected_alt": "Filter results",
+      "must_include": [
+        "filter"
+      ],
+      "must_not_include": [
+        "funnel",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"results-bar\"><span>412 results</span><button type=\"button\" class=\"filters\" aria-expanded=\"false\"><img src=\"images/functional_0015.png\"></button></div>",
+        "nearby_text": "412 results"
+      },
+      "notes": "icon-only control, icon filter, style soft, accent #2563eb; rendered 132x132 px, seed 20260906"
+    },
+    {
+      "id": "functional_0016",
+      "file": "images/functional_0016.png",
+      "category": "functional",
+      "expected_alt": "Download",
+      "must_include": [
+        "download"
+      ],
+      "must_not_include": [
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<li class=\"file\"><span>Quarterly report.pdf</span><a href=\"/files/q3.pdf\" download><img src=\"images/functional_0016.png\"></a></li>",
+        "nearby_text": "Quarterly report.pdf"
+      },
+      "notes": "icon-only control, icon download, style square_flat, accent #b91c1c; rendered 120x120 px, seed 20260906"
+    },
+    {
+      "id": "functional_0017",
+      "file": "images/functional_0017.png",
+      "category": "functional",
+      "expected_alt": "Open the map",
+      "must_include": [
+        "map"
+      ],
+      "must_not_include": [
+        "folded",
+        "paper",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<section class=\"store\"><h3>Mill Lane branch</h3><a href=\"/stores/mill-lane/map\"><img src=\"images/functional_0017.png\"></a></section>",
+        "nearby_text": "Mill Lane branch"
+      },
+      "notes": "icon-only control, icon map, style solid_pill, accent #be185d; rendered 108x72 px, seed 20260906"
+    },
+    {
+      "id": "functional_0018",
+      "file": "images/functional_0018.png",
+      "category": "functional",
+      "expected_alt": "Help",
+      "must_include": [
+        "help"
+      ],
+      "must_not_include": [
+        "question mark",
+        "circle",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<div class=\"field\"><label for=\"cvv\">Security code</label><input id=\"cvv\"><a href=\"/help/cvv\"><img src=\"images/functional_0018.png\"></a></div>",
+        "nearby_text": "Security code"
+      },
+      "notes": "icon-only control, icon help, style solid_round, accent #be185d; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0019",
+      "file": "images/functional_0019.png",
+      "category": "functional",
+      "expected_alt": "Open menu",
+      "must_include": [
+        "menu"
+      ],
+      "must_not_include": [
+        "hamburger",
+        "three lines",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<header class=\"site-header\"><button type=\"button\" class=\"nav-toggle\" aria-expanded=\"false\" aria-controls=\"main-nav\"><img src=\"images/functional_0019.png\"></button></header>",
+        "nearby_text": "Kestrel Books"
+      },
+      "notes": "icon-only control, icon menu, style circle, accent #c2410c; rendered 80x80 px, seed 20260906"
+    },
+    {
+      "id": "functional_0020",
+      "file": "images/functional_0020.png",
+      "category": "functional",
+      "expected_alt": "Settings",
+      "must_include": [
+        "settings"
+      ],
+      "must_not_include": [
+        "gear",
+        "cog",
+        "wheel",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<nav class=\"sidebar\"><a href=\"/account/settings\"><img src=\"images/functional_0020.png\"></a></nav>",
+        "nearby_text": "Account"
+      },
+      "notes": "icon-only control, icon settings, style outline, accent #1a73e8; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0021",
+      "file": "images/functional_0021.png",
+      "category": "functional",
+      "expected_alt": "Edit",
+      "must_include": [
+        "edit"
+      ],
+      "must_not_include": [
+        "pencil",
+        "pen",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<li class=\"address\"><span>14 Mill Lane</span><button type=\"button\" class=\"edit\" data-id=\"addr-2\"><img src=\"images/functional_0021.png\"></button></li>",
+        "nearby_text": "14 Mill Lane"
+      },
+      "notes": "icon-only control, icon edit, style ghost, accent #be185d; rendered 72x72 px, seed 20260906"
+    },
+    {
+      "id": "functional_0022",
+      "file": "images/functional_0022.png",
+      "category": "functional",
+      "expected_alt": "Add item",
+      "must_include": [
+        "add"
+      ],
+      "must_not_include": [
+        "plus",
+        "cross",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"qty\"><span>Quantity 2</span><button type=\"button\" class=\"inc\"><img src=\"images/functional_0022.png\"></button></div>",
+        "nearby_text": "Quantity 2"
+      },
+      "notes": "icon-only control, icon plus, style dark, accent #0369a1; rendered 157x112 px, seed 20260906"
+    },
+    {
+      "id": "functional_0023",
+      "file": "images/functional_0023.png",
+      "category": "functional",
+      "expected_alt": "Notifications",
+      "must_include": [
+        "notifications"
+      ],
+      "must_not_include": [
+        "bell",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header><a href=\"/notifications\"><img src=\"images/functional_0023.png\"><span class=\"badge\">5</span></a></header>",
+        "nearby_text": "5 unread"
+      },
+      "notes": "icon-only control, icon bell, style soft, accent #15803d; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "functional_0024",
+      "file": "images/functional_0024.png",
+      "category": "functional",
+      "expected_alt": "Mute",
+      "must_include": [
+        "mute"
+      ],
+      "must_not_include": [
+        "speaker",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"player\"><button type=\"button\" class=\"volume\"><img src=\"images/functional_0024.png\"></button></div>",
+        "nearby_text": "Volume"
+      },
+      "notes": "icon-only control, icon mute, style square_flat, accent #1a73e8; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0025",
+      "file": "images/functional_0025.png",
+      "category": "functional",
+      "expected_alt": "Search",
+      "must_include": [
+        "search"
+      ],
+      "must_not_include": [
+        "magnifying",
+        "glass",
+        "lens",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form role=\"search\" action=\"/search\"><label for=\"q\">Search products</label><input id=\"q\" name=\"q\" type=\"search\"><button type=\"submit\" class=\"icon-btn\"><img src=\"images/functional_0025.png\"></button></form>",
+        "nearby_text": "Search products"
+      },
+      "notes": "icon-only control, icon search, style solid_pill, accent #c2410c; rendered 126x84 px, seed 20260906"
+    },
+    {
+      "id": "functional_0026",
+      "file": "images/functional_0026.png",
+      "category": "functional",
+      "expected_alt": "Zoom in",
+      "must_include": [
+        "zoom"
+      ],
+      "must_not_include": [
+        "magnifying",
+        "glass",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<figure class=\"gallery\"><img src=\"/photos/4.jpg\"><button type=\"button\" class=\"zoom\"><img src=\"images/functional_0026.png\"></button></figure>",
+        "nearby_text": "Photo 4 of 9"
+      },
+      "notes": "icon-only control, icon zoom, style solid_round, accent #b91c1c; rendered 104x104 px, seed 20260906"
+    },
+    {
+      "id": "functional_0027",
+      "file": "images/functional_0027.png",
+      "category": "functional",
+      "expected_alt": "Copy",
+      "must_include": [
+        "copy"
+      ],
+      "must_not_include": [
+        "squares",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"code-block\"><code>npm install kestrel</code><button type=\"button\" class=\"copy\"><img src=\"images/functional_0027.png\"></button></div>",
+        "nearby_text": "npm install kestrel"
+      },
+      "notes": "icon-only control, icon copy, style circle, accent #c2410c; rendered 120x120 px, seed 20260906"
+    },
+    {
+      "id": "functional_0028",
+      "file": "images/functional_0028.png",
+      "category": "functional",
+      "expected_alt": "Share",
+      "must_include": [
+        "share"
+      ],
+      "must_not_include": [
+        "nodes",
+        "dots",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<article><h1>Sourdough in a home oven</h1><button type=\"button\" class=\"share\"><img src=\"images/functional_0028.png\"></button></article>",
+        "nearby_text": "Sourdough in a home oven"
+      },
+      "notes": "icon-only control, icon share, style outline, accent #dc2626; rendered 140x140 px, seed 20260906"
+    },
+    {
+      "id": "functional_0029",
+      "file": "images/functional_0029.png",
+      "category": "functional",
+      "expected_alt": "Add to favorites",
+      "must_include": [
+        "favorites"
+      ],
+      "must_not_include": [
+        "star",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<li class=\"doc\"><span>Notes from Tuesday</span><button type=\"button\" class=\"fav\"><img src=\"images/functional_0029.png\"></button></li>",
+        "nearby_text": "Notes from Tuesday"
+      },
+      "notes": "icon-only control, icon star, style ghost, accent #0f766e; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "functional_0030",
+      "file": "images/functional_0030.png",
+      "category": "functional",
+      "expected_alt": "Upload a file",
+      "must_include": [
+        "upload"
+      ],
+      "must_not_include": [
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/upload\" method=\"post\"><label for=\"f\">Attach a document</label><button type=\"button\" class=\"upload\"><img src=\"images/functional_0030.png\"></button></form>",
+        "nearby_text": "Attach a document"
+      },
+      "notes": "icon-only control, icon upload, style dark, accent #c2410c; rendered 151x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0031",
+      "file": "images/functional_0031.png",
+      "category": "functional",
+      "expected_alt": "Delete",
+      "must_include": [
+        "delete"
+      ],
+      "must_not_include": [
+        "trash",
+        "bin",
+        "can",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<tr><td>Blue linen shirt</td><td>1</td><td><button type=\"button\" class=\"row-action\" data-id=\"8841\"><img src=\"images/functional_0031.png\"></button></td></tr>",
+        "nearby_text": "Blue linen shirt, quantity 1"
+      },
+      "notes": "icon-only control, icon trash, style soft, accent #dc2626; rendered 96x96 px, seed 20260906"
+    },
+    {
+      "id": "functional_0032",
+      "file": "images/functional_0032.png",
+      "category": "functional",
+      "expected_alt": "Play",
+      "must_include": [
+        "play"
+      ],
+      "must_not_include": [
+        "triangle",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"player\"><button type=\"button\" class=\"play\"><img src=\"images/functional_0032.png\"></button><span class=\"track\">Track 4, Harbour Lights</span></div>",
+        "nearby_text": "Track 4, Harbour Lights"
+      },
+      "notes": "icon-only control, icon play, style square_flat, accent #7c3aed; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "functional_0033",
+      "file": "images/functional_0033.png",
+      "category": "functional",
+      "expected_alt": "Pause",
+      "must_include": [
+        "pause"
+      ],
+      "must_not_include": [
+        "bars",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"player\"><button type=\"button\" class=\"pause\"><img src=\"images/functional_0033.png\"></button></div>",
+        "nearby_text": "Now playing, Episode 12"
+      },
+      "notes": "icon-only control, icon pause, style solid_pill, accent #a16207; rendered 198x132 px, seed 20260906"
+    },
+    {
+      "id": "functional_0034",
+      "file": "images/functional_0034.png",
+      "category": "functional",
+      "expected_alt": "Refresh",
+      "must_include": [
+        "refresh"
+      ],
+      "must_not_include": [
+        "circular",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"feed-head\"><span>Updated 4 minutes ago</span><button type=\"button\" class=\"reload\"><img src=\"images/functional_0034.png\"></button></div>",
+        "nearby_text": "Updated 4 minutes ago"
+      },
+      "notes": "icon-only control, icon refresh, style solid_round, accent #9333ea; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0035",
+      "file": "images/functional_0035.png",
+      "category": "functional",
+      "expected_alt": "Pick a date",
+      "must_include": [
+        "date"
+      ],
+      "must_not_include": [
+        "calendar",
+        "grid",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"field\"><label for=\"d\">Departure</label><input id=\"d\" name=\"d\"><button type=\"button\" class=\"datepicker\"><img src=\"images/functional_0035.png\"></button></div>",
+        "nearby_text": "Departure"
+      },
+      "notes": "icon-only control, icon calendar, style circle, accent #059669; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0036",
+      "file": "images/functional_0036.png",
+      "category": "functional",
+      "expected_alt": "Upload a file",
+      "must_include": [
+        "upload"
+      ],
+      "must_not_include": [
+        "arrow",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/upload\" method=\"post\"><label for=\"f\">Attach a document</label><button type=\"button\" class=\"upload\"><img src=\"images/functional_0036.png\"></button></form>",
+        "nearby_text": "Attach a document"
+      },
+      "notes": "icon-only control, icon upload, style dark, accent #9333ea; rendered 151x108 px, seed 20260906"
+    },
+    {
+      "id": "functional_0037",
+      "file": "images/functional_0037.png",
+      "category": "functional",
+      "expected_alt": "Bookmark this page",
+      "must_include": [
+        "bookmark"
+      ],
+      "must_not_include": [
+        "ribbon",
+        "flag",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<article><h1>The tide tables</h1><button type=\"button\" class=\"save\"><img src=\"images/functional_0037.png\"></button></article>",
+        "nearby_text": "The tide tables"
+      },
+      "notes": "icon-only control, icon bookmark, style square_flat, accent #0f766e; rendered 132x132 px, seed 20260906"
+    },
+    {
+      "id": "functional_0038",
+      "file": "images/functional_0038.png",
+      "category": "functional",
+      "expected_alt": "Add to favorites",
+      "must_include": [
+        "favorites"
+      ],
+      "must_not_include": [
+        "star",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<li class=\"doc\"><span>Notes from Tuesday</span><button type=\"button\" class=\"fav\"><img src=\"images/functional_0038.png\"></button></li>",
+        "nearby_text": "Notes from Tuesday"
+      },
+      "notes": "icon-only control, icon star, style ghost, accent #c2410c; rendered 68x68 px, seed 20260906"
+    },
+    {
+      "id": "functional_0039",
+      "file": "images/functional_0039.png",
+      "category": "functional",
+      "expected_alt": "Save to wishlist",
+      "must_include": [
+        "wishlist"
+      ],
+      "must_not_include": [
+        "heart",
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"product-card\"><h3>Walnut desk lamp</h3><button type=\"button\" class=\"wishlist\" data-sku=\"LMP-22\"><img src=\"images/functional_0039.png\"></button></div>",
+        "nearby_text": "Walnut desk lamp"
+      },
+      "notes": "icon-only control, icon heart, style circle, accent #2563eb; rendered 116x116 px, seed 20260906"
+    },
+    {
+      "id": "functional_0040",
+      "file": "images/functional_0040.png",
+      "category": "functional",
+      "expected_alt": "Add to cart",
+      "must_include": [
+        "add",
+        "cart"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/cart/add\"><input type=\"hidden\" name=\"sku\" value=\"LMP-22\"><button type=\"submit\" class=\"cta\"><img src=\"images/functional_0040.png\"></button></form>",
+        "nearby_text": "Walnut desk lamp, 64.00"
+      },
+      "notes": "icon plus label control, icon cart; rendered 218x88 px, seed 20260906"
+    },
+    {
+      "id": "functional_0041",
+      "file": "images/functional_0041.png",
+      "category": "functional",
+      "expected_alt": "Download the report",
+      "must_include": [
+        "download",
+        "report"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<section><h3>Annual report 2025</h3><a class=\"cta\" href=\"/files/annual.pdf\" download><img src=\"images/functional_0041.png\"></a></section>",
+        "nearby_text": "Annual report 2025"
+      },
+      "notes": "icon plus label control, icon download; rendered 280x90 px, seed 20260906"
+    },
+    {
+      "id": "functional_0042",
+      "file": "images/functional_0042.png",
+      "category": "functional",
+      "expected_alt": "Add a new list",
+      "must_include": [
+        "add",
+        "list"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"lists\"><button type=\"button\" class=\"cta\"><img src=\"images/functional_0042.png\"></button></div>",
+        "nearby_text": "Your lists"
+      },
+      "notes": "icon plus label control, icon plus; rendered 242x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0043",
+      "file": "images/functional_0043.png",
+      "category": "functional",
+      "expected_alt": "Delete account",
+      "must_include": [
+        "delete",
+        "account"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<section class=\"danger\"><h3>Danger zone</h3><button type=\"button\" class=\"cta danger\"><img src=\"images/functional_0043.png\"></button></section>",
+        "nearby_text": "Danger zone"
+      },
+      "notes": "icon plus label control, icon trash; rendered 260x96 px, seed 20260906"
+    },
+    {
+      "id": "functional_0044",
+      "file": "images/functional_0044.png",
+      "category": "functional",
+      "expected_alt": "Send message",
+      "must_include": [
+        "send",
+        "message"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/contact\" method=\"post\"><label for=\"m\">Message</label><textarea id=\"m\"></textarea><button type=\"submit\" class=\"cta\"><img src=\"images/functional_0044.png\"></button></form>",
+        "nearby_text": "Message"
+      },
+      "notes": "icon plus label control, icon mail; rendered 207x76 px, seed 20260906"
+    },
+    {
+      "id": "functional_0045",
+      "file": "images/functional_0045.png",
+      "category": "functional",
+      "expected_alt": "Book a viewing",
+      "must_include": [
+        "book",
+        "viewing"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<aside class=\"listing\"><h3>2 bed flat, Mill Lane</h3><button type=\"button\" class=\"cta\"><img src=\"images/functional_0045.png\"></button></aside>",
+        "nearby_text": "2 bed flat, Mill Lane"
+      },
+      "notes": "icon plus label control, icon calendar; rendered 218x74 px, seed 20260906"
+    },
+    {
+      "id": "functional_0046",
+      "file": "images/functional_0046.png",
+      "category": "functional",
+      "expected_alt": "Upload photos",
+      "must_include": [
+        "upload",
+        "photos"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/photos\"><button type=\"button\" class=\"cta\"><img src=\"images/functional_0046.png\"></button></form>",
+        "nearby_text": "Add up to 10 photos"
+      },
+      "notes": "icon plus label control, icon upload; rendered 233x86 px, seed 20260906"
+    },
+    {
+      "id": "functional_0047",
+      "file": "images/functional_0047.png",
+      "category": "functional",
+      "expected_alt": "Try again",
+      "must_include": [
+        "try again"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"error\"><p>We could not load your orders.</p><button type=\"button\" class=\"cta\"><img src=\"images/functional_0047.png\"></button></div>",
+        "nearby_text": "We could not load your orders."
+      },
+      "notes": "icon plus label control, icon refresh; rendered 193x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0048",
+      "file": "images/functional_0048.png",
+      "category": "functional",
+      "expected_alt": "Print this invoice",
+      "must_include": [
+        "print",
+        "invoice"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"toolbar\"><button type=\"button\" class=\"cta\"><img src=\"images/functional_0048.png\"></button></div>",
+        "nearby_text": "Invoice 2291"
+      },
+      "notes": "icon plus label control, icon print; rendered 304x96 px, seed 20260906"
+    },
+    {
+      "id": "functional_0049",
+      "file": "images/functional_0049.png",
+      "category": "functional",
+      "expected_alt": "Continue to payment",
+      "must_include": [
+        "payment"
+      ],
+      "must_not_include": [
+        "icon"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout/pay\"><button type=\"submit\" class=\"cta\"><img src=\"images/functional_0049.png\"></button></form>",
+        "nearby_text": "Step 2 of 3"
+      },
+      "notes": "icon plus label control, icon lock; rendered 284x84 px, seed 20260906"
+    },
+    {
+      "id": "functional_0050",
+      "file": "images/functional_0050.png",
+      "category": "functional",
+      "expected_alt": "Northwind Tea home",
+      "must_include": [
+        "northwind",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0050.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Northwind Tea; rendered 289x98 px, seed 20260906"
+    },
+    {
+      "id": "functional_0051",
+      "file": "images/functional_0051.png",
+      "category": "functional",
+      "expected_alt": "Foxglove Studio home",
+      "must_include": [
+        "foxglove",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0051.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Foxglove Studio; rendered 321x98 px, seed 20260906"
+    },
+    {
+      "id": "functional_0052",
+      "file": "images/functional_0052.png",
+      "category": "functional",
+      "expected_alt": "Tidewater Bank home",
+      "must_include": [
+        "tidewater",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0052.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Tidewater Bank; rendered 270x90 px, seed 20260906"
+    },
+    {
+      "id": "functional_0053",
+      "file": "images/functional_0053.png",
+      "category": "functional",
+      "expected_alt": "Copperline home",
+      "must_include": [
+        "copperline",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0053.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Copperline; rendered 290x114 px, seed 20260906"
+    },
+    {
+      "id": "functional_0054",
+      "file": "images/functional_0054.png",
+      "category": "functional",
+      "expected_alt": "Lumen Health home",
+      "must_include": [
+        "lumen",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0054.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Lumen Health; rendered 243x90 px, seed 20260906"
+    },
+    {
+      "id": "functional_0055",
+      "file": "images/functional_0055.png",
+      "category": "functional",
+      "expected_alt": "Halcyon Travel home",
+      "must_include": [
+        "halcyon",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0055.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Halcyon Travel; rendered 375x114 px, seed 20260906"
+    },
+    {
+      "id": "functional_0056",
+      "file": "images/functional_0056.png",
+      "category": "functional",
+      "expected_alt": "Bramble Grocers home",
+      "must_include": [
+        "bramble",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0056.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Bramble Grocers; rendered 284x90 px, seed 20260906"
+    },
+    {
+      "id": "functional_0057",
+      "file": "images/functional_0057.png",
+      "category": "functional",
+      "expected_alt": "Quill & Sable home",
+      "must_include": [
+        "quill",
+        "home"
+      ],
+      "must_not_include": [
+        "logo",
+        "wordmark",
+        "text",
+        "icon"
+      ],
+      "context": {
+        "tag": "a",
+        "html": "<header class=\"site-header\"><a href=\"/\" class=\"brand\"><img src=\"images/functional_0057.png\"></a><nav><a href=\"/shop\">Shop</a><a href=\"/about\">About</a></nav></header>",
+        "nearby_text": "Shop About Basket"
+      },
+      "notes": "linked wordmark in a header, brand Quill & Sable; rendered 289x98 px, seed 20260906"
+    },
+    {
+      "id": "functional_0058",
+      "file": "images/functional_0058.png",
+      "category": "functional",
+      "expected_alt": "Sign in with Nimbus",
+      "must_include": [
+        "sign in",
+        "nimbus"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"sso\"><button type=\"button\" class=\"sso-btn\"><img src=\"images/functional_0058.png\"></button></div>",
+        "nearby_text": "Or sign in with email"
+      },
+      "notes": "third party control, Nimbus; rendered 353x88 px, seed 20260906"
+    },
+    {
+      "id": "functional_0059",
+      "file": "images/functional_0059.png",
+      "category": "functional",
+      "expected_alt": "Sign in with Orbit",
+      "must_include": [
+        "sign in",
+        "orbit"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"sso\"><button type=\"button\" class=\"sso-btn\"><img src=\"images/functional_0059.png\"></button></div>",
+        "nearby_text": "Or sign in with email"
+      },
+      "notes": "third party control, Orbit; rendered 318x84 px, seed 20260906"
+    },
+    {
+      "id": "functional_0060",
+      "file": "images/functional_0060.png",
+      "category": "functional",
+      "expected_alt": "Sign in with Kite",
+      "must_include": [
+        "sign in",
+        "kite"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"sso\"><button type=\"button\" class=\"sso-btn\"><img src=\"images/functional_0060.png\"></button></div>",
+        "nearby_text": "Or sign in with email"
+      },
+      "notes": "third party control, Kite; rendered 353x92 px, seed 20260906"
+    },
+    {
+      "id": "functional_0061",
+      "file": "images/functional_0061.png",
+      "category": "functional",
+      "expected_alt": "Sign in with Vertex",
+      "must_include": [
+        "sign in",
+        "vertex"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<div class=\"sso\"><button type=\"button\" class=\"sso-btn\"><img src=\"images/functional_0061.png\"></button></div>",
+        "nearby_text": "Or sign in with email"
+      },
+      "notes": "third party control, Vertex; rendered 353x88 px, seed 20260906"
+    },
+    {
+      "id": "functional_0062",
+      "file": "images/functional_0062.png",
+      "category": "functional",
+      "expected_alt": "Pay with PayFast",
+      "must_include": [
+        "pay",
+        "payfast"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout/pay\" method=\"post\"><button type=\"submit\" class=\"pay-btn\"><img src=\"images/functional_0062.png\"></button></form>",
+        "nearby_text": "Total 84.00, secure checkout"
+      },
+      "notes": "third party control, PayFast; rendered 208x88 px, seed 20260906"
+    },
+    {
+      "id": "functional_0063",
+      "file": "images/functional_0063.png",
+      "category": "functional",
+      "expected_alt": "Pay with SwiftPay",
+      "must_include": [
+        "pay",
+        "swiftpay"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout/pay\" method=\"post\"><button type=\"submit\" class=\"pay-btn\"><img src=\"images/functional_0063.png\"></button></form>",
+        "nearby_text": "Total 84.00, secure checkout"
+      },
+      "notes": "third party control, SwiftPay; rendered 219x88 px, seed 20260906"
+    },
+    {
+      "id": "functional_0064",
+      "file": "images/functional_0064.png",
+      "category": "functional",
+      "expected_alt": "Pay with Mesa Wallet",
+      "must_include": [
+        "pay",
+        "mesa"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout/pay\" method=\"post\"><button type=\"submit\" class=\"pay-btn\"><img src=\"images/functional_0064.png\"></button></form>",
+        "nearby_text": "Total 84.00, secure checkout"
+      },
+      "notes": "third party control, Mesa Wallet; rendered 239x84 px, seed 20260906"
+    },
+    {
+      "id": "functional_0065",
+      "file": "images/functional_0065.png",
+      "category": "functional",
+      "expected_alt": "Pay with Harbour Pay",
+      "must_include": [
+        "pay",
+        "harbour"
+      ],
+      "must_not_include": [
+        "logo",
+        "icon",
+        "button image"
+      ],
+      "context": {
+        "tag": "button",
+        "html": "<form action=\"/checkout/pay\" method=\"post\"><button type=\"submit\" class=\"pay-btn\"><img src=\"images/functional_0065.png\"></button></form>",
+        "nearby_text": "Total 84.00, secure checkout"
+      },
+      "notes": "third party control, Harbour Pay; rendered 252x88 px, seed 20260906"
+    },
+    {
+      "id": "informative_0001",
+      "file": "images/informative_0001.png",
+      "category": "informative",
+      "expected_alt": "Sunny",
+      "must_include": [
+        "sunny"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Wednesday</span><img src=\"images/informative_0001.png\" class=\"wx\"><span class=\"temp\">24 degrees</span></li>",
+        "nearby_text": "Wednesday, 24 degrees"
+      },
+      "notes": "weather glyph, sunny; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "informative_0002",
+      "file": "images/informative_0002.png",
+      "category": "informative",
+      "expected_alt": "Cloudy",
+      "must_include": [
+        "cloudy"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Thursday</span><img src=\"images/informative_0002.png\" class=\"wx\"><span class=\"temp\">12 degrees</span></li>",
+        "nearby_text": "Thursday, 12 degrees"
+      },
+      "notes": "weather glyph, cloudy; rendered 144x144 px, seed 20260906"
+    },
+    {
+      "id": "informative_0003",
+      "file": "images/informative_0003.png",
+      "category": "informative",
+      "expected_alt": "Rain",
+      "must_include": [
+        "rain"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Saturday</span><img src=\"images/informative_0003.png\" class=\"wx\"><span class=\"temp\">21 degrees</span></li>",
+        "nearby_text": "Saturday, 21 degrees"
+      },
+      "notes": "weather glyph, rain; rendered 144x144 px, seed 20260906"
+    },
+    {
+      "id": "informative_0004",
+      "file": "images/informative_0004.png",
+      "category": "informative",
+      "expected_alt": "Snow",
+      "must_include": [
+        "snow"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Wednesday</span><img src=\"images/informative_0004.png\" class=\"wx\"><span class=\"temp\">2 degrees</span></li>",
+        "nearby_text": "Wednesday, 2 degrees"
+      },
+      "notes": "weather glyph, snow; rendered 176x176 px, seed 20260906"
+    },
+    {
+      "id": "informative_0005",
+      "file": "images/informative_0005.png",
+      "category": "informative",
+      "expected_alt": "Thunderstorms",
+      "must_include": [
+        "thunderstorms"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Tuesday</span><img src=\"images/informative_0005.png\" class=\"wx\"><span class=\"temp\">12 degrees</span></li>",
+        "nearby_text": "Tuesday, 12 degrees"
+      },
+      "notes": "weather glyph, storm; rendered 192x192 px, seed 20260906"
+    },
+    {
+      "id": "informative_0006",
+      "file": "images/informative_0006.png",
+      "category": "informative",
+      "expected_alt": "Partly cloudy",
+      "must_include": [
+        "partly"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Friday</span><img src=\"images/informative_0006.png\" class=\"wx\"><span class=\"temp\">26 degrees</span></li>",
+        "nearby_text": "Friday, 26 degrees"
+      },
+      "notes": "weather glyph, partly; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "informative_0007",
+      "file": "images/informative_0007.png",
+      "category": "informative",
+      "expected_alt": "Windy",
+      "must_include": [
+        "windy"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Monday</span><img src=\"images/informative_0007.png\" class=\"wx\"><span class=\"temp\">25 degrees</span></li>",
+        "nearby_text": "Monday, 25 degrees"
+      },
+      "notes": "weather glyph, wind; rendered 176x176 px, seed 20260906"
+    },
+    {
+      "id": "informative_0008",
+      "file": "images/informative_0008.png",
+      "category": "informative",
+      "expected_alt": "Fog",
+      "must_include": [
+        "fog"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"forecast-day\"><span class=\"day\">Thursday</span><img src=\"images/informative_0008.png\" class=\"wx\"><span class=\"temp\">17 degrees</span></li>",
+        "nearby_text": "Thursday, 17 degrees"
+      },
+      "notes": "weather glyph, fog; rendered 192x192 px, seed 20260906"
+    },
+    {
+      "id": "informative_0009",
+      "file": "images/informative_0009.png",
+      "category": "informative",
+      "expected_alt": "5 out of 5 stars",
+      "must_include": [
+        "5",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0009.png\"><span class=\"count\">100 reviews</span></div>",
+        "nearby_text": "Noise cancelling headphones, 100 reviews"
+      },
+      "notes": "rating widget, 5 of 5; rendered 198x64 px, seed 20260906"
+    },
+    {
+      "id": "informative_0010",
+      "file": "images/informative_0010.png",
+      "category": "informative",
+      "expected_alt": "4 out of 5 stars",
+      "must_include": [
+        "4",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0010.png\"><span class=\"count\">250 reviews</span></div>",
+        "nearby_text": "Canvas weekend bag, 250 reviews"
+      },
+      "notes": "rating widget, 4 of 5; rendered 178x64 px, seed 20260906"
+    },
+    {
+      "id": "informative_0011",
+      "file": "images/informative_0011.png",
+      "category": "informative",
+      "expected_alt": "3 out of 5 stars",
+      "must_include": [
+        "3",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0011.png\"><span class=\"count\">359 reviews</span></div>",
+        "nearby_text": "Cast iron pan, 359 reviews"
+      },
+      "notes": "rating widget, 3 of 5; rendered 170x64 px, seed 20260906"
+    },
+    {
+      "id": "informative_0012",
+      "file": "images/informative_0012.png",
+      "category": "informative",
+      "expected_alt": "2 out of 5 stars",
+      "must_include": [
+        "2",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0012.png\"><span class=\"count\">68 reviews</span></div>",
+        "nearby_text": "Walnut desk lamp, 68 reviews"
+      },
+      "notes": "rating widget, 2 of 5; rendered 218x64 px, seed 20260906"
+    },
+    {
+      "id": "informative_0013",
+      "file": "images/informative_0013.png",
+      "category": "informative",
+      "expected_alt": "1 out of 5 stars",
+      "must_include": [
+        "1",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0013.png\"><span class=\"count\">279 reviews</span></div>",
+        "nearby_text": "Cast iron pan, 279 reviews"
+      },
+      "notes": "rating widget, 1 of 5; rendered 198x64 px, seed 20260906"
+    },
+    {
+      "id": "informative_0014",
+      "file": "images/informative_0014.png",
+      "category": "informative",
+      "expected_alt": "4 out of 5 stars",
+      "must_include": [
+        "4",
+        "5",
+        "star"
+      ],
+      "must_not_include": [
+        "yellow",
+        "shape"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"rating\"><img src=\"images/informative_0014.png\"><span class=\"count\">354 reviews</span></div>",
+        "nearby_text": "Canvas weekend bag, 354 reviews"
+      },
+      "notes": "rating widget, 4 of 5; rendered 222x78 px, seed 20260906"
+    },
+    {
+      "id": "informative_0015",
+      "file": "images/informative_0015.png",
+      "category": "informative",
+      "expected_alt": "25 percent complete",
+      "must_include": [
+        "25",
+        "complete"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"progress\"><h4>Backup</h4><img src=\"images/informative_0015.png\"></div>",
+        "nearby_text": "Backup"
+      },
+      "notes": "progress ring, 25 percent; rendered 148x148 px, seed 20260906"
+    },
+    {
+      "id": "informative_0016",
+      "file": "images/informative_0016.png",
+      "category": "informative",
+      "expected_alt": "40 percent complete",
+      "must_include": [
+        "40",
+        "complete"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"progress\"><h4>Profile setup</h4><img src=\"images/informative_0016.png\"></div>",
+        "nearby_text": "Profile setup"
+      },
+      "notes": "progress ring, 40 percent; rendered 128x128 px, seed 20260906"
+    },
+    {
+      "id": "informative_0017",
+      "file": "images/informative_0017.png",
+      "category": "informative",
+      "expected_alt": "60 percent complete",
+      "must_include": [
+        "60",
+        "complete"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"progress\"><h4>Upload</h4><img src=\"images/informative_0017.png\"></div>",
+        "nearby_text": "Upload"
+      },
+      "notes": "progress ring, 60 percent; rendered 164x164 px, seed 20260906"
+    },
+    {
+      "id": "informative_0018",
+      "file": "images/informative_0018.png",
+      "category": "informative",
+      "expected_alt": "75 percent complete",
+      "must_include": [
+        "75",
+        "complete"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"progress\"><h4>Backup</h4><img src=\"images/informative_0018.png\"></div>",
+        "nearby_text": "Backup"
+      },
+      "notes": "progress ring, 75 percent; rendered 168x168 px, seed 20260906"
+    },
+    {
+      "id": "informative_0019",
+      "file": "images/informative_0019.png",
+      "category": "informative",
+      "expected_alt": "90 percent complete",
+      "must_include": [
+        "90",
+        "complete"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"progress\"><h4>Course progress</h4><img src=\"images/informative_0019.png\"></div>",
+        "nearby_text": "Course progress"
+      },
+      "notes": "progress ring, 90 percent; rendered 184x184 px, seed 20260906"
+    },
+    {
+      "id": "informative_0020",
+      "file": "images/informative_0020.png",
+      "category": "informative",
+      "expected_alt": "Out of stock",
+      "must_include": [
+        "out of stock"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Invoice 2291</span><img src=\"images/informative_0020.png\"></div>",
+        "nearby_text": "Invoice 2291"
+      },
+      "notes": "status badge, out_of_stock; rendered 136x136 px, seed 20260906"
+    },
+    {
+      "id": "informative_0021",
+      "file": "images/informative_0021.png",
+      "category": "informative",
+      "expected_alt": "Verified account",
+      "must_include": [
+        "verified"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Rana Ahmed</span><img src=\"images/informative_0021.png\"></div>",
+        "nearby_text": "Rana Ahmed"
+      },
+      "notes": "status badge, verified; rendered 136x136 px, seed 20260906"
+    },
+    {
+      "id": "informative_0022",
+      "file": "images/informative_0022.png",
+      "category": "informative",
+      "expected_alt": "Payment failed",
+      "must_include": [
+        "payment",
+        "failed"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Order 44120</span><img src=\"images/informative_0022.png\"></div>",
+        "nearby_text": "Order 44120"
+      },
+      "notes": "status badge, failed; rendered 104x104 px, seed 20260906"
+    },
+    {
+      "id": "informative_0023",
+      "file": "images/informative_0023.png",
+      "category": "informative",
+      "expected_alt": "Awaiting approval",
+      "must_include": [
+        "awaiting",
+        "approval"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Walnut desk lamp</span><img src=\"images/informative_0023.png\"></div>",
+        "nearby_text": "Walnut desk lamp"
+      },
+      "notes": "status badge, pending; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "informative_0024",
+      "file": "images/informative_0024.png",
+      "category": "informative",
+      "expected_alt": "Delivered",
+      "must_include": [
+        "delivered"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Invoice 2291</span><img src=\"images/informative_0024.png\"></div>",
+        "nearby_text": "Invoice 2291"
+      },
+      "notes": "status badge, delivered; rendered 104x104 px, seed 20260906"
+    },
+    {
+      "id": "informative_0025",
+      "file": "images/informative_0025.png",
+      "category": "informative",
+      "expected_alt": "Secure connection",
+      "must_include": [
+        "secure"
+      ],
+      "must_not_include": [
+        "circle",
+        "shape",
+        "graphic"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"status\"><span>Order 44120</span><img src=\"images/informative_0025.png\"></div>",
+        "nearby_text": "Order 44120"
+      },
+      "notes": "status badge, secure; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "informative_0026",
+      "file": "images/informative_0026.png",
+      "category": "informative",
+      "expected_alt": "Jamie Doyle, profile picture",
+      "must_include": [
+        "jamie"
+      ],
+      "must_not_include": [
+        "circle",
+        "colored"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"member\"><img src=\"images/informative_0026.png\"><span class=\"name\">Jamie Doyle</span><span class=\"role\">Editor</span></li>",
+        "nearby_text": "Jamie Doyle, Editor"
+      },
+      "notes": "initials avatar for Jamie Doyle; rendered 112x112 px, seed 20260906"
+    },
+    {
+      "id": "informative_0027",
+      "file": "images/informative_0027.png",
+      "category": "informative",
+      "expected_alt": "Rana Ahmed, profile picture",
+      "must_include": [
+        "rana"
+      ],
+      "must_not_include": [
+        "circle",
+        "colored"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"member\"><img src=\"images/informative_0027.png\"><span class=\"name\">Rana Ahmed</span><span class=\"role\">Editor</span></li>",
+        "nearby_text": "Rana Ahmed, Editor"
+      },
+      "notes": "initials avatar for Rana Ahmed; rendered 140x140 px, seed 20260906"
+    },
+    {
+      "id": "informative_0028",
+      "file": "images/informative_0028.png",
+      "category": "informative",
+      "expected_alt": "Mira Kaya, profile picture",
+      "must_include": [
+        "mira"
+      ],
+      "must_not_include": [
+        "circle",
+        "colored"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"member\"><img src=\"images/informative_0028.png\"><span class=\"name\">Mira Kaya</span><span class=\"role\">Editor</span></li>",
+        "nearby_text": "Mira Kaya, Editor"
+      },
+      "notes": "initials avatar for Mira Kaya; rendered 108x108 px, seed 20260906"
+    },
+    {
+      "id": "informative_0029",
+      "file": "images/informative_0029.png",
+      "category": "informative",
+      "expected_alt": "Tom Okafor, profile picture",
+      "must_include": [
+        "tom"
+      ],
+      "must_not_include": [
+        "circle",
+        "colored"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"member\"><img src=\"images/informative_0029.png\"><span class=\"name\">Tom Okafor</span><span class=\"role\">Editor</span></li>",
+        "nearby_text": "Tom Okafor, Editor"
+      },
+      "notes": "initials avatar for Tom Okafor; rendered 140x140 px, seed 20260906"
+    },
+    {
+      "id": "informative_0030",
+      "file": "images/informative_0030.png",
+      "category": "informative",
+      "expected_alt": "Lena Sorensen, profile picture",
+      "must_include": [
+        "lena"
+      ],
+      "must_not_include": [
+        "circle",
+        "colored"
+      ],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"member\"><img src=\"images/informative_0030.png\"><span class=\"name\">Lena Sorensen</span><span class=\"role\">Editor</span></li>",
+        "nearby_text": "Lena Sorensen, Editor"
+      },
+      "notes": "initials avatar for Lena Sorensen; rendered 124x124 px, seed 20260906"
+    },
+    {
+      "id": "informative_0031",
+      "file": "images/informative_0031.png",
+      "category": "informative",
+      "expected_alt": "Flag of Italy",
+      "must_include": [
+        "italy",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0031.png\"><a href=\"/it\">Italy</a></li>",
+        "nearby_text": "Choose your country: Italy"
+      },
+      "notes": "flag of Italy; rendered 166x122 px, seed 20260906"
+    },
+    {
+      "id": "informative_0032",
+      "file": "images/informative_0032.png",
+      "category": "informative",
+      "expected_alt": "Flag of Germany",
+      "must_include": [
+        "germany",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0032.png\"><a href=\"/ge\">Germany</a></li>",
+        "nearby_text": "Choose your country: Germany"
+      },
+      "notes": "flag of Germany; rendered 154x110 px, seed 20260906"
+    },
+    {
+      "id": "informative_0033",
+      "file": "images/informative_0033.png",
+      "category": "informative",
+      "expected_alt": "Flag of Poland",
+      "must_include": [
+        "poland",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0033.png\"><a href=\"/po\">Poland</a></li>",
+        "nearby_text": "Choose your country: Poland"
+      },
+      "notes": "flag of Poland; rendered 138x107 px, seed 20260906"
+    },
+    {
+      "id": "informative_0034",
+      "file": "images/informative_0034.png",
+      "category": "informative",
+      "expected_alt": "Flag of France",
+      "must_include": [
+        "france",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0034.png\"><a href=\"/fr\">France</a></li>",
+        "nearby_text": "Choose your country: France"
+      },
+      "notes": "flag of France; rendered 166x122 px, seed 20260906"
+    },
+    {
+      "id": "informative_0035",
+      "file": "images/informative_0035.png",
+      "category": "informative",
+      "expected_alt": "Flag of Austria",
+      "must_include": [
+        "austria",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0035.png\"><a href=\"/au\">Austria</a></li>",
+        "nearby_text": "Choose your country: Austria"
+      },
+      "notes": "flag of Austria; rendered 158x121 px, seed 20260906"
+    },
+    {
+      "id": "informative_0036",
+      "file": "images/informative_0036.png",
+      "category": "informative",
+      "expected_alt": "Flag of Ireland",
+      "must_include": [
+        "ireland",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0036.png\"><a href=\"/ir\">Ireland</a></li>",
+        "nearby_text": "Choose your country: Ireland"
+      },
+      "notes": "flag of Ireland; rendered 134x97 px, seed 20260906"
+    },
+    {
+      "id": "informative_0037",
+      "file": "images/informative_0037.png",
+      "category": "informative",
+      "expected_alt": "Flag of Ukraine",
+      "must_include": [
+        "ukraine",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0037.png\"><a href=\"/uk\">Ukraine</a></li>",
+        "nearby_text": "Choose your country: Ukraine"
+      },
+      "notes": "flag of Ukraine; rendered 146x109 px, seed 20260906"
+    },
+    {
+      "id": "informative_0038",
+      "file": "images/informative_0038.png",
+      "category": "informative",
+      "expected_alt": "Flag of Netherlands",
+      "must_include": [
+        "netherlands",
+        "flag"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<li class=\"lang\"><img src=\"images/informative_0038.png\"><a href=\"/ne\">Netherlands</a></li>",
+        "nearby_text": "Choose your country: Netherlands"
+      },
+      "notes": "flag of Netherlands; rendered 158x121 px, seed 20260906"
+    },
+    {
+      "id": "informative_0039",
+      "file": "images/informative_0039.png",
+      "category": "informative",
+      "expected_alt": "A red mug",
+      "must_include": [
+        "red",
+        "mug"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0039.png\"><figcaption>Mug, 62.00</figcaption></figure>",
+        "nearby_text": "Mug, 62.00"
+      },
+      "notes": "product rendering, red mug; rendered 182x182 px, seed 20260906"
+    },
+    {
+      "id": "informative_0040",
+      "file": "images/informative_0040.png",
+      "category": "informative",
+      "expected_alt": "A purple cardboard box",
+      "must_include": [
+        "purple",
+        "box"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0040.png\"><figcaption>Cardboard box, 83.00</figcaption></figure>",
+        "nearby_text": "Cardboard box, 83.00"
+      },
+      "notes": "product rendering, purple cardboard box; rendered 174x174 px, seed 20260906"
+    },
+    {
+      "id": "informative_0041",
+      "file": "images/informative_0041.png",
+      "category": "informative",
+      "expected_alt": "A teal hardback book",
+      "must_include": [
+        "teal",
+        "book"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0041.png\"><figcaption>Hardback book, 13.00</figcaption></figure>",
+        "nearby_text": "Hardback book, 13.00"
+      },
+      "notes": "product rendering, teal hardback book; rendered 178x178 px, seed 20260906"
+    },
+    {
+      "id": "informative_0042",
+      "file": "images/informative_0042.png",
+      "category": "informative",
+      "expected_alt": "A green water bottle",
+      "must_include": [
+        "green",
+        "bottle"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0042.png\"><figcaption>Water bottle, 28.00</figcaption></figure>",
+        "nearby_text": "Water bottle, 28.00"
+      },
+      "notes": "product rendering, green water bottle; rendered 182x182 px, seed 20260906"
+    },
+    {
+      "id": "informative_0043",
+      "file": "images/informative_0043.png",
+      "category": "informative",
+      "expected_alt": "A green t-shirt",
+      "must_include": [
+        "green",
+        "t-shirt"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0043.png\"><figcaption>T-shirt, 56.00</figcaption></figure>",
+        "nearby_text": "T-shirt, 56.00"
+      },
+      "notes": "product rendering, green t-shirt; rendered 178x178 px, seed 20260906"
+    },
+    {
+      "id": "informative_0044",
+      "file": "images/informative_0044.png",
+      "category": "informative",
+      "expected_alt": "A red table lamp",
+      "must_include": [
+        "red",
+        "lamp"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0044.png\"><figcaption>Table lamp, 52.00</figcaption></figure>",
+        "nearby_text": "Table lamp, 52.00"
+      },
+      "notes": "product rendering, red table lamp; rendered 158x158 px, seed 20260906"
+    },
+    {
+      "id": "informative_0045",
+      "file": "images/informative_0045.png",
+      "category": "informative",
+      "expected_alt": "A purple potted plant",
+      "must_include": [
+        "purple",
+        "plant"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0045.png\"><figcaption>Potted plant, 28.00</figcaption></figure>",
+        "nearby_text": "Potted plant, 28.00"
+      },
+      "notes": "product rendering, purple potted plant; rendered 174x174 px, seed 20260906"
+    },
+    {
+      "id": "informative_0046",
+      "file": "images/informative_0046.png",
+      "category": "informative",
+      "expected_alt": "A pink smartphone",
+      "must_include": [
+        "pink",
+        "smartphone"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0046.png\"><figcaption>Smartphone, 30.00</figcaption></figure>",
+        "nearby_text": "Smartphone, 30.00"
+      },
+      "notes": "product rendering, pink smartphone; rendered 142x142 px, seed 20260906"
+    },
+    {
+      "id": "informative_0047",
+      "file": "images/informative_0047.png",
+      "category": "informative",
+      "expected_alt": "A teal armchair",
+      "must_include": [
+        "teal",
+        "armchair"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0047.png\"><figcaption>Armchair, 47.00</figcaption></figure>",
+        "nearby_text": "Armchair, 47.00"
+      },
+      "notes": "product rendering, teal armchair; rendered 162x162 px, seed 20260906"
+    },
+    {
+      "id": "informative_0048",
+      "file": "images/informative_0048.png",
+      "category": "informative",
+      "expected_alt": "A purple camera",
+      "must_include": [
+        "purple",
+        "camera"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"product\"><img src=\"images/informative_0048.png\"><figcaption>Camera, 17.00</figcaption></figure>",
+        "nearby_text": "Camera, 17.00"
+      },
+      "notes": "product rendering, purple camera; rendered 214x214 px, seed 20260906"
+    },
+    {
+      "id": "informative_0049",
+      "file": "images/informative_0049.png",
+      "category": "informative",
+      "expected_alt": "Map showing the route from the office to the station",
+      "must_include": [
+        "map",
+        "route"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"directions\"><img src=\"images/informative_0049.png\"><figcaption>Walking route, 12 minutes</figcaption></figure>",
+        "nearby_text": "Walking route, 12 minutes"
+      },
+      "notes": "map with route, the office to the station; rendered 328x232 px, seed 20260906"
+    },
+    {
+      "id": "informative_0050",
+      "file": "images/informative_0050.png",
+      "category": "informative",
+      "expected_alt": "Map showing the route from Mill Lane to the harbour",
+      "must_include": [
+        "map",
+        "route"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"directions\"><img src=\"images/informative_0050.png\"><figcaption>Walking route, 12 minutes</figcaption></figure>",
+        "nearby_text": "Walking route, 12 minutes"
+      },
+      "notes": "map with route, Mill Lane to the harbour; rendered 328x232 px, seed 20260906"
+    },
+    {
+      "id": "informative_0051",
+      "file": "images/informative_0051.png",
+      "category": "informative",
+      "expected_alt": "Map showing the route from the hotel to the museum",
+      "must_include": [
+        "map",
+        "route"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"directions\"><img src=\"images/informative_0051.png\"><figcaption>Walking route, 12 minutes</figcaption></figure>",
+        "nearby_text": "Walking route, 12 minutes"
+      },
+      "notes": "map with route, the hotel to the museum; rendered 328x232 px, seed 20260906"
+    },
+    {
+      "id": "informative_0052",
+      "file": "images/informative_0052.png",
+      "category": "informative",
+      "expected_alt": "Map showing the route from home to the airport",
+      "must_include": [
+        "map",
+        "route"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"directions\"><img src=\"images/informative_0052.png\"><figcaption>Walking route, 12 minutes</figcaption></figure>",
+        "nearby_text": "Walking route, 12 minutes"
+      },
+      "notes": "map with route, home to the airport; rendered 328x232 px, seed 20260906"
+    },
+    {
+      "id": "informative_0053",
+      "file": "images/informative_0053.png",
+      "category": "informative",
+      "expected_alt": "Map showing the route from the depot to the warehouse",
+      "must_include": [
+        "map",
+        "route"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"directions\"><img src=\"images/informative_0053.png\"><figcaption>Walking route, 12 minutes</figcaption></figure>",
+        "nearby_text": "Walking route, 12 minutes"
+      },
+      "notes": "map with route, the depot to the warehouse; rendered 328x232 px, seed 20260906"
+    },
+    {
+      "id": "informative_0054",
+      "file": "images/informative_0054.png",
+      "category": "informative",
+      "expected_alt": "A house at sunrise",
+      "must_include": [
+        "house",
+        "sun"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0054.png\"><figcaption>A house at sunrise</figcaption></figure>",
+        "nearby_text": "A house at sunrise"
+      },
+      "notes": "composed scene, house_sun; rendered 240x168 px, seed 20260906"
+    },
+    {
+      "id": "informative_0055",
+      "file": "images/informative_0055.png",
+      "category": "informative",
+      "expected_alt": "A tree under a full moon",
+      "must_include": [
+        "tree",
+        "moon"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0055.png\"><figcaption>A tree under a full moon</figcaption></figure>",
+        "nearby_text": "A tree under a full moon"
+      },
+      "notes": "composed scene, tree_moon; rendered 240x168 px, seed 20260906"
+    },
+    {
+      "id": "informative_0056",
+      "file": "images/informative_0056.png",
+      "category": "informative",
+      "expected_alt": "Mountains at sunset",
+      "must_include": [
+        "mountain",
+        "sun"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0056.png\"><figcaption>Mountains at sunset</figcaption></figure>",
+        "nearby_text": "Mountains at sunset"
+      },
+      "notes": "composed scene, mountain; rendered 240x168 px, seed 20260906"
+    },
+    {
+      "id": "informative_0057",
+      "file": "images/informative_0057.png",
+      "category": "informative",
+      "expected_alt": "A sailing boat on the sea",
+      "must_include": [
+        "boat",
+        "sea"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0057.png\"><figcaption>A sailing boat on the sea</figcaption></figure>",
+        "nearby_text": "A sailing boat on the sea"
+      },
+      "notes": "composed scene, boat; rendered 200x140 px, seed 20260906"
+    },
+    {
+      "id": "informative_0058",
+      "file": "images/informative_0058.png",
+      "category": "informative",
+      "expected_alt": "A city skyline at night",
+      "must_include": [
+        "city",
+        "night"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0058.png\"><figcaption>A city skyline at night</figcaption></figure>",
+        "nearby_text": "A city skyline at night"
+      },
+      "notes": "composed scene, skyline; rendered 240x168 px, seed 20260906"
+    },
+    {
+      "id": "informative_0059",
+      "file": "images/informative_0059.png",
+      "category": "informative",
+      "expected_alt": "A campfire under the stars",
+      "must_include": [
+        "campfire",
+        "stars"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0059.png\"><figcaption>A campfire under the stars</figcaption></figure>",
+        "nearby_text": "A campfire under the stars"
+      },
+      "notes": "composed scene, campfire; rendered 280x196 px, seed 20260906"
+    },
+    {
+      "id": "informative_0060",
+      "file": "images/informative_0060.png",
+      "category": "informative",
+      "expected_alt": "A bridge over a river",
+      "must_include": [
+        "bridge",
+        "river"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<figure class=\"illustration\"><img src=\"images/informative_0060.png\"><figcaption>A bridge over a river</figcaption></figure>",
+        "nearby_text": "A bridge over a river"
+      },
+      "notes": "composed scene, bridge; rendered 280x196 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0001",
+      "file": "images/decorative_0001.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0001.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "divider rule, variant 0; rendered 420x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0002",
+      "file": "images/decorative_0002.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0002.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "divider rule, variant 1; rendered 420x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0003",
+      "file": "images/decorative_0003.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0003.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "divider rule, variant 2; rendered 300x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0004",
+      "file": "images/decorative_0004.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0004.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "divider rule, variant 3; rendered 240x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0005",
+      "file": "images/decorative_0005.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0005.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "divider rule, variant 4; rendered 300x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0006",
+      "file": "images/decorative_0006.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0006.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "divider rule, variant 0; rendered 300x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0007",
+      "file": "images/decorative_0007.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0007.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "divider rule, variant 1; rendered 360x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0008",
+      "file": "images/decorative_0008.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0008.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "divider rule, variant 2; rendered 420x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0009",
+      "file": "images/decorative_0009.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0009.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "divider rule, variant 3; rendered 420x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0010",
+      "file": "images/decorative_0010.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0010.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "divider rule, variant 4; rendered 420x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0011",
+      "file": "images/decorative_0011.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0011.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "divider rule, variant 0; rendered 240x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0012",
+      "file": "images/decorative_0012.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0012.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "flourish swash, 0; rendered 250x100 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0013",
+      "file": "images/decorative_0013.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0013.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "flourish swash, 1; rendered 300x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0014",
+      "file": "images/decorative_0014.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0014.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "flourish swash, 2; rendered 300x80 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0015",
+      "file": "images/decorative_0015.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0015.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "flourish swash, 3; rendered 250x80 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0016",
+      "file": "images/decorative_0016.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0016.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "flourish swash, 4; rendered 300x100 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0017",
+      "file": "images/decorative_0017.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0017.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "flourish swash, 5; rendered 300x100 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0018",
+      "file": "images/decorative_0018.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section class=\"pricing\"></section><div class=\"separator\"><img src=\"images/decorative_0018.png\"></div><section class=\"faq\"><h2>Questions</h2></section>",
+        "nearby_text": "Questions"
+      },
+      "notes": "flourish swash, 6; rendered 250x100 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0019",
+      "file": "images/decorative_0019.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section class=\"pricing\"></section><div class=\"separator\"><img src=\"images/decorative_0019.png\"></div><section class=\"faq\"><h2>Questions</h2></section>",
+        "nearby_text": "Questions"
+      },
+      "notes": "flourish swash, 7; rendered 300x80 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0020",
+      "file": "images/decorative_0020.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0020.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "flourish swash, 8; rendered 300x80 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0021",
+      "file": "images/decorative_0021.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0021.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "gradient blob, 0; rendered 290x290 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0022",
+      "file": "images/decorative_0022.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0022.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "gradient blob, 1; rendered 170x170 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0023",
+      "file": "images/decorative_0023.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section class=\"pricing\"></section><div class=\"separator\"><img src=\"images/decorative_0023.png\"></div><section class=\"faq\"><h2>Questions</h2></section>",
+        "nearby_text": "Questions"
+      },
+      "notes": "gradient blob, 2; rendered 170x170 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0024",
+      "file": "images/decorative_0024.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0024.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "gradient blob, 3; rendered 290x290 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0025",
+      "file": "images/decorative_0025.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0025.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "gradient blob, 4; rendered 250x250 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0026",
+      "file": "images/decorative_0026.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0026.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "gradient blob, 5; rendered 250x250 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0027",
+      "file": "images/decorative_0027.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0027.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "gradient blob, 6; rendered 250x250 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0028",
+      "file": "images/decorative_0028.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0028.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "gradient blob, 7; rendered 210x210 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0029",
+      "file": "images/decorative_0029.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0029.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "gradient blob, 8; rendered 290x290 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0030",
+      "file": "images/decorative_0030.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0030.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "corner ornament, 0; rendered 150x150 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0031",
+      "file": "images/decorative_0031.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0031.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "corner ornament, 1; rendered 110x110 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0032",
+      "file": "images/decorative_0032.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section class=\"pricing\"></section><div class=\"separator\"><img src=\"images/decorative_0032.png\"></div><section class=\"faq\"><h2>Questions</h2></section>",
+        "nearby_text": "Questions"
+      },
+      "notes": "corner ornament, 2; rendered 130x130 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0033",
+      "file": "images/decorative_0033.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0033.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "corner ornament, 3; rendered 130x130 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0034",
+      "file": "images/decorative_0034.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0034.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "corner ornament, 4; rendered 130x130 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0035",
+      "file": "images/decorative_0035.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0035.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "corner ornament, 5; rendered 130x130 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0036",
+      "file": "images/decorative_0036.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0036.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "pattern fill, 0; rendered 220x120 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0037",
+      "file": "images/decorative_0037.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0037.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "pattern fill, 1; rendered 220x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0038",
+      "file": "images/decorative_0038.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0038.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "pattern fill, 2; rendered 280x120 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0039",
+      "file": "images/decorative_0039.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<article><p>...and that was the first year.</p><div class=\"ornament\"><img src=\"images/decorative_0039.png\"></div><p>The second year began quietly.</p></article>",
+        "nearby_text": "The second year began quietly."
+      },
+      "notes": "pattern fill, 3; rendered 220x120 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0040",
+      "file": "images/decorative_0040.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0040.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "pattern fill, 4; rendered 220x90 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0041",
+      "file": "images/decorative_0041.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0041.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "pattern fill, 5; rendered 280x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0042",
+      "file": "images/decorative_0042.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0042.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "pattern fill, 6; rendered 180x90 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0043",
+      "file": "images/decorative_0043.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0043.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "pattern fill, 7; rendered 280x90 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0044",
+      "file": "images/decorative_0044.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0044.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "section separator, 0; rendered 480x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0045",
+      "file": "images/decorative_0045.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0045.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "section separator, 1; rendered 320x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0046",
+      "file": "images/decorative_0046.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0046.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "section separator, 2; rendered 400x72 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0047",
+      "file": "images/decorative_0047.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0047.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "section separator, 3; rendered 480x72 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0048",
+      "file": "images/decorative_0048.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "li",
+        "html": "<li class=\"feature\"><img src=\"images/decorative_0048.png\" class=\"bullet\"><span>Free returns for 30 days</span></li>",
+        "nearby_text": "Free returns for 30 days"
+      },
+      "notes": "section separator, 4; rendered 400x72 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0049",
+      "file": "images/decorative_0049.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0049.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "section separator, 5; rendered 480x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0050",
+      "file": "images/decorative_0050.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0050.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "section separator, 6; rendered 480x72 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0051",
+      "file": "images/decorative_0051.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0051.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "section separator, 7; rendered 480x64 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0052",
+      "file": "images/decorative_0052.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0052.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "stylistic bullet, 0; rendered 80x80 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0053",
+      "file": "images/decorative_0053.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0053.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "stylistic bullet, 1; rendered 88x88 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0054",
+      "file": "images/decorative_0054.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"hero-backdrop\"><img src=\"images/decorative_0054.png\"><h1>Built for small kitchens</h1></div>",
+        "nearby_text": "Built for small kitchens"
+      },
+      "notes": "stylistic bullet, 2; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0055",
+      "file": "images/decorative_0055.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<footer><div class=\"footer-pattern\"><img src=\"images/decorative_0055.png\"></div><p>Copyright 2026 Kestrel Books</p></footer>",
+        "nearby_text": "Copyright 2026 Kestrel Books"
+      },
+      "notes": "stylistic bullet, 3; rendered 92x92 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0056",
+      "file": "images/decorative_0056.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section class=\"pricing\"></section><div class=\"separator\"><img src=\"images/decorative_0056.png\"></div><section class=\"faq\"><h2>Questions</h2></section>",
+        "nearby_text": "Questions"
+      },
+      "notes": "stylistic bullet, 0; rendered 84x84 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0057",
+      "file": "images/decorative_0057.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<div class=\"card\"><img src=\"images/decorative_0057.png\" class=\"card-corner\"><h3>Weekly digest</h3><p>One email, every Friday.</p></div>",
+        "nearby_text": "Weekly digest"
+      },
+      "notes": "stylistic bullet, 1; rendered 112x112 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0058",
+      "file": "images/decorative_0058.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "div",
+        "html": "<section><p>...end of the introduction.</p></section><div class=\"divider\"><img src=\"images/decorative_0058.png\"></div><section><h2>How we work</h2>",
+        "nearby_text": "How we work"
+      },
+      "notes": "stylistic bullet, 2; rendered 112x112 px, seed 20260906"
+    },
+    {
+      "id": "decorative_0059",
+      "file": "images/decorative_0059.png",
+      "category": "decorative",
+      "expected_alt": "",
+      "must_include": [],
+      "must_not_include": [],
+      "context": {
+        "tag": "span",
+        "html": "<h2 class=\"section-title\">Our team<span class=\"flourish\"><img src=\"images/decorative_0059.png\"></span></h2>",
+        "nearby_text": "Our team"
+      },
+      "notes": "stylistic bullet, 3; rendered 72x72 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0001",
+      "file": "images/image_of_text_0001.png",
+      "category": "image_of_text",
+      "expected_alt": "Kestrel Books",
+      "must_include": [
+        "kestrel",
+        "books"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0001.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Kestrel Books; rendered 420x114 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0002",
+      "file": "images/image_of_text_0002.png",
+      "category": "image_of_text",
+      "expected_alt": "Northwind Tea",
+      "must_include": [
+        "northwind",
+        "tea"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0002.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Northwind Tea; rendered 317x90 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0003",
+      "file": "images/image_of_text_0003.png",
+      "category": "image_of_text",
+      "expected_alt": "Marrow & Co",
+      "must_include": [
+        "marrow"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0003.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Marrow & Co; rendered 277x90 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0004",
+      "file": "images/image_of_text_0004.png",
+      "category": "image_of_text",
+      "expected_alt": "Lumen Health",
+      "must_include": [
+        "lumen",
+        "health"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0004.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Lumen Health; rendered 345x102 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0005",
+      "file": "images/image_of_text_0005.png",
+      "category": "image_of_text",
+      "expected_alt": "Tidewater Bank",
+      "must_include": [
+        "tidewater",
+        "bank"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0005.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Tidewater Bank; rendered 392x102 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0006",
+      "file": "images/image_of_text_0006.png",
+      "category": "image_of_text",
+      "expected_alt": "Foxglove Studio",
+      "must_include": [
+        "foxglove",
+        "studio"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0006.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Foxglove Studio; rendered 357x90 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0007",
+      "file": "images/image_of_text_0007.png",
+      "category": "image_of_text",
+      "expected_alt": "Copperline",
+      "must_include": [
+        "copperline"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0007.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Copperline; rendered 337x114 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0008",
+      "file": "images/image_of_text_0008.png",
+      "category": "image_of_text",
+      "expected_alt": "Halcyon Travel",
+      "must_include": [
+        "halcyon",
+        "travel"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0008.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Halcyon Travel; rendered 392x102 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0009",
+      "file": "images/image_of_text_0009.png",
+      "category": "image_of_text",
+      "expected_alt": "Bramble Grocers",
+      "must_include": [
+        "bramble",
+        "grocers"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0009.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Bramble Grocers; rendered 357x90 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0010",
+      "file": "images/image_of_text_0010.png",
+      "category": "image_of_text",
+      "expected_alt": "Quill & Sable",
+      "must_include": [
+        "quill",
+        "sable"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"partner-logos\"><img src=\"images/image_of_text_0010.png\"><img src=\"/img/partner-2.png\"></div>",
+        "nearby_text": "Trusted by"
+      },
+      "notes": "wordmark, Quill & Sable; rendered 317x90 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0011",
+      "file": "images/image_of_text_0011.png",
+      "category": "image_of_text",
+      "expected_alt": "50% OFF this weekend",
+      "must_include": [
+        "off",
+        "this",
+        "weekend"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0011.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, 50% OFF this weekend; rendered 424x140 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0012",
+      "file": "images/image_of_text_0012.png",
+      "category": "image_of_text",
+      "expected_alt": "Free shipping over 50",
+      "must_include": [
+        "free",
+        "shipping",
+        "over"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0012.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Free shipping over 50; rendered 330x104 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0013",
+      "file": "images/image_of_text_0013.png",
+      "category": "image_of_text",
+      "expected_alt": "Buy one get one free",
+      "must_include": [
+        "buy",
+        "one",
+        "get"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0013.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Buy one get one free; rendered 371x122 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0014",
+      "file": "images/image_of_text_0014.png",
+      "category": "image_of_text",
+      "expected_alt": "Summer sale starts Friday",
+      "must_include": [
+        "summer",
+        "sale",
+        "starts"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0014.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Summer sale starts Friday; rendered 376x104 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0015",
+      "file": "images/image_of_text_0015.png",
+      "category": "image_of_text",
+      "expected_alt": "New arrivals every Thursday",
+      "must_include": [
+        "new",
+        "arrivals",
+        "every"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0015.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, New arrivals every Thursday; rendered 470x122 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0016",
+      "file": "images/image_of_text_0016.png",
+      "category": "image_of_text",
+      "expected_alt": "Members save 20% today",
+      "must_include": [
+        "members",
+        "save",
+        "today"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0016.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Members save 20% today; rendered 399x122 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0017",
+      "file": "images/image_of_text_0017.png",
+      "category": "image_of_text",
+      "expected_alt": "Last 3 days of the winter sale",
+      "must_include": [
+        "last",
+        "days",
+        "winter"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0017.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Last 3 days of the winter sale; rendered 433x104 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0018",
+      "file": "images/image_of_text_0018.png",
+      "category": "image_of_text",
+      "expected_alt": "Order by 6pm for next day delivery",
+      "must_include": [
+        "order",
+        "6pm",
+        "next"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<a href=\"/sale\" class=\"promo-banner\"><img src=\"images/image_of_text_0018.png\"></a>",
+        "nearby_text": "Shop the sale"
+      },
+      "notes": "promo banner, Order by 6pm for next day delivery; rendered 568x122 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0019",
+      "file": "images/image_of_text_0019.png",
+      "category": "image_of_text",
+      "expected_alt": "The best time to plant a tree was twenty years ago. Old proverb",
+      "must_include": [
+        "best",
+        "time",
+        "plant"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0019.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, Old proverb; rendered 540x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0020",
+      "file": "images/image_of_text_0020.png",
+      "category": "image_of_text",
+      "expected_alt": "We shape our buildings, and afterwards our buildings shape us. W. Churchill",
+      "must_include": [
+        "shape",
+        "our",
+        "buildings"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0020.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, W. Churchill; rendered 480x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0021",
+      "file": "images/image_of_text_0021.png",
+      "category": "image_of_text",
+      "expected_alt": "Simplicity is a great virtue but it requires hard work. E. Dijkstra",
+      "must_include": [
+        "simplicity",
+        "great",
+        "virtue"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0021.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, E. Dijkstra; rendered 480x210 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0022",
+      "file": "images/image_of_text_0022.png",
+      "category": "image_of_text",
+      "expected_alt": "A change of perspective is worth 80 IQ points. A. Kay",
+      "must_include": [
+        "change",
+        "perspective",
+        "worth"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0022.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, A. Kay; rendered 540x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0023",
+      "file": "images/image_of_text_0023.png",
+      "category": "image_of_text",
+      "expected_alt": "Everything should be made as simple as possible. A. Einstein",
+      "must_include": [
+        "everything",
+        "should",
+        "made"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0023.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, A. Einstein; rendered 540x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0024",
+      "file": "images/image_of_text_0024.png",
+      "category": "image_of_text",
+      "expected_alt": "The details are not the details, they make the design. C. Eames",
+      "must_include": [
+        "details",
+        "are",
+        "not"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"pull-quote\"><img src=\"images/image_of_text_0024.png\"></figure>",
+        "nearby_text": "From the interview"
+      },
+      "notes": "quote card, C. Eames; rendered 540x240 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0025",
+      "file": "images/image_of_text_0025.png",
+      "category": "image_of_text",
+      "expected_alt": "How our returns work",
+      "must_include": [
+        "how",
+        "our",
+        "returns"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0025.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, How our returns work; rendered 456x96 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0026",
+      "file": "images/image_of_text_0026.png",
+      "category": "image_of_text",
+      "expected_alt": "Meet the founders",
+      "must_include": [
+        "meet",
+        "founders"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0026.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, Meet the founders; rendered 340x84 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0027",
+      "file": "images/image_of_text_0027.png",
+      "category": "image_of_text",
+      "expected_alt": "Frequently asked questions",
+      "must_include": [
+        "frequently",
+        "asked",
+        "questions"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0027.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, Frequently asked questions; rendered 489x84 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0028",
+      "file": "images/image_of_text_0028.png",
+      "category": "image_of_text",
+      "expected_alt": "What is in the box",
+      "must_include": [
+        "what",
+        "box"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0028.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, What is in the box; rendered 416x96 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0029",
+      "file": "images/image_of_text_0029.png",
+      "category": "image_of_text",
+      "expected_alt": "Our 2026 impact report",
+      "must_include": [
+        "our",
+        "impact",
+        "report"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0029.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, Our 2026 impact report; rendered 592x112 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0030",
+      "file": "images/image_of_text_0030.png",
+      "category": "image_of_text",
+      "expected_alt": "Delivery and collection",
+      "must_include": [
+        "delivery",
+        "collection"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section><img src=\"images/image_of_text_0030.png\" class=\"heading-image\"><p>We keep it simple.</p></section>",
+        "nearby_text": "We keep it simple."
+      },
+      "notes": "heading rendered as an image, Delivery and collection; rendered 439x84 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0031",
+      "file": "images/image_of_text_0031.png",
+      "category": "image_of_text",
+      "expected_alt": "3mjc6",
+      "must_include": [
+        "3mjc6"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0031.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 220x94 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0032",
+      "file": "images/image_of_text_0032.png",
+      "category": "image_of_text",
+      "expected_alt": "azzxk",
+      "must_include": [
+        "azzxk"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0032.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 250x106 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0033",
+      "file": "images/image_of_text_0033.png",
+      "category": "image_of_text",
+      "expected_alt": "uf3hju",
+      "must_include": [
+        "uf3hju"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0033.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 288x106 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0034",
+      "file": "images/image_of_text_0034.png",
+      "category": "image_of_text",
+      "expected_alt": "8gvk8j",
+      "must_include": [
+        "8gvk8j"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0034.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 288x106 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0035",
+      "file": "images/image_of_text_0035.png",
+      "category": "image_of_text",
+      "expected_alt": "phm749",
+      "must_include": [
+        "phm749"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0035.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 324x118 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0036",
+      "file": "images/image_of_text_0036.png",
+      "category": "image_of_text",
+      "expected_alt": "javsh9",
+      "must_include": [
+        "javsh9"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"captcha\"><label for=\"cap\">Type the characters you see</label><img src=\"images/image_of_text_0036.png\"><input id=\"cap\" name=\"cap\"></div>",
+        "nearby_text": "Type the characters you see"
+      },
+      "notes": "distorted character string; rendered 324x118 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0037",
+      "file": "images/image_of_text_0037.png",
+      "category": "image_of_text",
+      "expected_alt": "Kestrel Books, 14 Mill Lane, Bristol BS1 4TR",
+      "must_include": [
+        "mill",
+        "lane"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<address><img src=\"images/image_of_text_0037.png\"></address><p>Open Monday to Saturday.</p>",
+        "nearby_text": "Open Monday to Saturday."
+      },
+      "notes": "address block rendered as an image; rendered 240x142 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0038",
+      "file": "images/image_of_text_0038.png",
+      "category": "image_of_text",
+      "expected_alt": "Northwind Tea, Unit 7, Harbour Road, Leith EH6 6QQ",
+      "must_include": [
+        "unit",
+        "harbour"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<address><img src=\"images/image_of_text_0038.png\"></address><p>Open Monday to Saturday.</p>",
+        "nearby_text": "Open Monday to Saturday."
+      },
+      "notes": "address block rendered as an image; rendered 264x127 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0039",
+      "file": "images/image_of_text_0039.png",
+      "category": "image_of_text",
+      "expected_alt": "Lumen Health, 220 Ashfield Street, Manchester M14 5PP",
+      "must_include": [
+        "ashfield",
+        "street"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<address><img src=\"images/image_of_text_0039.png\"></address><p>Open Monday to Saturday.</p>",
+        "nearby_text": "Open Monday to Saturday."
+      },
+      "notes": "address block rendered as an image; rendered 288x142 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0040",
+      "file": "images/image_of_text_0040.png",
+      "category": "image_of_text",
+      "expected_alt": "Foxglove Studio, 3rd floor, 8 Peach Yard, London E2 8AA",
+      "must_include": [
+        "3rd",
+        "floor"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<address><img src=\"images/image_of_text_0040.png\"></address><p>Open Monday to Saturday.</p>",
+        "nearby_text": "Open Monday to Saturday."
+      },
+      "notes": "address block rendered as an image; rendered 336x142 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0041",
+      "file": "images/image_of_text_0041.png",
+      "category": "image_of_text",
+      "expected_alt": "Bramble Grocers, 44 Market Square, York YO1 8SN",
+      "must_include": [
+        "market",
+        "square"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<address><img src=\"images/image_of_text_0041.png\"></address><p>Open Monday to Saturday.</p>",
+        "nearby_text": "Open Monday to Saturday."
+      },
+      "notes": "address block rendered as an image; rendered 252x142 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0042",
+      "file": "images/image_of_text_0042.png",
+      "category": "image_of_text",
+      "expected_alt": "0117 496 2210",
+      "must_include": [
+        "0117 496 2210"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"contact-strip\"><img src=\"images/image_of_text_0042.png\"></div>",
+        "nearby_text": "Call us, 9am to 5pm"
+      },
+      "notes": "phone number as an image, 0117 496 2210; rendered 406x106 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0043",
+      "file": "images/image_of_text_0043.png",
+      "category": "image_of_text",
+      "expected_alt": "+44 20 7946 0912",
+      "must_include": [
+        "+44 20 7946 0912"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"contact-strip\"><img src=\"images/image_of_text_0043.png\"></div>",
+        "nearby_text": "Call us, 9am to 5pm"
+      },
+      "notes": "phone number as an image, +44 20 7946 0912; rendered 417x94 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0044",
+      "file": "images/image_of_text_0044.png",
+      "category": "image_of_text",
+      "expected_alt": "(555) 014-2200",
+      "must_include": [
+        "(555) 014-2200"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"contact-strip\"><img src=\"images/image_of_text_0044.png\"></div>",
+        "nearby_text": "Call us, 9am to 5pm"
+      },
+      "notes": "phone number as an image, (555) 014-2200; rendered 429x106 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0045",
+      "file": "images/image_of_text_0045.png",
+      "category": "image_of_text",
+      "expected_alt": "0800 555 0199",
+      "must_include": [
+        "0800 555 0199"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"contact-strip\"><img src=\"images/image_of_text_0045.png\"></div>",
+        "nearby_text": "Call us, 9am to 5pm"
+      },
+      "notes": "phone number as an image, 0800 555 0199; rendered 357x94 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0046",
+      "file": "images/image_of_text_0046.png",
+      "category": "image_of_text",
+      "expected_alt": "Doors open at 7",
+      "must_include": [
+        "doors",
+        "open"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0046.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Doors open at 7; rendered 428x120 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0047",
+      "file": "images/image_of_text_0047.png",
+      "category": "image_of_text",
+      "expected_alt": "Thank you for 10 years",
+      "must_include": [
+        "thank",
+        "you",
+        "years"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0047.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Thank you for 10 years; rendered 437x84 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0048",
+      "file": "images/image_of_text_0048.png",
+      "category": "image_of_text",
+      "expected_alt": "Now hiring bakers",
+      "must_include": [
+        "now",
+        "hiring",
+        "bakers"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0048.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Now hiring bakers; rendered 415x102 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0049",
+      "file": "images/image_of_text_0049.png",
+      "category": "image_of_text",
+      "expected_alt": "Closed for refurbishment",
+      "must_include": [
+        "closed",
+        "refurbishment"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0049.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Closed for refurbishment; rendered 636x120 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0050",
+      "file": "images/image_of_text_0050.png",
+      "category": "image_of_text",
+      "expected_alt": "Winter menu is here",
+      "must_include": [
+        "winter",
+        "menu",
+        "here"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0050.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Winter menu is here; rendered 520x120 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0051",
+      "file": "images/image_of_text_0051.png",
+      "category": "image_of_text",
+      "expected_alt": "Join the waiting list",
+      "must_include": [
+        "join",
+        "waiting",
+        "list"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"notice\"><img src=\"images/image_of_text_0051.png\"></div>",
+        "nearby_text": "Latest news"
+      },
+      "notes": "stylised text on a gradient, Join the waiting list; rendered 494x102 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0052",
+      "file": "images/image_of_text_0052.png",
+      "category": "image_of_text",
+      "expected_alt": "Repair cafe. Saturday 14 March, 10am",
+      "must_include": [
+        "repair",
+        "cafe"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "a",
+        "html": "<a href=\"/events/repair-cafe\"><img src=\"images/image_of_text_0052.png\"></a>",
+        "nearby_text": "Upcoming events"
+      },
+      "notes": "event card, Repair cafe; rendered 440x150 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0053",
+      "file": "images/image_of_text_0053.png",
+      "category": "image_of_text",
+      "expected_alt": "Book club. Thursday 2 April, 7pm",
+      "must_include": [
+        "book",
+        "club"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "a",
+        "html": "<a href=\"/events/repair-cafe\"><img src=\"images/image_of_text_0053.png\"></a>",
+        "nearby_text": "Upcoming events"
+      },
+      "notes": "event card, Book club; rendered 440x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0054",
+      "file": "images/image_of_text_0054.png",
+      "category": "image_of_text",
+      "expected_alt": "Winter market. Sunday 8 December, 11am",
+      "must_include": [
+        "winter",
+        "market"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "a",
+        "html": "<a href=\"/events/repair-cafe\"><img src=\"images/image_of_text_0054.png\"></a>",
+        "nearby_text": "Upcoming events"
+      },
+      "notes": "event card, Winter market; rendered 380x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0055",
+      "file": "images/image_of_text_0055.png",
+      "category": "image_of_text",
+      "expected_alt": "Open studio. Friday 20 June, 6pm",
+      "must_include": [
+        "open",
+        "studio"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "a",
+        "html": "<a href=\"/events/repair-cafe\"><img src=\"images/image_of_text_0055.png\"></a>",
+        "nearby_text": "Upcoming events"
+      },
+      "notes": "event card, Open studio; rendered 320x180 px, seed 20260906"
+    },
+    {
+      "id": "image_of_text_0056",
+      "file": "images/image_of_text_0056.png",
+      "category": "image_of_text",
+      "expected_alt": "Coffee tasting. Tuesday 5 May, 5pm",
+      "must_include": [
+        "coffee",
+        "tasting"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "a",
+        "html": "<a href=\"/events/repair-cafe\"><img src=\"images/image_of_text_0056.png\"></a>",
+        "nearby_text": "Upcoming events"
+      },
+      "notes": "event card, Coffee tasting; rendered 440x150 px, seed 20260906"
+    },
+    {
+      "id": "complex_0001",
+      "file": "images/complex_0001.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Total sales by quarter. Q1 48, Q2 62, Q3 71, Q4 55.",
+      "must_include": [
+        "total",
+        "sales",
+        "quarter",
+        "48",
+        "62",
+        "71",
+        "55"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Total sales by quarter</h2><img src=\"images/complex_0001.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Total sales by quarter"
+      },
+      "notes": "Bar chart, values 48/62/71/55; rendered 380x260 px, seed 20260906"
+    },
+    {
+      "id": "complex_0002",
+      "file": "images/complex_0002.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Support tickets by channel. Email 82, Chat 47, Phone 31.",
+      "must_include": [
+        "support",
+        "tickets",
+        "channel",
+        "82",
+        "47",
+        "31"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Support tickets by channel</h3><img src=\"images/complex_0002.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Support tickets by channel, see the full report"
+      },
+      "notes": "Bar chart, values 82/47/31; rendered 500x340 px, seed 20260906"
+    },
+    {
+      "id": "complex_0003",
+      "file": "images/complex_0003.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Weekly signups. Mon 24, Tue 38, Wed 45, Thu 33, Fri 52.",
+      "must_include": [
+        "weekly",
+        "signups",
+        "24",
+        "38",
+        "45",
+        "33",
+        "52"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Weekly signups</h3><img src=\"images/complex_0003.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Weekly signups, see the full report"
+      },
+      "notes": "Bar chart, values 24/38/45/33/52; rendered 380x260 px, seed 20260906"
+    },
+    {
+      "id": "complex_0004",
+      "file": "images/complex_0004.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Energy use by floor. Ground 64, First 39, Second 27, Third 18.",
+      "must_include": [
+        "energy",
+        "use",
+        "floor",
+        "64",
+        "39",
+        "27",
+        "18"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Energy use by floor</h2><img src=\"images/complex_0004.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Energy use by floor"
+      },
+      "notes": "Bar chart, values 64/39/27/18; rendered 500x260 px, seed 20260906"
+    },
+    {
+      "id": "complex_0005",
+      "file": "images/complex_0005.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Books borrowed by genre. Fiction 76, History 41, Poetry 22, Science 35.",
+      "must_include": [
+        "books",
+        "borrowed",
+        "genre",
+        "76",
+        "41",
+        "22",
+        "35"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Books borrowed by genre</h3><img src=\"images/complex_0005.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Books borrowed by genre, see the full report"
+      },
+      "notes": "Bar chart, values 76/41/22/35; rendered 500x260 px, seed 20260906"
+    },
+    {
+      "id": "complex_0006",
+      "file": "images/complex_0006.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Average delivery time. North 32, South 44, East 27, West 51.",
+      "must_include": [
+        "average",
+        "delivery",
+        "time",
+        "32",
+        "44",
+        "27",
+        "51"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0006.png\"><figcaption>Average delivery time</figcaption></figure>",
+        "nearby_text": "Average delivery time"
+      },
+      "notes": "Bar chart, values 32/44/27/51; rendered 380x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0007",
+      "file": "images/complex_0007.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Site visits by device. Mobile 68, Desktop 25, Tablet 12.",
+      "must_include": [
+        "site",
+        "visits",
+        "device",
+        "68",
+        "25",
+        "12"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0007.png\"><figcaption>Site visits by device</figcaption></figure>",
+        "nearby_text": "Site visits by device"
+      },
+      "notes": "Bar chart, values 68/25/12; rendered 500x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0008",
+      "file": "images/complex_0008.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Rainfall by month. Jan 88, Feb 61, Mar 47, Apr 35, May 29.",
+      "must_include": [
+        "rainfall",
+        "month",
+        "88",
+        "61",
+        "47",
+        "35",
+        "29"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Rainfall by month</h3><img src=\"images/complex_0008.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Rainfall by month, see the full report"
+      },
+      "notes": "Bar chart, values 88/61/47/35/29; rendered 440x340 px, seed 20260906"
+    },
+    {
+      "id": "complex_0009",
+      "file": "images/complex_0009.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Volunteers by branch. Leith 19, Mill Lane 44, Harbour 26.",
+      "must_include": [
+        "volunteers",
+        "branch",
+        "19",
+        "44",
+        "26"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Volunteers by branch</h3><img src=\"images/complex_0009.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Volunteers by branch, see the full report"
+      },
+      "notes": "Bar chart, values 19/44/26; rendered 440x340 px, seed 20260906"
+    },
+    {
+      "id": "complex_0010",
+      "file": "images/complex_0010.png",
+      "category": "complex",
+      "expected_alt": "Bar chart titled Errors per release. v1.2 57, v1.3 39, v1.4 21, v1.5 14.",
+      "must_include": [
+        "errors",
+        "release",
+        "57",
+        "39",
+        "21",
+        "14"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0010.png\"><figcaption>Errors per release</figcaption></figure>",
+        "nearby_text": "Errors per release"
+      },
+      "notes": "Bar chart, values 57/39/21/14; rendered 500x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0011",
+      "file": "images/complex_0011.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Energy use by floor. Ground 64, First 39, Second 27, Third 18.",
+      "must_include": [
+        "energy",
+        "use",
+        "floor",
+        "64",
+        "39",
+        "27",
+        "18"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Energy use by floor</h2><img src=\"images/complex_0011.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Energy use by floor"
+      },
+      "notes": "Horizontal bar chart, values 64/39/27/18; rendered 420x266 px, seed 20260906"
+    },
+    {
+      "id": "complex_0012",
+      "file": "images/complex_0012.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Books borrowed by genre. Fiction 76, History 41, Poetry 22, Science 35.",
+      "must_include": [
+        "books",
+        "borrowed",
+        "genre",
+        "76",
+        "41",
+        "22",
+        "35"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0012.png\"><figcaption>Books borrowed by genre</figcaption></figure>",
+        "nearby_text": "Books borrowed by genre"
+      },
+      "notes": "Horizontal bar chart, values 76/41/22/35; rendered 420x266 px, seed 20260906"
+    },
+    {
+      "id": "complex_0013",
+      "file": "images/complex_0013.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Average delivery time. North 32, South 44, East 27, West 51.",
+      "must_include": [
+        "average",
+        "delivery",
+        "time",
+        "32",
+        "44",
+        "27",
+        "51"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Average delivery time</h3><img src=\"images/complex_0013.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Average delivery time, see the full report"
+      },
+      "notes": "Horizontal bar chart, values 32/44/27/51; rendered 420x242 px, seed 20260906"
+    },
+    {
+      "id": "complex_0014",
+      "file": "images/complex_0014.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Site visits by device. Mobile 68, Desktop 25, Tablet 12.",
+      "must_include": [
+        "site",
+        "visits",
+        "device",
+        "68",
+        "25",
+        "12"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0014.png\"><figcaption>Site visits by device</figcaption></figure>",
+        "nearby_text": "Site visits by device"
+      },
+      "notes": "Horizontal bar chart, values 68/25/12; rendered 480x240 px, seed 20260906"
+    },
+    {
+      "id": "complex_0015",
+      "file": "images/complex_0015.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Rainfall by month. Jan 88, Feb 61, Mar 47, Apr 35, May 29.",
+      "must_include": [
+        "rainfall",
+        "month",
+        "88",
+        "61",
+        "47",
+        "35",
+        "29"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Rainfall by month</h3><img src=\"images/complex_0015.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Rainfall by month, see the full report"
+      },
+      "notes": "Horizontal bar chart, values 88/61/47/35/29; rendered 540x310 px, seed 20260906"
+    },
+    {
+      "id": "complex_0016",
+      "file": "images/complex_0016.png",
+      "category": "complex",
+      "expected_alt": "Horizontal bar chart titled Volunteers by branch. Leith 19, Mill Lane 44, Harbour 26.",
+      "must_include": [
+        "volunteers",
+        "branch",
+        "19",
+        "44",
+        "26"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Volunteers by branch</h2><img src=\"images/complex_0016.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Volunteers by branch"
+      },
+      "notes": "Horizontal bar chart, values 19/44/26; rendered 540x240 px, seed 20260906"
+    },
+    {
+      "id": "complex_0017",
+      "file": "images/complex_0017.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Total sales by quarter. Q1 48, Q2 62, Q3 71, Q4 55.",
+      "must_include": [
+        "total",
+        "sales",
+        "quarter",
+        "48",
+        "62",
+        "71",
+        "55"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0017.png\"><figcaption>Total sales by quarter</figcaption></figure>",
+        "nearby_text": "Total sales by quarter"
+      },
+      "notes": "Line chart, values 48/62/71/55; rendered 420x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0018",
+      "file": "images/complex_0018.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Support tickets by channel. Email 82, Chat 47, Phone 31.",
+      "must_include": [
+        "support",
+        "tickets",
+        "channel",
+        "82",
+        "47",
+        "31"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Support tickets by channel</h3><img src=\"images/complex_0018.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Support tickets by channel, see the full report"
+      },
+      "notes": "Line chart, values 82/47/31; rendered 480x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0019",
+      "file": "images/complex_0019.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Weekly signups. Mon 24, Tue 38, Wed 45, Thu 33, Fri 52.",
+      "must_include": [
+        "weekly",
+        "signups",
+        "24",
+        "38",
+        "45",
+        "33",
+        "52"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0019.png\"><figcaption>Weekly signups</figcaption></figure>",
+        "nearby_text": "Weekly signups"
+      },
+      "notes": "Line chart, values 24/38/45/33/52; rendered 420x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0020",
+      "file": "images/complex_0020.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Energy use by floor. Ground 64, First 39, Second 27, Third 18.",
+      "must_include": [
+        "energy",
+        "use",
+        "floor",
+        "64",
+        "39",
+        "27",
+        "18"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Energy use by floor</h2><img src=\"images/complex_0020.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Energy use by floor"
+      },
+      "notes": "Line chart, values 64/39/27/18; rendered 520x260 px, seed 20260906"
+    },
+    {
+      "id": "complex_0021",
+      "file": "images/complex_0021.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Books borrowed by genre. Fiction 76, History 41, Poetry 22, Science 35.",
+      "must_include": [
+        "books",
+        "borrowed",
+        "genre",
+        "76",
+        "41",
+        "22",
+        "35"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Books borrowed by genre</h2><img src=\"images/complex_0021.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Books borrowed by genre"
+      },
+      "notes": "Line chart, values 76/41/22/35; rendered 520x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0022",
+      "file": "images/complex_0022.png",
+      "category": "complex",
+      "expected_alt": "Line chart titled Average delivery time. North 32, South 44, East 27, West 51.",
+      "must_include": [
+        "average",
+        "delivery",
+        "time",
+        "32",
+        "44",
+        "27",
+        "51"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Average delivery time</h2><img src=\"images/complex_0022.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Average delivery time"
+      },
+      "notes": "Line chart, values 32/44/27/51; rendered 480x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0023",
+      "file": "images/complex_0023.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Site visits by device. Mobile 65, Desktop 24, Tablet 11.",
+      "must_include": [
+        "site",
+        "visits",
+        "device",
+        "65",
+        "24",
+        "11"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0023.png\"><figcaption>Site visits by device</figcaption></figure>",
+        "nearby_text": "Site visits by device"
+      },
+      "notes": "Pie chart, values 65/24/11; rendered 420x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0024",
+      "file": "images/complex_0024.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Rainfall by month. Jan 35, Feb 23, Mar 18, Apr 13, May 11.",
+      "must_include": [
+        "rainfall",
+        "month",
+        "35",
+        "23",
+        "18",
+        "13",
+        "11"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Rainfall by month</h3><img src=\"images/complex_0024.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Rainfall by month, see the full report"
+      },
+      "notes": "Pie chart, values 35/23/18/13/11; rendered 360x240 px, seed 20260906"
+    },
+    {
+      "id": "complex_0025",
+      "file": "images/complex_0025.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Volunteers by branch. Leith 22, Mill Lane 49, Harbour 29.",
+      "must_include": [
+        "volunteers",
+        "branch",
+        "22",
+        "49",
+        "29"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0025.png\"><figcaption>Volunteers by branch</figcaption></figure>",
+        "nearby_text": "Volunteers by branch"
+      },
+      "notes": "Pie chart, values 22/49/29; rendered 390x270 px, seed 20260906"
+    },
+    {
+      "id": "complex_0026",
+      "file": "images/complex_0026.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Errors per release. v1.2 43, v1.3 30, v1.4 16, v1.5 11.",
+      "must_include": [
+        "errors",
+        "release",
+        "43",
+        "30",
+        "16",
+        "11"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Errors per release</h3><img src=\"images/complex_0026.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Errors per release, see the full report"
+      },
+      "notes": "Pie chart, values 43/30/16/11; rendered 360x240 px, seed 20260906"
+    },
+    {
+      "id": "complex_0027",
+      "file": "images/complex_0027.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Members by plan. Free 54, Standard 31, Premium 15.",
+      "must_include": [
+        "members",
+        "plan",
+        "54",
+        "31",
+        "15"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Members by plan</h2><img src=\"images/complex_0027.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Members by plan"
+      },
+      "notes": "Pie chart, values 54/31/15; rendered 390x270 px, seed 20260906"
+    },
+    {
+      "id": "complex_0028",
+      "file": "images/complex_0028.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Cups served per day. Mon 19, Tue 17, Wed 18, Thu 20, Fri 26.",
+      "must_include": [
+        "cups",
+        "served",
+        "day",
+        "19",
+        "17",
+        "18",
+        "20",
+        "26"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Cups served per day</h2><img src=\"images/complex_0028.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Cups served per day"
+      },
+      "notes": "Pie chart, values 19/17/18/20/26; rendered 420x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0029",
+      "file": "images/complex_0029.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Repairs completed. Bikes 53, Laptops 24, Kettles 14, Radios 9.",
+      "must_include": [
+        "repairs",
+        "completed",
+        "53",
+        "24",
+        "14",
+        "9"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Repairs completed</h3><img src=\"images/complex_0029.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Repairs completed, see the full report"
+      },
+      "notes": "Pie chart, values 53/24/14/9; rendered 390x270 px, seed 20260906"
+    },
+    {
+      "id": "complex_0030",
+      "file": "images/complex_0030.png",
+      "category": "complex",
+      "expected_alt": "Pie chart titled Newsletter opens. Week 1 20, Week 2 27, Week 3 29, Week 4 24.",
+      "must_include": [
+        "newsletter",
+        "opens",
+        "20",
+        "27",
+        "29",
+        "24"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Newsletter opens</h3><img src=\"images/complex_0030.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Newsletter opens, see the full report"
+      },
+      "notes": "Pie chart, values 20/27/29/24; rendered 420x300 px, seed 20260906"
+    },
+    {
+      "id": "complex_0031",
+      "file": "images/complex_0031.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Errors per release. v1.2 57, v1.3 39, v1.4 21, v1.5 14.",
+      "must_include": [
+        "errors",
+        "release",
+        "57",
+        "39",
+        "21",
+        "14"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Errors per release</h2><img src=\"images/complex_0031.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Errors per release"
+      },
+      "notes": "Stacked bar chart, values 57/39/21/14; rendered 480x320 px, seed 20260906"
+    },
+    {
+      "id": "complex_0032",
+      "file": "images/complex_0032.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Members by plan. Free 54, Standard 31, Premium 15.",
+      "must_include": [
+        "members",
+        "plan",
+        "54",
+        "31",
+        "15"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0032.png\"><figcaption>Members by plan</figcaption></figure>",
+        "nearby_text": "Members by plan"
+      },
+      "notes": "Stacked bar chart, values 54/31/15; rendered 480x320 px, seed 20260906"
+    },
+    {
+      "id": "complex_0033",
+      "file": "images/complex_0033.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Cups served per day. Mon 91, Tue 78, Wed 84, Thu 96, Fri 120.",
+      "must_include": [
+        "cups",
+        "served",
+        "day",
+        "91",
+        "78",
+        "84",
+        "96",
+        "120"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Cups served per day</h2><img src=\"images/complex_0033.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Cups served per day"
+      },
+      "notes": "Stacked bar chart, values 91/78/84/96/120; rendered 480x320 px, seed 20260906"
+    },
+    {
+      "id": "complex_0034",
+      "file": "images/complex_0034.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Repairs completed. Bikes 63, Laptops 28, Kettles 17, Radios 11.",
+      "must_include": [
+        "repairs",
+        "completed",
+        "63",
+        "28",
+        "17",
+        "11"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Repairs completed</h3><img src=\"images/complex_0034.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Repairs completed, see the full report"
+      },
+      "notes": "Stacked bar chart, values 63/28/17/11; rendered 420x280 px, seed 20260906"
+    },
+    {
+      "id": "complex_0035",
+      "file": "images/complex_0035.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Newsletter opens. Week 1 42, Week 2 55, Week 3 61, Week 4 49.",
+      "must_include": [
+        "newsletter",
+        "opens",
+        "42",
+        "55",
+        "61",
+        "49"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Newsletter opens</h2><img src=\"images/complex_0035.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Newsletter opens"
+      },
+      "notes": "Stacked bar chart, values 42/55/61/49; rendered 480x320 px, seed 20260906"
+    },
+    {
+      "id": "complex_0036",
+      "file": "images/complex_0036.png",
+      "category": "complex",
+      "expected_alt": "Stacked bar chart titled Stock by warehouse. Bristol 73, Leeds 46, Cardiff 38, Derby 25.",
+      "must_include": [
+        "stock",
+        "warehouse",
+        "73",
+        "46",
+        "38",
+        "25"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0036.png\"><figcaption>Stock by warehouse</figcaption></figure>",
+        "nearby_text": "Stock by warehouse"
+      },
+      "notes": "Stacked bar chart, values 73/46/38/25; rendered 420x280 px, seed 20260906"
+    },
+    {
+      "id": "complex_0037",
+      "file": "images/complex_0037.png",
+      "category": "complex",
+      "expected_alt": "Table titled Weekly signups. Mon 24, Tue 38, Wed 45, Thu 33, Fri 52.",
+      "must_include": [
+        "weekly",
+        "signups",
+        "24",
+        "38",
+        "45",
+        "33",
+        "52"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Weekly signups</h2><img src=\"images/complex_0037.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Weekly signups"
+      },
+      "notes": "Table, values 24/38/45/33/52; rendered 320x280 px, seed 20260906"
+    },
+    {
+      "id": "complex_0038",
+      "file": "images/complex_0038.png",
+      "category": "complex",
+      "expected_alt": "Table titled Energy use by floor. Ground 64, First 39, Second 27, Third 18.",
+      "must_include": [
+        "energy",
+        "use",
+        "floor",
+        "64",
+        "39",
+        "27",
+        "18"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Energy use by floor</h3><img src=\"images/complex_0038.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Energy use by floor, see the full report"
+      },
+      "notes": "Table, values 64/39/27/18; rendered 320x246 px, seed 20260906"
+    },
+    {
+      "id": "complex_0039",
+      "file": "images/complex_0039.png",
+      "category": "complex",
+      "expected_alt": "Table titled Books borrowed by genre. Fiction 76, History 41, Poetry 22, Science 35.",
+      "must_include": [
+        "books",
+        "borrowed",
+        "genre",
+        "76",
+        "41",
+        "22",
+        "35"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0039.png\"><figcaption>Books borrowed by genre</figcaption></figure>",
+        "nearby_text": "Books borrowed by genre"
+      },
+      "notes": "Table, values 76/41/22/35; rendered 320x246 px, seed 20260906"
+    },
+    {
+      "id": "complex_0040",
+      "file": "images/complex_0040.png",
+      "category": "complex",
+      "expected_alt": "Table titled Average delivery time. North 32, South 44, East 27, West 51.",
+      "must_include": [
+        "average",
+        "delivery",
+        "time",
+        "32",
+        "44",
+        "27",
+        "51"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0040.png\"><figcaption>Average delivery time</figcaption></figure>",
+        "nearby_text": "Average delivery time"
+      },
+      "notes": "Table, values 32/44/27/51; rendered 420x246 px, seed 20260906"
+    },
+    {
+      "id": "complex_0041",
+      "file": "images/complex_0041.png",
+      "category": "complex",
+      "expected_alt": "Table titled Site visits by device. Mobile 68, Desktop 25, Tablet 12.",
+      "must_include": [
+        "site",
+        "visits",
+        "device",
+        "68",
+        "25",
+        "12"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0041.png\"><figcaption>Site visits by device</figcaption></figure>",
+        "nearby_text": "Site visits by device"
+      },
+      "notes": "Table, values 68/25/12; rendered 380x212 px, seed 20260906"
+    },
+    {
+      "id": "complex_0042",
+      "file": "images/complex_0042.png",
+      "category": "complex",
+      "expected_alt": "Table titled Rainfall by month. Jan 88, Feb 61, Mar 47, Apr 35, May 29.",
+      "must_include": [
+        "rainfall",
+        "month",
+        "88",
+        "61",
+        "47",
+        "35",
+        "29"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0042.png\"><figcaption>Rainfall by month</figcaption></figure>",
+        "nearby_text": "Rainfall by month"
+      },
+      "notes": "Table, values 88/61/47/35/29; rendered 420x280 px, seed 20260906"
+    },
+    {
+      "id": "complex_0043",
+      "file": "images/complex_0043.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled How a return works. Request then Print label then Post it then Refund.",
+      "must_include": [
+        "how",
+        "return",
+        "request",
+        "print label",
+        "post it",
+        "refund"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>How a return works</h2><img src=\"images/complex_0043.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "How a return works"
+      },
+      "notes": "flow diagram, 4 steps; rendered 590x170 px, seed 20260906"
+    },
+    {
+      "id": "complex_0044",
+      "file": "images/complex_0044.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled Article workflow. Draft then Review then Edit then Publish.",
+      "must_include": [
+        "article",
+        "workflow",
+        "draft",
+        "review",
+        "edit",
+        "publish"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0044.png\"><figcaption>Article workflow</figcaption></figure>",
+        "nearby_text": "Article workflow"
+      },
+      "notes": "flow diagram, 4 steps; rendered 534x150 px, seed 20260906"
+    },
+    {
+      "id": "complex_0045",
+      "file": "images/complex_0045.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled Support escalation. Ticket then Triage then Specialist.",
+      "must_include": [
+        "support",
+        "escalation",
+        "ticket",
+        "triage",
+        "specialist"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Support escalation</h3><img src=\"images/complex_0045.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Support escalation, see the full report"
+      },
+      "notes": "flow diagram, 3 steps; rendered 402x170 px, seed 20260906"
+    },
+    {
+      "id": "complex_0046",
+      "file": "images/complex_0046.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled Order pipeline. Placed then Picked then Packed then Shipped.",
+      "must_include": [
+        "order",
+        "pipeline",
+        "placed",
+        "picked",
+        "packed",
+        "shipped"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Order pipeline</h3><img src=\"images/complex_0046.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Order pipeline, see the full report"
+      },
+      "notes": "flow diagram, 4 steps; rendered 534x170 px, seed 20260906"
+    },
+    {
+      "id": "complex_0047",
+      "file": "images/complex_0047.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled Account setup. Sign up then Verify email then Add details.",
+      "must_include": [
+        "account",
+        "setup",
+        "sign up",
+        "verify email",
+        "add details"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0047.png\"><figcaption>Account setup</figcaption></figure>",
+        "nearby_text": "Account setup"
+      },
+      "notes": "flow diagram, 3 steps; rendered 480x150 px, seed 20260906"
+    },
+    {
+      "id": "complex_0048",
+      "file": "images/complex_0048.png",
+      "category": "complex",
+      "expected_alt": "Flow diagram titled Repair intake. Book slot then Assess then Quote then Fix.",
+      "must_include": [
+        "repair",
+        "intake",
+        "book slot",
+        "assess",
+        "quote",
+        "fix"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0048.png\"><figcaption>Repair intake</figcaption></figure>",
+        "nearby_text": "Repair intake"
+      },
+      "notes": "flow diagram, 4 steps; rendered 638x150 px, seed 20260906"
+    },
+    {
+      "id": "complex_0049",
+      "file": "images/complex_0049.png",
+      "category": "complex",
+      "expected_alt": "Organisation chart titled Store team. Manager above Bakery, Deli, Checkout.",
+      "must_include": [
+        "store",
+        "team",
+        "manager",
+        "bakery",
+        "deli",
+        "checkout"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Store team</h2><img src=\"images/complex_0049.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Store team"
+      },
+      "notes": "org chart, 3 reports; rendered 422x220 px, seed 20260906"
+    },
+    {
+      "id": "complex_0050",
+      "file": "images/complex_0050.png",
+      "category": "complex",
+      "expected_alt": "Organisation chart titled Studio structure. Director above Design, Build, Accounts.",
+      "must_include": [
+        "studio",
+        "structure",
+        "director",
+        "design",
+        "build",
+        "accounts"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0050.png\"><figcaption>Studio structure</figcaption></figure>",
+        "nearby_text": "Studio structure"
+      },
+      "notes": "org chart, 3 reports; rendered 422x220 px, seed 20260906"
+    },
+    {
+      "id": "complex_0051",
+      "file": "images/complex_0051.png",
+      "category": "complex",
+      "expected_alt": "Organisation chart titled Library staff. Head librarian above Lending, Archives, Events.",
+      "must_include": [
+        "library",
+        "staff",
+        "head",
+        "lending",
+        "archives",
+        "events"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Library staff</h2><img src=\"images/complex_0051.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Library staff"
+      },
+      "notes": "org chart, 3 reports; rendered 422x220 px, seed 20260906"
+    },
+    {
+      "id": "complex_0052",
+      "file": "images/complex_0052.png",
+      "category": "complex",
+      "expected_alt": "Organisation chart titled Kitchen roles. Head chef above Pastry, Grill, Prep.",
+      "must_include": [
+        "kitchen",
+        "roles",
+        "head",
+        "pastry",
+        "grill",
+        "prep"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0052.png\"><figcaption>Kitchen roles</figcaption></figure>",
+        "nearby_text": "Kitchen roles"
+      },
+      "notes": "org chart, 3 reports; rendered 422x220 px, seed 20260906"
+    },
+    {
+      "id": "complex_0053",
+      "file": "images/complex_0053.png",
+      "category": "complex",
+      "expected_alt": "Organisation chart titled Support desk. Team lead above Tier 1, Tier 2.",
+      "must_include": [
+        "support",
+        "desk",
+        "team",
+        "tier",
+        "tier"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0053.png\"><figcaption>Support desk</figcaption></figure>",
+        "nearby_text": "Support desk"
+      },
+      "notes": "org chart, 2 reports; rendered 286x220 px, seed 20260906"
+    },
+    {
+      "id": "complex_0054",
+      "file": "images/complex_0054.png",
+      "category": "complex",
+      "expected_alt": "Timeline titled Company milestones. 2016 First shop, 2019 Online store, 2022 Second shop, 2025 Repair service.",
+      "must_include": [
+        "company",
+        "milestones",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<section class=\"report\"><h2>Company milestones</h2><img src=\"images/complex_0054.png\"><p>Source: internal dashboard.</p></section>",
+        "nearby_text": "Company milestones"
+      },
+      "notes": "timeline, 4 points; rendered 500x190 px, seed 20260906"
+    },
+    {
+      "id": "complex_0055",
+      "file": "images/complex_0055.png",
+      "category": "complex",
+      "expected_alt": "Timeline titled Project phases. 2023 Research, 2024 Pilot, 2026 Rollout.",
+      "must_include": [
+        "project",
+        "phases",
+        "2023",
+        "2024",
+        "2026"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Project phases</h3><img src=\"images/complex_0055.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Project phases, see the full report"
+      },
+      "notes": "timeline, 3 points; rendered 440x190 px, seed 20260906"
+    },
+    {
+      "id": "complex_0056",
+      "file": "images/complex_0056.png",
+      "category": "complex",
+      "expected_alt": "Timeline titled Building history. 1904 Built, 1962 Extended, 2011 Restored.",
+      "must_include": [
+        "building",
+        "history",
+        "1904",
+        "1962",
+        "2011"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "figure",
+        "html": "<figure class=\"chart\"><img src=\"images/complex_0056.png\"><figcaption>Building history</figcaption></figure>",
+        "nearby_text": "Building history"
+      },
+      "notes": "timeline, 3 points; rendered 500x190 px, seed 20260906"
+    },
+    {
+      "id": "complex_0057",
+      "file": "images/complex_0057.png",
+      "category": "complex",
+      "expected_alt": "Timeline titled Release history. 2021 Beta, 2022 Version 1, 2024 Version 2, 2026 Version 3.",
+      "must_include": [
+        "release",
+        "history",
+        "2021",
+        "2022",
+        "2024",
+        "2026"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Release history</h3><img src=\"images/complex_0057.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Release history, see the full report"
+      },
+      "notes": "timeline, 4 points; rendered 560x190 px, seed 20260906"
+    },
+    {
+      "id": "complex_0058",
+      "file": "images/complex_0058.png",
+      "category": "complex",
+      "expected_alt": "Timeline titled Grant timeline. 2022 Applied, 2023 Awarded, 2025 Reported.",
+      "must_include": [
+        "grant",
+        "timeline",
+        "2022",
+        "2023",
+        "2025"
+      ],
+      "must_not_include": [],
+      "context": {
+        "tag": "img",
+        "html": "<div class=\"card metric\"><h3>Grant timeline</h3><img src=\"images/complex_0058.png\"><a href=\"/reports/full\">See the full report</a></div>",
+        "nearby_text": "Grant timeline, see the full report"
+      },
+      "notes": "timeline, 3 points; rendered 560x190 px, seed 20260906"
+    }
+  ]
+}

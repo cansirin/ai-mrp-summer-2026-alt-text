@@ -1,0 +1,1201 @@
+{
+  "model": "Salesforce/blip-image-captioning-large",
+  "condition": "caption",
+  "prompt": "",
+  "device": "mps",
+  "load_sec": 5.0,
+  "outputs": {
+    "functional_0001": {
+      "alt": "a green button with a check mark on it",
+      "sec": 0.41
+    },
+    "functional_0002": {
+      "alt": "a close up of a blue square with a white arrow",
+      "sec": 0.29
+    },
+    "functional_0003": {
+      "alt": "a close up of a phone with a red circle on it",
+      "sec": 0.3
+    },
+    "functional_0004": {
+      "alt": "a close up of a blue and white house icon on a white background",
+      "sec": 0.33
+    },
+    "functional_0005": {
+      "alt": "a close up of a blue q sign on a white background",
+      "sec": 0.31
+    },
+    "functional_0006": {
+      "alt": "a close up of a white arrow pointing to the left",
+      "sec": 0.31
+    },
+    "functional_0007": {
+      "alt": "a close up of a person ' s avatar on a blue button",
+      "sec": 0.31
+    },
+    "functional_0008": {
+      "alt": "there is a black arrow pointing to the left on a white background",
+      "sec": 0.34
+    },
+    "functional_0009": {
+      "alt": "a close up of a heart icon on a green button",
+      "sec": 0.31
+    },
+    "functional_0010": {
+      "alt": "a close up of a shopping cart icon on a blue square",
+      "sec": 0.31
+    },
+    "functional_0011": {
+      "alt": "a close up of a purple button with a white ribbon",
+      "sec": 0.3
+    },
+    "functional_0012": {
+      "alt": "a close up of a red cross on a white square",
+      "sec": 0.29
+    },
+    "functional_0013": {
+      "alt": "a blue and white logo with a blue and white image of a printer",
+      "sec": 0.32
+    },
+    "functional_0014": {
+      "alt": "a white padlock icon on a black background",
+      "sec": 0.28
+    },
+    "functional_0015": {
+      "alt": "a close up of a blue icon of a funnel on a white background",
+      "sec": 0.33
+    },
+    "functional_0016": {
+      "alt": "a close up of a red arrow pointing up on a pink background",
+      "sec": 0.34
+    },
+    "functional_0017": {
+      "alt": "a red button with a white logo on it",
+      "sec": 0.29
+    },
+    "functional_0018": {
+      "alt": "a close up of a pink square with a question mark on it",
+      "sec": 0.32
+    },
+    "functional_0019": {
+      "alt": "a close up of a red circle with a white line in the middle",
+      "sec": 0.36
+    },
+    "functional_0020": {
+      "alt": "a close up of a blue and white square with a gear symbol",
+      "sec": 0.33
+    },
+    "functional_0021": {
+      "alt": "a close up of a purple and white logo with a diagonal",
+      "sec": 0.31
+    },
+    "functional_0022": {
+      "alt": "a close up of a black and white photo of a cross",
+      "sec": 0.3
+    },
+    "functional_0023": {
+      "alt": "a close up of a green button with a bell on it",
+      "sec": 0.3
+    },
+    "functional_0024": {
+      "alt": "a close up of a blue speaker with a white background",
+      "sec": 0.3
+    },
+    "functional_0025": {
+      "alt": "a close up of a red button with a magnifying glass",
+      "sec": 0.35
+    },
+    "functional_0026": {
+      "alt": "a close up of a red square with a magnifying glass",
+      "sec": 0.34
+    },
+    "functional_0027": {
+      "alt": "a close up of a red circle with a white square in the middle",
+      "sec": 0.35
+    },
+    "functional_0028": {
+      "alt": "a close up of a red and white square with a link symbol",
+      "sec": 0.34
+    },
+    "functional_0029": {
+      "alt": "a close up of a green star on a white background",
+      "sec": 0.31
+    },
+    "functional_0030": {
+      "alt": "a close up of a white arrow on a black background",
+      "sec": 0.3
+    },
+    "functional_0031": {
+      "alt": "a close up of a red and white icon of a trash can",
+      "sec": 0.36
+    },
+    "functional_0032": {
+      "alt": "a close up of a play button on a white background",
+      "sec": 0.31
+    },
+    "functional_0033": {
+      "alt": "a close up of a brown button with a white stripe",
+      "sec": 0.3
+    },
+    "functional_0034": {
+      "alt": "a close up of a purple square with a white arrow",
+      "sec": 0.29
+    },
+    "functional_0035": {
+      "alt": "a close up of a green circle with a white icon of a battery",
+      "sec": 0.35
+    },
+    "functional_0036": {
+      "alt": "a close up of a white arrow on a black background",
+      "sec": 0.32
+    },
+    "functional_0037": {
+      "alt": "a close up of a green ribbon on a white background",
+      "sec": 0.3
+    },
+    "functional_0038": {
+      "alt": "there is a star shaped object with a shadow on it",
+      "sec": 0.29
+    },
+    "functional_0039": {
+      "alt": "a close up of a heart in a blue circle",
+      "sec": 0.29
+    },
+    "functional_0040": {
+      "alt": "a close up of a shopping cart with the words add to cart",
+      "sec": 0.32
+    },
+    "functional_0041": {
+      "alt": "a close up of a red button with a white arrow",
+      "sec": 0.31
+    },
+    "functional_0042": {
+      "alt": "a pink button with the words add a new list on it",
+      "sec": 0.31
+    },
+    "functional_0043": {
+      "alt": "a close up of a pink sign with a black and white logo",
+      "sec": 0.32
+    },
+    "functional_0044": {
+      "alt": "send message button with purple background",
+      "sec": 0.26
+    },
+    "functional_0045": {
+      "alt": "a close up of a green sign with a book a viewing icon",
+      "sec": 0.32
+    },
+    "functional_0046": {
+      "alt": "a close up of a blue sign with a white arrow",
+      "sec": 0.32
+    },
+    "functional_0047": {
+      "alt": "a close up of a blue sign with a clock on it",
+      "sec": 0.31
+    },
+    "functional_0048": {
+      "alt": "a close up of a blue and white sign with a phone",
+      "sec": 0.31
+    },
+    "functional_0049": {
+      "alt": "a red sign with a padlock on it that says continue to payment",
+      "sec": 0.33
+    },
+    "functional_0050": {
+      "alt": "a close up of a green and white sign with a white background",
+      "sec": 0.33
+    },
+    "functional_0051": {
+      "alt": "foxglove studio logo",
+      "sec": 0.25
+    },
+    "functional_0052": {
+      "alt": "tidewater bank logo on a white background",
+      "sec": 0.28
+    },
+    "functional_0053": {
+      "alt": "a close up of a logo with a circle on it",
+      "sec": 0.3
+    },
+    "functional_0054": {
+      "alt": "a close up of a green and white logo with a white background",
+      "sec": 0.32
+    },
+    "functional_0055": {
+      "alt": "a close up of a red and white logo with a white background",
+      "sec": 0.33
+    },
+    "functional_0056": {
+      "alt": "a close up of a logo for bramble grocers",
+      "sec": 0.32
+    },
+    "functional_0057": {
+      "alt": "a close up of a red and white logo with a white background",
+      "sec": 0.34
+    },
+    "functional_0058": {
+      "alt": "a close up of a blue sign with a white and blue logo",
+      "sec": 0.33
+    },
+    "functional_0059": {
+      "alt": "a close up of a black and white logo with a white circle",
+      "sec": 0.35
+    },
+    "functional_0060": {
+      "alt": "a close up of a green sign with a white text",
+      "sec": 0.31
+    },
+    "functional_0061": {
+      "alt": "a close up of a sign with a red background and a white background",
+      "sec": 0.35
+    },
+    "functional_0062": {
+      "alt": "a yellow payfast sign with a black and white logo",
+      "sec": 0.3
+    },
+    "functional_0063": {
+      "alt": "a close up of a button with a white and black logo",
+      "sec": 0.32
+    },
+    "functional_0064": {
+      "alt": "a purple and white sign with a white logo on it",
+      "sec": 0.3
+    },
+    "functional_0065": {
+      "alt": "a close up of a blue sign with a white logo",
+      "sec": 0.3
+    },
+    "informative_0001": {
+      "alt": "a close up of a yellow sun on a white background",
+      "sec": 0.3
+    },
+    "informative_0002": {
+      "alt": "there is a cloud that is shaped like a cloud",
+      "sec": 0.28
+    },
+    "informative_0003": {
+      "alt": "there is a cloud with rain coming out of it",
+      "sec": 0.29
+    },
+    "informative_0004": {
+      "alt": "there is a cloud with three blue dots on it",
+      "sec": 0.29
+    },
+    "informative_0005": {
+      "alt": "there is a cloud with a lightning bolt coming out of it",
+      "sec": 0.3
+    },
+    "informative_0006": {
+      "alt": "there is a cloud with a sun in the middle of it",
+      "sec": 0.31
+    },
+    "informative_0007": {
+      "alt": "there is a picture of a logo with a letter e on it",
+      "sec": 0.33
+    },
+    "informative_0008": {
+      "alt": "there is a cloud that is sitting on top of a table",
+      "sec": 0.33
+    },
+    "informative_0009": {
+      "alt": "five stars are placed in a row on a white background",
+      "sec": 0.3
+    },
+    "informative_0010": {
+      "alt": "five stars are arranged in a row on a white background",
+      "sec": 0.3
+    },
+    "informative_0011": {
+      "alt": "three stars are placed in a row on a white background",
+      "sec": 0.31
+    },
+    "informative_0012": {
+      "alt": "three stars are shown in a row with one star in the middle",
+      "sec": 0.31
+    },
+    "informative_0013": {
+      "alt": "there are five stars that are placed in a row",
+      "sec": 0.31
+    },
+    "informative_0014": {
+      "alt": "three stars are placed in a row on a white background",
+      "sec": 0.3
+    },
+    "informative_0015": {
+      "alt": "a close up of a circle with a purple arrow on it",
+      "sec": 0.32
+    },
+    "informative_0016": {
+      "alt": "a close up of a circle with a percentage sign in the middle",
+      "sec": 0.33
+    },
+    "informative_0017": {
+      "alt": "a close up of a circle with a percentage sign in the middle",
+      "sec": 0.33
+    },
+    "informative_0018": {
+      "alt": "a close up of a circle with a percentage of 75 %",
+      "sec": 0.32
+    },
+    "informative_0019": {
+      "alt": "a close up of a red circle with a white background and a red and white circle with the word 90 %",
+      "sec": 0.59
+    },
+    "informative_0020": {
+      "alt": "a close up of a sign on a white background with a no entry sign",
+      "sec": 0.39
+    },
+    "informative_0021": {
+      "alt": "a close up of a green check mark on a white background",
+      "sec": 0.32
+    },
+    "informative_0022": {
+      "alt": "a close up of a red and white cross sign on a white background",
+      "sec": 0.33
+    },
+    "informative_0023": {
+      "alt": "clock icon with orange circle on white background",
+      "sec": 0.27
+    },
+    "informative_0024": {
+      "alt": "there is a green truck with a black top on a white background",
+      "sec": 0.33
+    },
+    "informative_0025": {
+      "alt": "a close up of a green padlock on a white background",
+      "sec": 0.32
+    },
+    "informative_0026": {
+      "alt": "a close up of a green circle with the word jd in it",
+      "sec": 0.33
+    },
+    "informative_0027": {
+      "alt": "a close up of a white and blue logo with the word ra",
+      "sec": 0.33
+    },
+    "informative_0028": {
+      "alt": "a close up of a green circle with a white mark on it",
+      "sec": 0.33
+    },
+    "informative_0029": {
+      "alt": "a close up of a red stop sign with a white outline",
+      "sec": 0.33
+    },
+    "informative_0030": {
+      "alt": "a close up of a red circle with the letter ls in it",
+      "sec": 0.33
+    },
+    "informative_0031": {
+      "alt": "a close up of a flag of italy on a white background",
+      "sec": 0.32
+    },
+    "informative_0032": {
+      "alt": "a flag of germany with a black, yellow and red stripe",
+      "sec": 0.33
+    },
+    "informative_0033": {
+      "alt": "a close up of a flag with a white and red stripe",
+      "sec": 0.32
+    },
+    "informative_0034": {
+      "alt": "flag of france with a white, red, and blue stripe",
+      "sec": 0.31
+    },
+    "informative_0035": {
+      "alt": "a close up of a flag with a white stripe on it",
+      "sec": 0.34
+    },
+    "informative_0036": {
+      "alt": "flag of ireland with white, green and orange stripes",
+      "sec": 0.3
+    },
+    "informative_0037": {
+      "alt": "a close up of a flag with a yellow and blue stripe",
+      "sec": 0.31
+    },
+    "informative_0038": {
+      "alt": "a close up of a flag with a white background",
+      "sec": 0.3
+    },
+    "informative_0039": {
+      "alt": "there is a red cup with a handle on it",
+      "sec": 0.3
+    },
+    "informative_0040": {
+      "alt": "purple cube with a line in the middle of it",
+      "sec": 0.29
+    },
+    "informative_0041": {
+      "alt": "a close up of a book with a white line on it",
+      "sec": 0.32
+    },
+    "informative_0042": {
+      "alt": "a close up of a bottle of liquid with a green label",
+      "sec": 0.31
+    },
+    "informative_0043": {
+      "alt": "a close up of a green t - shirt on a white background",
+      "sec": 0.34
+    },
+    "informative_0044": {
+      "alt": "there is a red lamp that is on a metal pole",
+      "sec": 0.32
+    },
+    "informative_0045": {
+      "alt": "purple flower in a pot on a white background",
+      "sec": 0.29
+    },
+    "informative_0046": {
+      "alt": "there is a pink cell phone with a white screen on it",
+      "sec": 0.31
+    },
+    "informative_0047": {
+      "alt": "there is a green chair with a black seat on it",
+      "sec": 0.3
+    },
+    "informative_0048": {
+      "alt": "a close up of a camera with a purple lens on a white background",
+      "sec": 0.34
+    },
+    "informative_0049": {
+      "alt": "a blue line with a red pin on it that is going up a graph",
+      "sec": 0.36
+    },
+    "informative_0050": {
+      "alt": "a close up of a line graph with a pin on it",
+      "sec": 0.33
+    },
+    "informative_0051": {
+      "alt": "a picture illustration of a line graph with a pin on it",
+      "sec": 0.32
+    },
+    "informative_0052": {
+      "alt": "a close up of a red line with a pin on it",
+      "sec": 0.32
+    },
+    "informative_0053": {
+      "alt": "a blue and red dotted line with a pin on it",
+      "sec": 0.29
+    },
+    "informative_0054": {
+      "alt": "illustration of a house with a sun in the background",
+      "sec": 0.3
+    },
+    "informative_0055": {
+      "alt": "a close up of a tree with a full moon in the background",
+      "sec": 0.33
+    },
+    "informative_0056": {
+      "alt": "there is a picture of a mountain with a sun in the background",
+      "sec": 0.35
+    },
+    "informative_0057": {
+      "alt": "there is a sailboat floating in the ocean on a sunny day",
+      "sec": 0.34
+    },
+    "informative_0058": {
+      "alt": "night city skyline with skyscrapers and full moon in the sky",
+      "sec": 0.33
+    },
+    "informative_0059": {
+      "alt": "there is a bonfire with a fire in the middle of it",
+      "sec": 0.31
+    },
+    "informative_0060": {
+      "alt": "a close up of a train on a track on a blue background",
+      "sec": 0.35
+    },
+    "decorative_0001": {
+      "alt": "there is a picture of a clock that is on a white wall",
+      "sec": 0.34
+    },
+    "decorative_0002": {
+      "alt": "there is a white wall with a line of lines on it",
+      "sec": 0.33
+    },
+    "decorative_0003": {
+      "alt": "there is a white and blue picture of a man riding a skateboard",
+      "sec": 0.34
+    },
+    "decorative_0004": {
+      "alt": "there is a picture of a man riding a skateboard on a ramp",
+      "sec": 0.35
+    },
+    "decorative_0005": {
+      "alt": "there is a white background with a black and white picture of a cat",
+      "sec": 0.36
+    },
+    "decorative_0006": {
+      "alt": "there is a picture of a line with a blue dot on it",
+      "sec": 0.34
+    },
+    "decorative_0007": {
+      "alt": "there is a picture of a clock that is on a white wall",
+      "sec": 0.34
+    },
+    "decorative_0008": {
+      "alt": "there is a white and blue picture of a man riding a skateboard",
+      "sec": 0.34
+    },
+    "decorative_0009": {
+      "alt": "there is a plane that is flying in the sky with a line of lines",
+      "sec": 0.37
+    },
+    "decorative_0010": {
+      "alt": "there is a white background with a small white object in the middle",
+      "sec": 0.34
+    },
+    "decorative_0011": {
+      "alt": "a close up of a white wall with a clock and a line",
+      "sec": 0.34
+    },
+    "decorative_0012": {
+      "alt": "a close up of a red thread with a needle in it",
+      "sec": 0.32
+    },
+    "decorative_0013": {
+      "alt": "a close up of a red brush with a white background",
+      "sec": 0.31
+    },
+    "decorative_0014": {
+      "alt": "a close up of a red wave on a white background",
+      "sec": 0.3
+    },
+    "decorative_0015": {
+      "alt": "a close up of a toothbrush with a long brown hair",
+      "sec": 0.32
+    },
+    "decorative_0016": {
+      "alt": "there is a red brush that is flying through the air",
+      "sec": 0.31
+    },
+    "decorative_0017": {
+      "alt": "there is a red wave of smoke coming out of a white background",
+      "sec": 0.32
+    },
+    "decorative_0018": {
+      "alt": "arafed red thread with a red thread in the middle",
+      "sec": 0.33
+    },
+    "decorative_0019": {
+      "alt": "there is a long curved object with a black handle",
+      "sec": 0.3
+    },
+    "decorative_0020": {
+      "alt": "there is a green wave of liquid on a white background",
+      "sec": 0.3
+    },
+    "decorative_0021": {
+      "alt": "there is a picture of a circular object with a brown and green color",
+      "sec": 0.34
+    },
+    "decorative_0022": {
+      "alt": "there is a pink circle with a white background and a red circle with a white background",
+      "sec": 0.38
+    },
+    "decorative_0023": {
+      "alt": "there is a blue and green circular object with a white background",
+      "sec": 0.34
+    },
+    "decorative_0024": {
+      "alt": "a close up of a purple and blue circle with a white background",
+      "sec": 0.34
+    },
+    "decorative_0025": {
+      "alt": "there is a green and pink circle with a white background",
+      "sec": 0.32
+    },
+    "decorative_0026": {
+      "alt": "there is a red and purple object with a white background",
+      "sec": 0.3
+    },
+    "decorative_0027": {
+      "alt": "a close up of a blue circle with a white background",
+      "sec": 0.31
+    },
+    "decorative_0028": {
+      "alt": "purple and blue oval object with a white background",
+      "sec": 0.28
+    },
+    "decorative_0029": {
+      "alt": "there is a red circle with a white background and a black cat",
+      "sec": 0.33
+    },
+    "decorative_0030": {
+      "alt": "a close up of a white and orange logo with a brown border",
+      "sec": 0.36
+    },
+    "decorative_0031": {
+      "alt": "a close up of a brown and white logo with a ball",
+      "sec": 0.33
+    },
+    "decorative_0032": {
+      "alt": "there is a brown and white picture of a corner with a brown dot",
+      "sec": 0.34
+    },
+    "decorative_0033": {
+      "alt": "there is a picture of a brown and white logo with a brown circle",
+      "sec": 0.37
+    },
+    "decorative_0034": {
+      "alt": "there is a brown and white picture of a corner with a brown dot",
+      "sec": 0.35
+    },
+    "decorative_0035": {
+      "alt": "there is a brown and white logo with a brown and white design",
+      "sec": 0.34
+    },
+    "decorative_0036": {
+      "alt": "a close up of a white and brown dotted background with circles",
+      "sec": 0.34
+    },
+    "decorative_0037": {
+      "alt": "a close up of a white and green striped background with a line of lines",
+      "sec": 0.34
+    },
+    "decorative_0038": {
+      "alt": "there is a white and blue pattern with circles on it",
+      "sec": 0.33
+    },
+    "decorative_0039": {
+      "alt": "a close up of a white and gray diagonal background with a line",
+      "sec": 0.33
+    },
+    "decorative_0040": {
+      "alt": "a white and gray background with a pattern of circles",
+      "sec": 0.31
+    },
+    "decorative_0041": {
+      "alt": "a close up of a group of toothbrushes on a white surface",
+      "sec": 0.33
+    },
+    "decorative_0042": {
+      "alt": "there is a white and blue dotted background with a small dot pattern",
+      "sec": 0.36
+    },
+    "decorative_0043": {
+      "alt": "a close up of a striped pattern with a white background",
+      "sec": 0.32
+    },
+    "decorative_0044": {
+      "alt": "there is a man riding a snowboard on a snowy slope",
+      "sec": 0.34
+    },
+    "decorative_0045": {
+      "alt": "a close up of a white background with a gray wave",
+      "sec": 0.3
+    },
+    "decorative_0046": {
+      "alt": "there is a snowboarder riding down a snowy hill with a mountain in the background",
+      "sec": 0.37
+    },
+    "decorative_0047": {
+      "alt": "a close up of a white background with a gray wave",
+      "sec": 0.32
+    },
+    "decorative_0048": {
+      "alt": "there is a snowboarder riding down a snowy hill with a blue sky",
+      "sec": 0.36
+    },
+    "decorative_0049": {
+      "alt": "a close up of a white and green chevroned pattern on a white background",
+      "sec": 0.38
+    },
+    "decorative_0050": {
+      "alt": "there is a snowboarder riding down a snowy hill with a mountain in the background",
+      "sec": 0.38
+    },
+    "decorative_0051": {
+      "alt": "a close up of a white and blue chevroned pattern on a white background",
+      "sec": 0.38
+    },
+    "decorative_0052": {
+      "alt": "a close up of a green circle on a white background",
+      "sec": 0.33
+    },
+    "decorative_0053": {
+      "alt": "there is a red square on a white background with a red diamond",
+      "sec": 0.33
+    },
+    "decorative_0054": {
+      "alt": "there is a picture of a red circle on a white background",
+      "sec": 0.32
+    },
+    "decorative_0055": {
+      "alt": "a close up of a video player ' s play button on a white background",
+      "sec": 0.37
+    },
+    "decorative_0056": {
+      "alt": "there is a red dot in the middle of a white background",
+      "sec": 0.33
+    },
+    "decorative_0057": {
+      "alt": "a close up of a red diamond on a white background",
+      "sec": 0.31
+    },
+    "decorative_0058": {
+      "alt": "there is a blue circle on a white background with a black border",
+      "sec": 0.33
+    },
+    "decorative_0059": {
+      "alt": "a close up of a video player ' s play button on a white background",
+      "sec": 0.37
+    },
+    "image_of_text_0001": {
+      "alt": "a close up of a red text on a white background",
+      "sec": 0.31
+    },
+    "image_of_text_0002": {
+      "alt": "a close up of a white background with a black and white logo",
+      "sec": 0.32
+    },
+    "image_of_text_0003": {
+      "alt": "a close up of a white sign with a black and white logo",
+      "sec": 0.34
+    },
+    "image_of_text_0004": {
+      "alt": "a close up of a sign that says lumen health",
+      "sec": 0.31
+    },
+    "image_of_text_0005": {
+      "alt": "tidewater bank logo with a white background",
+      "sec": 0.27
+    },
+    "image_of_text_0006": {
+      "alt": "a close up of a red text that reads foxglove studio",
+      "sec": 0.32
+    },
+    "image_of_text_0007": {
+      "alt": "a close up of a red and white logo with the word copperline",
+      "sec": 0.35
+    },
+    "image_of_text_0008": {
+      "alt": "a close up of a white background with a brown text that says halcyon travel",
+      "sec": 0.38
+    },
+    "image_of_text_0009": {
+      "alt": "a close up of a red and white sign with the words bramble grocers",
+      "sec": 0.4
+    },
+    "image_of_text_0010": {
+      "alt": "a close up of a red and white sign that says quilt and sable",
+      "sec": 0.35
+    },
+    "image_of_text_0011": {
+      "alt": "a close up of a sign with a blue background and a green background",
+      "sec": 0.36
+    },
+    "image_of_text_0012": {
+      "alt": "a green and white banner with the words free shipping over 50",
+      "sec": 0.34
+    },
+    "image_of_text_0013": {
+      "alt": "a close up of a blue and green background with a text saying buy one get one free",
+      "sec": 0.37
+    },
+    "image_of_text_0014": {
+      "alt": "a close up of a red and orange background with a white text that says summer sale starts friday",
+      "sec": 0.41
+    },
+    "image_of_text_0015": {
+      "alt": "a close up of a sign with a sky background and a blue and purple background",
+      "sec": 0.38
+    },
+    "image_of_text_0016": {
+      "alt": "a close up of a purple and blue background with a text that reads members save 20 % today",
+      "sec": 0.43
+    },
+    "image_of_text_0017": {
+      "alt": "a close up of a sign that says last days of the winter sale",
+      "sec": 0.36
+    },
+    "image_of_text_0018": {
+      "alt": "a close up of a sign with a clock on it",
+      "sec": 0.33
+    },
+    "image_of_text_0019": {
+      "alt": "a picture taken from a video of a quote about the best time to plant a tree was twenty years ago",
+      "sec": 0.43
+    },
+    "image_of_text_0020": {
+      "alt": "a close up of a white sheet with a quote on it",
+      "sec": 0.33
+    },
+    "image_of_text_0021": {
+      "alt": "a close up of a person holding a cell phone with a quote",
+      "sec": 0.33
+    },
+    "image_of_text_0022": {
+      "alt": "a picture of a quote on a white background with a black and white image",
+      "sec": 0.36
+    },
+    "image_of_text_0023": {
+      "alt": "a picture taken from a computer screen with a quote on it",
+      "sec": 0.33
+    },
+    "image_of_text_0024": {
+      "alt": "a close up of a quote on a white background with a picture of a clock",
+      "sec": 0.37
+    },
+    "image_of_text_0025": {
+      "alt": "a close up of a white background with a black text that says how our returns work",
+      "sec": 0.39
+    },
+    "image_of_text_0026": {
+      "alt": "a close up of a white background with a black text that says meet the founderss",
+      "sec": 0.39
+    },
+    "image_of_text_0027": {
+      "alt": "a close up of a green and white sign with a question mark",
+      "sec": 0.35
+    },
+    "image_of_text_0028": {
+      "alt": "a close up of a white background with a red text that says what is in the box",
+      "sec": 0.43
+    },
+    "image_of_text_0029": {
+      "alt": "a close up of a blue text that reads our 2016 impact report",
+      "sec": 0.34
+    },
+    "image_of_text_0030": {
+      "alt": "a close up of a white background with a black and white text",
+      "sec": 0.34
+    },
+    "image_of_text_0031": {
+      "alt": "a close up of a picture of a line with a number on it",
+      "sec": 0.35
+    },
+    "image_of_text_0032": {
+      "alt": "arafed image of a pizza sign with a line of pizza",
+      "sec": 0.34
+    },
+    "image_of_text_0033": {
+      "alt": "there is a picture of a picture of a word written in black",
+      "sec": 0.34
+    },
+    "image_of_text_0034": {
+      "alt": "there is a picture of a picture of a clock with the time 8 00",
+      "sec": 0.38
+    },
+    "image_of_text_0035": {
+      "alt": "arafed image of a plane flying in the sky with the word phim79 written on it",
+      "sec": 0.44
+    },
+    "image_of_text_0036": {
+      "alt": "there is a picture of a sign that says javasho",
+      "sec": 0.32
+    },
+    "image_of_text_0037": {
+      "alt": "a close up of a sign with a picture of a bus",
+      "sec": 0.32
+    },
+    "image_of_text_0038": {
+      "alt": "a close up of a white sign with a black and white image",
+      "sec": 0.34
+    },
+    "image_of_text_0039": {
+      "alt": "a close up of a white sign with a black and white image",
+      "sec": 0.35
+    },
+    "image_of_text_0040": {
+      "alt": "a close up of a white sign with a black and white image",
+      "sec": 0.33
+    },
+    "image_of_text_0041": {
+      "alt": "a close up of a sign with a bunch of different numbers",
+      "sec": 0.34
+    },
+    "image_of_text_0042": {
+      "alt": "a close up of a green phone with the number twenty on it",
+      "sec": 0.33
+    },
+    "image_of_text_0043": {
+      "alt": "a close up of a phone with a number on it",
+      "sec": 0.33
+    },
+    "image_of_text_0044": {
+      "alt": "a close up of a phone with the number 555 on it",
+      "sec": 0.34
+    },
+    "image_of_text_0045": {
+      "alt": "a close up of a phone with a call on it",
+      "sec": 0.32
+    },
+    "image_of_text_0046": {
+      "alt": "arafed image of a door open sign with a pink background",
+      "sec": 0.32
+    },
+    "image_of_text_0047": {
+      "alt": "a close up of a thank card with a red and green background",
+      "sec": 0.34
+    },
+    "image_of_text_0048": {
+      "alt": "there is a blue and pink background with the words now hiring bakers",
+      "sec": 0.36
+    },
+    "image_of_text_0049": {
+      "alt": "a close up of a sign that says closed for refuriishment",
+      "sec": 0.35
+    },
+    "image_of_text_0050": {
+      "alt": "a close up of a purple and pink background with a text over it",
+      "sec": 0.36
+    },
+    "image_of_text_0051": {
+      "alt": "a close up of a sign that says join the waiting list",
+      "sec": 0.34
+    },
+    "image_of_text_0052": {
+      "alt": "a close up of a sign with a red frame and a white background",
+      "sec": 0.33
+    },
+    "image_of_text_0053": {
+      "alt": "a green and white poster with a picture of a book club",
+      "sec": 0.33
+    },
+    "image_of_text_0054": {
+      "alt": "a white sign with blue lettering that says winter market",
+      "sec": 0.3
+    },
+    "image_of_text_0055": {
+      "alt": "a close up of a sign with a picture of a horse",
+      "sec": 0.32
+    },
+    "image_of_text_0056": {
+      "alt": "a white and orange sign with a picture of a coffee tasting",
+      "sec": 0.33
+    },
+    "complex_0001": {
+      "alt": "a bar chart showing the total sales by quarter for a home",
+      "sec": 0.32
+    },
+    "complex_0002": {
+      "alt": "a chart showing the number of people who are using the internet",
+      "sec": 0.31
+    },
+    "complex_0003": {
+      "alt": "a bar chart showing the number of weekly signs in each month",
+      "sec": 0.32
+    },
+    "complex_0004": {
+      "alt": "a bar chart showing the number of people who use a floor",
+      "sec": 0.31
+    },
+    "complex_0005": {
+      "alt": "a bar chart showing the number of books that are in the library",
+      "sec": 0.33
+    },
+    "complex_0006": {
+      "alt": "a bar chart showing average delivery time for a restaurant",
+      "sec": 0.31
+    },
+    "complex_0007": {
+      "alt": "a chart showing the number of sites visited by device",
+      "sec": 0.3
+    },
+    "complex_0008": {
+      "alt": "a graph showing the number of people in the rain by month",
+      "sec": 0.31
+    },
+    "complex_0009": {
+      "alt": "a graph showing the number of volunteers by branch",
+      "sec": 0.28
+    },
+    "complex_0010": {
+      "alt": "a bar chart showing the number of errors in a computer",
+      "sec": 0.31
+    },
+    "complex_0011": {
+      "alt": "a chart showing the number of people who use a floor",
+      "sec": 0.3
+    },
+    "complex_0012": {
+      "alt": "arafed bar chart showing the number of books followed by genre",
+      "sec": 0.33
+    },
+    "complex_0013": {
+      "alt": "a chart showing the average delivery time for a food delivery",
+      "sec": 0.32
+    },
+    "complex_0014": {
+      "alt": "arafed bar chart showing the number of sites visited by device",
+      "sec": 0.35
+    },
+    "complex_0015": {
+      "alt": "a chart showing the number of people who are in the rain",
+      "sec": 0.33
+    },
+    "complex_0016": {
+      "alt": "a close up of a bar chart with a number of people on it",
+      "sec": 0.34
+    },
+    "complex_0017": {
+      "alt": "a graph showing the total sales by quarter of the house",
+      "sec": 0.34
+    },
+    "complex_0018": {
+      "alt": "a graph showing the number of people who are using the channel",
+      "sec": 0.32
+    },
+    "complex_0019": {
+      "alt": "a line graph showing the average weekly signups for the month",
+      "sec": 0.31
+    },
+    "complex_0020": {
+      "alt": "a line graph showing the average energy use by floor",
+      "sec": 0.31
+    },
+    "complex_0021": {
+      "alt": "a line graph showing the number of books borrowed by genre",
+      "sec": 0.3
+    },
+    "complex_0022": {
+      "alt": "a graph showing the average delivery time for a restaurant",
+      "sec": 0.3
+    },
+    "complex_0023": {
+      "alt": "a chart of a pie chart with a pie chart of a mobile device",
+      "sec": 0.34
+    },
+    "complex_0024": {
+      "alt": "a pie chart of the month showing the percentage of rainfall by month",
+      "sec": 0.35
+    },
+    "complex_0025": {
+      "alt": "a pie chart of a pie chart with a bunch of different types of people",
+      "sec": 0.37
+    },
+    "complex_0026": {
+      "alt": "a pie chart with a pie chart of errors and errors",
+      "sec": 0.33
+    },
+    "complex_0027": {
+      "alt": "a chart of a pie chart with a pie chart of a pie chart",
+      "sec": 0.33
+    },
+    "complex_0028": {
+      "alt": "a chart of pie chart with a pie chart of the day",
+      "sec": 0.33
+    },
+    "complex_0029": {
+      "alt": "a pie chart of a pie chart with a pie chart of repair completed",
+      "sec": 0.34
+    },
+    "complex_0030": {
+      "alt": "a pie chart of the percentage of newspapers that are currently in the news",
+      "sec": 0.35
+    },
+    "complex_0031": {
+      "alt": "a graph showing the number of errors in a phone",
+      "sec": 0.32
+    },
+    "complex_0032": {
+      "alt": "a chart showing the number of people who are using the phone",
+      "sec": 0.34
+    },
+    "complex_0033": {
+      "alt": "a bar chart showing the number of cups served per day",
+      "sec": 0.3
+    },
+    "complex_0034": {
+      "alt": "a chart showing the number of repairs completed by a company",
+      "sec": 0.32
+    },
+    "complex_0035": {
+      "alt": "a bar chart showing the number of news and news on the internet",
+      "sec": 0.33
+    },
+    "complex_0036": {
+      "alt": "a chart showing the number of people who are using their phones",
+      "sec": 0.32
+    },
+    "complex_0037": {
+      "alt": "a close up of a table with a number of signs on it",
+      "sec": 0.33
+    },
+    "complex_0038": {
+      "alt": "a close up of a table with a number of different types of flooring",
+      "sec": 0.38
+    },
+    "complex_0039": {
+      "alt": "a table with a number of books and a number of books",
+      "sec": 0.32
+    },
+    "complex_0040": {
+      "alt": "a table with a number of hours and hours of delivery",
+      "sec": 0.31
+    },
+    "complex_0041": {
+      "alt": "a table with a number of different devices on it",
+      "sec": 0.3
+    },
+    "complex_0042": {
+      "alt": "a close up of a table with a number of different items",
+      "sec": 0.33
+    },
+    "complex_0043": {
+      "alt": "a diagram of how a return works",
+      "sec": 0.27
+    },
+    "complex_0044": {
+      "alt": "a diagram of a flow of information from a website",
+      "sec": 0.28
+    },
+    "complex_0045": {
+      "alt": "a diagram of a ticket ticket and a ticket ticket",
+      "sec": 0.29
+    },
+    "complex_0046": {
+      "alt": "a diagram of a process of ordering a product",
+      "sec": 0.28
+    },
+    "complex_0047": {
+      "alt": "a diagram of a sign up and sign up process",
+      "sec": 0.29
+    },
+    "complex_0048": {
+      "alt": "a diagram of a process of repair and maintenance of a computer",
+      "sec": 0.32
+    },
+    "complex_0049": {
+      "alt": "a diagram of a store team tree with the names of the customers",
+      "sec": 0.32
+    },
+    "complex_0050": {
+      "alt": "a diagram of a structure with different types of items",
+      "sec": 0.31
+    },
+    "complex_0051": {
+      "alt": "a diagram of a library staff ' s hierarchy with several levels of information",
+      "sec": 0.35
+    },
+    "complex_0052": {
+      "alt": "a diagram of a kitchen roles and the names of the roles",
+      "sec": 0.32
+    },
+    "complex_0053": {
+      "alt": "a diagram of a team lead tree with two tiers",
+      "sec": 0.31
+    },
+    "complex_0054": {
+      "alt": "a line graph showing the number of companies that are selling their products",
+      "sec": 0.31
+    },
+    "complex_0055": {
+      "alt": "a line graph showing the number of project phases in the past",
+      "sec": 0.33
+    },
+    "complex_0056": {
+      "alt": "a line graph showing the history of the building",
+      "sec": 0.28
+    },
+    "complex_0057": {
+      "alt": "a line graph showing the history of the release of the software",
+      "sec": 0.31
+    },
+    "complex_0058": {
+      "alt": "a line graph showing the time of the grant timeline",
+      "sec": 0.29
+    }
+  }
+}

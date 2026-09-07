@@ -1,0 +1,1201 @@
+{
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "condition": "wcag",
+  "prompt": "Write alt text for this image for a screen reader user, following WCAG. If the image is purely decorative, reply exactly: EMPTY. If it is a button or link, give the action it performs, not its appearance. If it contains text, transcribe the text. Be concise.",
+  "device": "mps",
+  "load_sec": 8.5,
+  "outputs": {
+    "functional_0001": {
+      "alt": "Empty",
+      "sec": 0.37
+    },
+    "functional_0002": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "functional_0003": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "functional_0004": {
+      "alt": "House",
+      "sec": 0.27
+    },
+    "functional_0005": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0006": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0007": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0008": {
+      "alt": "Button with an arrow pointing left.",
+      "sec": 0.53
+    },
+    "functional_0009": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0010": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "functional_0011": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "functional_0012": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "functional_0013": {
+      "alt": "Print",
+      "sec": 0.25
+    },
+    "functional_0014": {
+      "alt": "Lock icon. Press enter to unlock.",
+      "sec": 0.61
+    },
+    "functional_0015": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0016": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0017": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0018": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0019": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0020": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0021": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0022": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0023": {
+      "alt": "empty",
+      "sec": 0.29
+    },
+    "functional_0024": {
+      "alt": "Empty",
+      "sec": 0.23
+    },
+    "functional_0025": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0026": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "functional_0027": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "functional_0028": {
+      "alt": "Share",
+      "sec": 0.29
+    },
+    "functional_0029": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "functional_0030": {
+      "alt": "Upload",
+      "sec": 0.3
+    },
+    "functional_0031": {
+      "alt": "Empty",
+      "sec": 0.23
+    },
+    "functional_0032": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0033": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "functional_0034": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0035": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "functional_0036": {
+      "alt": "Upload",
+      "sec": 0.28
+    },
+    "functional_0037": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "functional_0038": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "functional_0039": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "functional_0040": {
+      "alt": "Add to cart",
+      "sec": 0.38
+    },
+    "functional_0041": {
+      "alt": "Download the report",
+      "sec": 0.38
+    },
+    "functional_0042": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "functional_0043": {
+      "alt": "Delete account",
+      "sec": 0.34
+    },
+    "functional_0044": {
+      "alt": "Send message",
+      "sec": 0.33
+    },
+    "functional_0045": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "functional_0046": {
+      "alt": "Upload photos",
+      "sec": 0.32
+    },
+    "functional_0047": {
+      "alt": "Try again",
+      "sec": 0.32
+    },
+    "functional_0048": {
+      "alt": "Print this invoice",
+      "sec": 0.42
+    },
+    "functional_0049": {
+      "alt": "Click to continue payment",
+      "sec": 0.43
+    },
+    "functional_0050": {
+      "alt": "Northwind Tea",
+      "sec": 0.41
+    },
+    "functional_0051": {
+      "alt": "Foxglove Studio",
+      "sec": 0.48
+    },
+    "functional_0052": {
+      "alt": "Tidewater Bank",
+      "sec": 0.44
+    },
+    "functional_0053": {
+      "alt": "Copperline",
+      "sec": 0.41
+    },
+    "functional_0054": {
+      "alt": "Lumen Health",
+      "sec": 0.38
+    },
+    "functional_0055": {
+      "alt": "Halcyon Travel",
+      "sec": 0.5
+    },
+    "functional_0056": {
+      "alt": "Bramble Grocers",
+      "sec": 0.48
+    },
+    "functional_0057": {
+      "alt": "Quill & Sable",
+      "sec": 0.49
+    },
+    "functional_0058": {
+      "alt": "Continue with Nimbus",
+      "sec": 0.45
+    },
+    "functional_0059": {
+      "alt": "Continue with Orbit",
+      "sec": 0.4
+    },
+    "functional_0060": {
+      "alt": "Continue with Kite",
+      "sec": 0.46
+    },
+    "functional_0061": {
+      "alt": "Continue with Vertex",
+      "sec": 0.41
+    },
+    "functional_0062": {
+      "alt": "Click to open the PayFast website.",
+      "sec": 0.61
+    },
+    "functional_0063": {
+      "alt": "SwiftPay",
+      "sec": 0.32
+    },
+    "functional_0064": {
+      "alt": "Mesa Wallet",
+      "sec": 0.39
+    },
+    "functional_0065": {
+      "alt": "Click to visit Harbour Pay.",
+      "sec": 0.53
+    },
+    "informative_0001": {
+      "alt": "empty",
+      "sec": 0.29
+    },
+    "informative_0002": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "informative_0003": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "informative_0004": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "informative_0005": {
+      "alt": "Empty",
+      "sec": 0.39
+    },
+    "informative_0006": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "informative_0007": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "informative_0008": {
+      "alt": "Empty",
+      "sec": 0.39
+    },
+    "informative_0009": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "informative_0010": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "informative_0011": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "informative_0012": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "informative_0013": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "informative_0014": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "informative_0015": {
+      "alt": "25%",
+      "sec": 0.4
+    },
+    "informative_0016": {
+      "alt": "40%",
+      "sec": 0.38
+    },
+    "informative_0017": {
+      "alt": "60%",
+      "sec": 0.38
+    },
+    "informative_0018": {
+      "alt": "75%",
+      "sec": 0.41
+    },
+    "informative_0019": {
+      "alt": "90%",
+      "sec": 0.47
+    },
+    "informative_0020": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "informative_0021": {
+      "alt": "Checkmark",
+      "sec": 0.34
+    },
+    "informative_0022": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "informative_0023": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "informative_0024": {
+      "alt": "empty",
+      "sec": 0.27
+    },
+    "informative_0025": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "informative_0026": {
+      "alt": "JD",
+      "sec": 0.25
+    },
+    "informative_0027": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "informative_0028": {
+      "alt": "MK",
+      "sec": 0.26
+    },
+    "informative_0029": {
+      "alt": "TO",
+      "sec": 0.31
+    },
+    "informative_0030": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "informative_0031": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "informative_0032": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "informative_0033": {
+      "alt": "Poland Flag",
+      "sec": 0.37
+    },
+    "informative_0034": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "informative_0035": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "informative_0036": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "informative_0037": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "informative_0038": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "informative_0039": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "informative_0040": {
+      "alt": "Empty",
+      "sec": 0.34
+    },
+    "informative_0041": {
+      "alt": "Write",
+      "sec": 0.33
+    },
+    "informative_0042": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "informative_0043": {
+      "alt": "empty",
+      "sec": 0.33
+    },
+    "informative_0044": {
+      "alt": "Empty",
+      "sec": 0.33
+    },
+    "informative_0045": {
+      "alt": "Empty",
+      "sec": 0.33
+    },
+    "informative_0046": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "informative_0047": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "informative_0048": {
+      "alt": "Camera Icon",
+      "sec": 0.45
+    },
+    "informative_0049": {
+      "alt": "A dotted line connects two red and blue location markers on a grid.",
+      "sec": 1.08
+    },
+    "informative_0050": {
+      "alt": "A dotted line connects two red location markers on a grid.",
+      "sec": 1.02
+    },
+    "informative_0051": {
+      "alt": "A dashed line connects two red and purple location markers on a grid.",
+      "sec": 1.1
+    },
+    "informative_0052": {
+      "alt": "A dashed line with two red markers, one at the start and one at the end, indicating a route.",
+      "sec": 1.49
+    },
+    "informative_0053": {
+      "alt": "A dashed line connects two red and blue location markers on a grid.",
+      "sec": 1.11
+    },
+    "informative_0054": {
+      "alt": "Empty",
+      "sec": 0.39
+    },
+    "informative_0055": {
+      "alt": "Empty",
+      "sec": 0.38
+    },
+    "informative_0056": {
+      "alt": "Empty",
+      "sec": 0.41
+    },
+    "informative_0057": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "informative_0058": {
+      "alt": "Empty",
+      "sec": 0.41
+    },
+    "informative_0059": {
+      "alt": "Empty",
+      "sec": 0.46
+    },
+    "informative_0060": {
+      "alt": "A bridge with two arches.",
+      "sec": 0.72
+    },
+    "decorative_0001": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0002": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0003": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0004": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "decorative_0005": {
+      "alt": "(1,10),(997,995)",
+      "sec": 0.99
+    },
+    "decorative_0006": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "decorative_0007": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0008": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "decorative_0009": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "decorative_0010": {
+      "alt": "Empty",
+      "sec": 0.33
+    },
+    "decorative_0011": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "decorative_0012": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "decorative_0013": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0014": {
+      "alt": "Empty",
+      "sec": 0.36
+    },
+    "decorative_0015": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "decorative_0016": {
+      "alt": "Empty",
+      "sec": 0.34
+    },
+    "decorative_0017": {
+      "alt": "Empty",
+      "sec": 0.35
+    },
+    "decorative_0018": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "decorative_0019": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "decorative_0020": {
+      "alt": "Empty",
+      "sec": 0.36
+    },
+    "decorative_0021": {
+      "alt": "EMPTY",
+      "sec": 0.55
+    },
+    "decorative_0022": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "decorative_0023": {
+      "alt": "Empty",
+      "sec": 0.32
+    },
+    "decorative_0024": {
+      "alt": "Empty",
+      "sec": 0.55
+    },
+    "decorative_0025": {
+      "alt": "EMPTY",
+      "sec": 0.48
+    },
+    "decorative_0026": {
+      "alt": "Empty",
+      "sec": 0.46
+    },
+    "decorative_0027": {
+      "alt": "EMPTY",
+      "sec": 0.49
+    },
+    "decorative_0028": {
+      "alt": "Empty",
+      "sec": 0.43
+    },
+    "decorative_0029": {
+      "alt": "Empty",
+      "sec": 0.55
+    },
+    "decorative_0030": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0031": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "decorative_0032": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "decorative_0033": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0034": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "decorative_0035": {
+      "alt": "Empty",
+      "sec": 0.31
+    },
+    "decorative_0036": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0037": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "decorative_0038": {
+      "alt": "Empty",
+      "sec": 0.33
+    },
+    "decorative_0039": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0040": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "decorative_0041": {
+      "alt": "Empty",
+      "sec": 0.28
+    },
+    "decorative_0042": {
+      "alt": "Empty",
+      "sec": 0.3
+    },
+    "decorative_0043": {
+      "alt": "Empty",
+      "sec": 0.29
+    },
+    "decorative_0044": {
+      "alt": "Empty",
+      "sec": 0.34
+    },
+    "decorative_0045": {
+      "alt": "(15,10),(985,995)",
+      "sec": 1.04
+    },
+    "decorative_0046": {
+      "alt": "(1,1),(997,995)",
+      "sec": 0.96
+    },
+    "decorative_0047": {
+      "alt": "Empty",
+      "sec": 0.4
+    },
+    "decorative_0048": {
+      "alt": "(1,1),(997,995)",
+      "sec": 0.99
+    },
+    "decorative_0049": {
+      "alt": "(10,10),(990,990)",
+      "sec": 1.11
+    },
+    "decorative_0050": {
+      "alt": "(1,1),(997,995)",
+      "sec": 1.07
+    },
+    "decorative_0051": {
+      "alt": "(10,10),(990,990)",
+      "sec": 1.03
+    },
+    "decorative_0052": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "decorative_0053": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "decorative_0054": {
+      "alt": "Empty",
+      "sec": 0.26
+    },
+    "decorative_0055": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "decorative_0056": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "decorative_0057": {
+      "alt": "Empty",
+      "sec": 0.27
+    },
+    "decorative_0058": {
+      "alt": "Empty",
+      "sec": 0.25
+    },
+    "decorative_0059": {
+      "alt": "Empty",
+      "sec": 0.24
+    },
+    "image_of_text_0001": {
+      "alt": "KESTREL BOOKS",
+      "sec": 0.63
+    },
+    "image_of_text_0002": {
+      "alt": "Northwind Tea",
+      "sec": 0.39
+    },
+    "image_of_text_0003": {
+      "alt": "Marrow & Co",
+      "sec": 0.43
+    },
+    "image_of_text_0004": {
+      "alt": "Lumen Health",
+      "sec": 0.44
+    },
+    "image_of_text_0005": {
+      "alt": "TIDEWATER BANK",
+      "sec": 0.6
+    },
+    "image_of_text_0006": {
+      "alt": "Foxglove Studio",
+      "sec": 0.46
+    },
+    "image_of_text_0007": {
+      "alt": "Copperline",
+      "sec": 0.44
+    },
+    "image_of_text_0008": {
+      "alt": "Halcyon Travel",
+      "sec": 0.53
+    },
+    "image_of_text_0009": {
+      "alt": "Bramble Grocers",
+      "sec": 0.49
+    },
+    "image_of_text_0010": {
+      "alt": "Quill & Sable",
+      "sec": 0.52
+    },
+    "image_of_text_0011": {
+      "alt": "50% OFF this weekend",
+      "sec": 0.67
+    },
+    "image_of_text_0012": {
+      "alt": "Free shipping over 50",
+      "sec": 0.57
+    },
+    "image_of_text_0013": {
+      "alt": "Buy one get one free",
+      "sec": 0.59
+    },
+    "image_of_text_0014": {
+      "alt": "Summer sale starts Friday",
+      "sec": 0.51
+    },
+    "image_of_text_0015": {
+      "alt": "New arrivals every Thursday",
+      "sec": 0.57
+    },
+    "image_of_text_0016": {
+      "alt": "Members save 20% today",
+      "sec": 0.68
+    },
+    "image_of_text_0017": {
+      "alt": "Last 3 days of the winter sale",
+      "sec": 0.71
+    },
+    "image_of_text_0018": {
+      "alt": "Order by 6pm for next day delivery",
+      "sec": 0.81
+    },
+    "image_of_text_0019": {
+      "alt": "The best time to plant a tree was twenty years ago.",
+      "sec": 1.1
+    },
+    "image_of_text_0020": {
+      "alt": "\"We shape our buildings, and afterwards our buildings shape us.\"",
+      "sec": 1.02
+    },
+    "image_of_text_0021": {
+      "alt": "SIMPLICITY IS A GREAT VIRTUE BUT IT REQUIRES HARD WORK. E. DIJKSTRA",
+      "sec": 1.62
+    },
+    "image_of_text_0022": {
+      "alt": "\"A change of perspective is worth 80 IQ points.\"",
+      "sec": 1.12
+    },
+    "image_of_text_0023": {
+      "alt": "\"Everything should be made as simple as possible.\"",
+      "sec": 1.02
+    },
+    "image_of_text_0024": {
+      "alt": "The details are not the details, they make the design. C. Eames",
+      "sec": 1.42
+    },
+    "image_of_text_0025": {
+      "alt": "How our returns work",
+      "sec": 0.48
+    },
+    "image_of_text_0026": {
+      "alt": "MEET THE FOUNDRERS",
+      "sec": 0.59
+    },
+    "image_of_text_0027": {
+      "alt": "Frequently asked questions",
+      "sec": 0.56
+    },
+    "image_of_text_0028": {
+      "alt": "WHAT IS IN THE BOX",
+      "sec": 0.55
+    },
+    "image_of_text_0029": {
+      "alt": "Our 2026 impact report",
+      "sec": 0.82
+    },
+    "image_of_text_0030": {
+      "alt": "Empty",
+      "sec": 0.34
+    },
+    "image_of_text_0031": {
+      "alt": "3mjc6",
+      "sec": 0.43
+    },
+    "image_of_text_0032": {
+      "alt": "EMPTY",
+      "sec": 0.32
+    },
+    "image_of_text_0033": {
+      "alt": "empty",
+      "sec": 0.34
+    },
+    "image_of_text_0034": {
+      "alt": "empty",
+      "sec": 0.34
+    },
+    "image_of_text_0035": {
+      "alt": "empty",
+      "sec": 0.35
+    },
+    "image_of_text_0036": {
+      "alt": "The image contains the text \"javsh9\".",
+      "sec": 0.76
+    },
+    "image_of_text_0037": {
+      "alt": "Kestrel Books\n14 Mill Lane\nBristol BS1 4TR",
+      "sec": 1.06
+    },
+    "image_of_text_0038": {
+      "alt": "Northwind Tea\nUnit 7, Harbour Road\nLeith EH6 6QQ",
+      "sec": 1.11
+    },
+    "image_of_text_0039": {
+      "alt": "Lumen Health\n220 Ashfield Street\nManchester M14 5PP",
+      "sec": 1.17
+    },
+    "image_of_text_0040": {
+      "alt": "Foxglove Studio\n3rd floor, 8 Peach Yard\nLondon E2 8AA",
+      "sec": 1.26
+    },
+    "image_of_text_0041": {
+      "alt": "Bramble Grocers\n44 Market Square\nYork YO1 8SN",
+      "sec": 1.11
+    },
+    "image_of_text_0042": {
+      "alt": "0117 496 2210",
+      "sec": 0.96
+    },
+    "image_of_text_0043": {
+      "alt": "To contact us, call: +44 20 7946 0912",
+      "sec": 1.27
+    },
+    "image_of_text_0044": {
+      "alt": "(555) 014-2200",
+      "sec": 1.01
+    },
+    "image_of_text_0045": {
+      "alt": "0800 555 0199",
+      "sec": 0.88
+    },
+    "image_of_text_0046": {
+      "alt": "doors open at 7",
+      "sec": 0.58
+    },
+    "image_of_text_0047": {
+      "alt": "Thank you for 10 years",
+      "sec": 0.62
+    },
+    "image_of_text_0048": {
+      "alt": "Now hiring bakers",
+      "sec": 0.53
+    },
+    "image_of_text_0049": {
+      "alt": "Closed for refurbishment",
+      "sec": 0.64
+    },
+    "image_of_text_0050": {
+      "alt": "Winter menu is here",
+      "sec": 0.61
+    },
+    "image_of_text_0051": {
+      "alt": "JOIN THE WAITING LIST",
+      "sec": 0.64
+    },
+    "image_of_text_0052": {
+      "alt": "Repair cafe Saturday 14 March, 10am",
+      "sec": 0.96
+    },
+    "image_of_text_0053": {
+      "alt": "Book club Thursday 2 April, 7pm",
+      "sec": 0.92
+    },
+    "image_of_text_0054": {
+      "alt": "Winter market\nSunday 8 December, 11am",
+      "sec": 1.0
+    },
+    "image_of_text_0055": {
+      "alt": "Open studio\nFriday 20 June, 6pm",
+      "sec": 0.95
+    },
+    "image_of_text_0056": {
+      "alt": "Coffee tasting Tuesday 5 May, 5pm",
+      "sec": 0.87
+    },
+    "complex_0001": {
+      "alt": "Total sales by quarter",
+      "sec": 0.78
+    },
+    "complex_0002": {
+      "alt": "Support tickets by channel: tickets\n\n| Channel | Tickets |\n|---|---|\n| Email | 82 |\n| Chat | 47 |\n| Phone | 31 |",
+      "sec": 2.67
+    },
+    "complex_0003": {
+      "alt": "Weekly signups: Signups",
+      "sec": 0.88
+    },
+    "complex_0004": {
+      "alt": "Energy use by floor kWh",
+      "sec": 0.99
+    },
+    "complex_0005": {
+      "alt": "Book borrowed by genre",
+      "sec": 0.95
+    },
+    "complex_0006": {
+      "alt": "Empty",
+      "sec": 0.8
+    },
+    "complex_0007": {
+      "alt": "Site visits by device",
+      "sec": 1.19
+    },
+    "complex_0008": {
+      "alt": "Rainfall by month",
+      "sec": 1.15
+    },
+    "complex_0009": {
+      "alt": "Volunteers by branch people\nLeith 19\nMill Lane 44\nHarbour 26",
+      "sec": 1.91
+    },
+    "complex_0010": {
+      "alt": "Errors per release",
+      "sec": 1.07
+    },
+    "complex_0011": {
+      "alt": "Ground has the highest energy use, followed by First, Second, and Third.",
+      "sec": 1.5
+    },
+    "complex_0012": {
+      "alt": "Books borrowed by genre Fiction 76 History 41 Poetry 22 Science 35",
+      "sec": 1.61
+    },
+    "complex_0013": {
+      "alt": "Empty",
+      "sec": 0.69
+    },
+    "complex_0014": {
+      "alt": "Site visits by device",
+      "sec": 0.97
+    },
+    "complex_0015": {
+      "alt": "Rainfall by month",
+      "sec": 1.17
+    },
+    "complex_0016": {
+      "alt": "Volunteers by branch\nLeith\n19\nMill Lane\n44\nHarbour\n26",
+      "sec": 1.87
+    },
+    "complex_0017": {
+      "alt": "Total sales by quarter",
+      "sec": 1.0
+    },
+    "complex_0018": {
+      "alt": "Support tickets by channel",
+      "sec": 1.11
+    },
+    "complex_0019": {
+      "alt": "Weekly signups",
+      "sec": 0.95
+    },
+    "complex_0020": {
+      "alt": "Energy use by floor",
+      "sec": 0.96
+    },
+    "complex_0021": {
+      "alt": "Books borrowed by genre loans Fiction 76 History 41 Poetry 22 Science 35",
+      "sec": 1.94
+    },
+    "complex_0022": {
+      "alt": "Empty",
+      "sec": 0.96
+    },
+    "complex_0023": {
+      "alt": "Site visits by device\n\n- Mobile 65%\n- Desktop 24%\n- Tablet 11%",
+      "sec": 1.89
+    },
+    "complex_0024": {
+      "alt": "Rainfall by month",
+      "sec": 0.79
+    },
+    "complex_0025": {
+      "alt": "Volunteers by branch\n\nLeith 22%\nMill Lane 49%\nHarbour 29%",
+      "sec": 1.75
+    },
+    "complex_0026": {
+      "alt": "Errors per release\n- v1.2 43%\n- v1.3 30%\n- v1.4 16%\n- v1.5 11%",
+      "sec": 2.42
+    },
+    "complex_0027": {
+      "alt": "Members by plan\n\nFree 54%\nStandard 31%\nPremium 15%",
+      "sec": 1.62
+    },
+    "complex_0028": {
+      "alt": "Empty",
+      "sec": 0.86
+    },
+    "complex_0029": {
+      "alt": "Pie chart showing the percentage of repairs completed by different categories: Bikes (53%), Laptops (24%), Kettles (14%), and Radios (9%).",
+      "sec": 2.5
+    },
+    "complex_0030": {
+      "alt": "Pie chart showing the percentage of newsletter opens for each week:\n- Week 1: 20%\n- Week 2: 27%\n- Week 3: 29%\n- Week 4: 24%",
+      "sec": 2.97
+    },
+    "complex_0031": {
+      "alt": "The bar chart shows the number of errors per release. The x-axis measures the releases, with v1.2 on the left and v1.5 on the right. The y-axis measures the number of errors, with 57 on the left and 14 on the right. The",
+      "sec": 3.71
+    },
+    "complex_0032": {
+      "alt": "Members by plan",
+      "sec": 1.11
+    },
+    "complex_0033": {
+      "alt": "Empty",
+      "sec": 1.06
+    },
+    "complex_0034": {
+      "alt": "Bar chart titled Repairs completed. Bikes is represented by 63, Laptops is represented by 28, Kettles is represented by 17, and Radios is represented by 11.",
+      "sec": 2.77
+    },
+    "complex_0035": {
+      "alt": "Week 1: 42 (Online) 55 (In store) 42 (Phone)\nWeek 2: 55 (Online) 55 (In store) 55 (Phone)\nWeek 3: 61 (Online) 61 (",
+      "sec": 3.56
+    },
+    "complex_0036": {
+      "alt": "(10,10),(988,984)",
+      "sec": 1.62
+    },
+    "complex_0037": {
+      "alt": "Weekly signups",
+      "sec": 0.69
+    },
+    "complex_0038": {
+      "alt": "Ground: 64 Kwh First: 39 Kwh Second: 27 Kwh Third: 18 Kwh",
+      "sec": 1.89
+    },
+    "complex_0039": {
+      "alt": "Empty",
+      "sec": 0.61
+    },
+    "complex_0040": {
+      "alt": "Average delivery time\nName Hours\nNorth 32\nSouth 44\nEast 27\nWest 51",
+      "sec": 1.94
+    },
+    "complex_0041": {
+      "alt": "Site visits by device",
+      "sec": 0.78
+    },
+    "complex_0042": {
+      "alt": "Rainfall by month",
+      "sec": 1.02
+    },
+    "complex_0043": {
+      "alt": "Request -> Print label -> Post it -> Refund",
+      "sec": 1.19
+    },
+    "complex_0044": {
+      "alt": "Draft, Review, Edit, Publish",
+      "sec": 0.82
+    },
+    "complex_0045": {
+      "alt": "Support escalation process: Ticket \u2192 Triage \u2192 Specialist",
+      "sec": 0.93
+    },
+    "complex_0046": {
+      "alt": "Order pipeline\nPlaced\nPicked\nPacked\nShipped",
+      "sec": 1.26
+    },
+    "complex_0047": {
+      "alt": "Sign up, Verify email, Add details",
+      "sec": 0.88
+    },
+    "complex_0048": {
+      "alt": "Repair intake\nBook slot\nAssess\nQuote\nFix",
+      "sec": 1.23
+    },
+    "complex_0049": {
+      "alt": "Store team\nManager\nBakery\nDeli\nCheckout",
+      "sec": 1.24
+    },
+    "complex_0050": {
+      "alt": "Studio structure\n\nDirector\n\nDesign\n\nBuild\n\nAccounts",
+      "sec": 1.11
+    },
+    "complex_0051": {
+      "alt": "Empty",
+      "sec": 0.7
+    },
+    "complex_0052": {
+      "alt": "Head chef",
+      "sec": 0.82
+    },
+    "complex_0053": {
+      "alt": "Support desk\nTeam lead\nTier 1\nTier 2",
+      "sec": 1.11
+    },
+    "complex_0054": {
+      "alt": "2016: First shop\n2019: Online store\n2022: Second shop\n2025: Repair service",
+      "sec": 2.06
+    },
+    "complex_0055": {
+      "alt": "Project phases\n2023\nResearch\n2024\nPilot\n2026\nRollout",
+      "sec": 1.72
+    },
+    "complex_0056": {
+      "alt": "1904 Built\n1962 Extended\n2011 Restored",
+      "sec": 1.49
+    },
+    "complex_0057": {
+      "alt": "Release history\n2021 Beta\n2022 Version 1\n2024 Version 2\n2026 Version 3",
+      "sec": 2.16
+    },
+    "complex_0058": {
+      "alt": "Empty",
+      "sec": 0.79
+    }
+  }
+}

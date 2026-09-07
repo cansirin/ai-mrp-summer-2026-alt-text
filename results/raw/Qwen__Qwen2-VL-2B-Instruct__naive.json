@@ -1,0 +1,1201 @@
+{
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "condition": "naive",
+  "prompt": "Write alt text for this image.",
+  "device": "mps",
+  "load_sec": 6.0,
+  "outputs": {
+    "functional_0001": {
+      "alt": "A green oval button with a white envelope icon in the center.",
+      "sec": 0.84
+    },
+    "functional_0002": {
+      "alt": "The image depicts a blue square with an arrow pointing upwards, which is commonly associated with sharing or exporting content.",
+      "sec": 1.09
+    },
+    "functional_0003": {
+      "alt": "A red phone icon on a white background.",
+      "sec": 0.56
+    },
+    "functional_0004": {
+      "alt": "A blue line icon of a house.",
+      "sec": 0.78
+    },
+    "functional_0005": {
+      "alt": "A blue speech bubble icon with a white background.",
+      "sec": 0.59
+    },
+    "functional_0006": {
+      "alt": "The image shows a dark blue rectangular shape with a white arrow pointing to the right.",
+      "sec": 1.06
+    },
+    "functional_0007": {
+      "alt": "A blue square with a white outline, featuring a person icon inside.",
+      "sec": 0.77
+    },
+    "functional_0008": {
+      "alt": "The image shows a simple, minimalist icon with a left-pointing arrow. The arrow is black and has a simple, clean design, with no additional elements or colors. The arrow is positioned in the lower left corner of the image.",
+      "sec": 2.2
+    },
+    "functional_0009": {
+      "alt": "The image depicts a green oval shape with a white heart inside it. The heart is centered within the oval, and the background is solid green. The overall design is simple and minimalistic.",
+      "sec": 2.08
+    },
+    "functional_0010": {
+      "alt": "A blue icon of a shopping cart on a white background.",
+      "sec": 0.71
+    },
+    "functional_0011": {
+      "alt": "A purple circle with a white bookmark icon inside it.",
+      "sec": 0.65
+    },
+    "functional_0012": {
+      "alt": "The image shows a red \"X\" in a white square, which is commonly used to indicate the \"not selected\" or \"not applicable\" option in various forms of data entry or surveys.",
+      "sec": 2.0
+    },
+    "functional_0013": {
+      "alt": "A blue and white icon of a printer.",
+      "sec": 0.56
+    },
+    "functional_0014": {
+      "alt": "A dark blue computer mousepad with a white lock icon in the center.",
+      "sec": 0.86
+    },
+    "functional_0015": {
+      "alt": "A blue icon of a funnel with a stream of data flowing through it.",
+      "sec": 0.84
+    },
+    "functional_0016": {
+      "alt": "A red download icon on a pink background.",
+      "sec": 0.57
+    },
+    "functional_0017": {
+      "alt": "The image depicts a pink, circular icon with a white outline. The icon resembles a map or a compass, suggesting themes of navigation, direction, or exploration.",
+      "sec": 1.62
+    },
+    "functional_0018": {
+      "alt": "A pink square icon with a question mark inside it.",
+      "sec": 0.66
+    },
+    "functional_0019": {
+      "alt": "The image shows a red circular button with a white line in the center, resembling a menu icon.",
+      "sec": 1.05
+    },
+    "functional_0020": {
+      "alt": "A line drawing of a gear with a wrench or screwdriver icon, representing the concept of setting or adjusting settings.",
+      "sec": 1.14
+    },
+    "functional_0021": {
+      "alt": "A white and red icon of a pencil with a checkmark, representing the ability to write or edit content.",
+      "sec": 1.1
+    },
+    "functional_0022": {
+      "alt": "The image shows a white plus sign on a black background.",
+      "sec": 0.72
+    },
+    "functional_0023": {
+      "alt": "A green and white bell icon.",
+      "sec": 0.51
+    },
+    "functional_0024": {
+      "alt": "The image shows a blue square with a white cross inside it. The cross is placed over a white background, and the square is outlined in blue.",
+      "sec": 1.47
+    },
+    "functional_0025": {
+      "alt": "A red, rounded, rectangular button with a white search icon in the center.",
+      "sec": 0.85
+    },
+    "functional_0026": {
+      "alt": "A red square icon with a white plus sign inside it.",
+      "sec": 0.69
+    },
+    "functional_0027": {
+      "alt": "The image depicts a simple icon representing the concept of \"split screen\" or \"split view.\" The icon consists of two squares, one inside the other, symbolizing the idea of having two separate windows or screens side by side. The color of the icon is a warm orange, which could be interpreted",
+      "sec": 2.75
+    },
+    "functional_0028": {
+      "alt": "A red square with a white border contains a red icon of three interconnected circles, representing the sharing symbol.",
+      "sec": 1.12
+    },
+    "functional_0029": {
+      "alt": "A green star icon.",
+      "sec": 0.43
+    },
+    "functional_0030": {
+      "alt": "A computer mouse with a white \"upload\" icon on it.",
+      "sec": 0.75
+    },
+    "functional_0031": {
+      "alt": "Trash can icon.",
+      "sec": 0.34
+    },
+    "functional_0032": {
+      "alt": "A purple play button icon on a light purple background.",
+      "sec": 0.68
+    },
+    "functional_0033": {
+      "alt": "The image shows a brown oval button with a white \"Pause\" icon in the center.",
+      "sec": 1.08
+    },
+    "functional_0034": {
+      "alt": "A purple icon with a white square and a white circle inside, representing a refresh or reload symbol.",
+      "sec": 1.03
+    },
+    "functional_0035": {
+      "alt": "A green circle with a white calendar icon inside it.",
+      "sec": 0.63
+    },
+    "functional_0036": {
+      "alt": "A dark blue icon with a white up arrow, representing the action of uploading or posting something.",
+      "sec": 1.01
+    },
+    "functional_0037": {
+      "alt": "A green bookmark icon on a light blue background.",
+      "sec": 0.63
+    },
+    "functional_0038": {
+      "alt": "A small, brown, star-shaped object.",
+      "sec": 0.76
+    },
+    "functional_0039": {
+      "alt": "A blue circle with a heart inside it.",
+      "sec": 0.55
+    },
+    "functional_0040": {
+      "alt": "A light purple button with a shopping cart icon and the text \"Add to cart\" on a white background.",
+      "sec": 1.14
+    },
+    "functional_0041": {
+      "alt": "Download the report",
+      "sec": 0.43
+    },
+    "functional_0042": {
+      "alt": "Add a new list",
+      "sec": 0.38
+    },
+    "functional_0043": {
+      "alt": "Delete account",
+      "sec": 0.28
+    },
+    "functional_0044": {
+      "alt": "Send message",
+      "sec": 0.3
+    },
+    "functional_0045": {
+      "alt": "Book a viewing",
+      "sec": 0.32
+    },
+    "functional_0046": {
+      "alt": "Upload photos",
+      "sec": 0.28
+    },
+    "functional_0047": {
+      "alt": "The image shows a blue button with the text \"Try again\" written on it. The button is designed to be clickable and is likely used to prompt users to attempt the action again if they have encountered an error or encountered a problem.",
+      "sec": 2.24
+    },
+    "functional_0048": {
+      "alt": "Print this invoice",
+      "sec": 0.37
+    },
+    "functional_0049": {
+      "alt": "The image shows a red button with a white icon of a lock and the text \"Continue to payment.\"",
+      "sec": 1.12
+    },
+    "functional_0050": {
+      "alt": "The text \"Northwind Tea\" is displayed in a green font on a white background.",
+      "sec": 1.07
+    },
+    "functional_0051": {
+      "alt": "The logo for \"Foxglove Studio\" features a brown square with a white border. The text \"Foxglove Studio\" is written in a simple, sans-serif font in a light brown color. The overall design is clean and modern.",
+      "sec": 2.46
+    },
+    "functional_0052": {
+      "alt": "Tidewater Bank",
+      "sec": 0.39
+    },
+    "functional_0053": {
+      "alt": "The logo for Copperline is a dark blue circle with a white dot inside it. The text \"Copperline\" is written in white, uppercase letters.",
+      "sec": 1.65
+    },
+    "functional_0054": {
+      "alt": "Lumen Health",
+      "sec": 0.33
+    },
+    "functional_0055": {
+      "alt": "Halcyon Travel",
+      "sec": 0.52
+    },
+    "functional_0056": {
+      "alt": "The logo for Bramble Grocers features a blue circle with a white dot inside it. The text \"Bramble Grocers\" is written in white, uppercase letters.",
+      "sec": 1.71
+    },
+    "functional_0057": {
+      "alt": "The logo for Quill & Sable, which is a company that provides a range of services related to the creation and management of websites.",
+      "sec": 1.51
+    },
+    "functional_0058": {
+      "alt": "A blue button with a white \"N\" in the center and the text \"Continue with Nimbus\" written in white.",
+      "sec": 1.33
+    },
+    "functional_0059": {
+      "alt": "\"Continue with Orbit\"",
+      "sec": 0.48
+    },
+    "functional_0060": {
+      "alt": "The image contains a green rectangular button with a white \"K\" in the center. The text \"Continue with Kite\" is written in white, bold, and uppercase letters. The button is designed to be clickable and is likely part of a website or application.",
+      "sec": 2.59
+    },
+    "functional_0061": {
+      "alt": "Continue with Vertex",
+      "sec": 0.4
+    },
+    "functional_0062": {
+      "alt": "PayFast",
+      "sec": 0.27
+    },
+    "functional_0063": {
+      "alt": "SwiftPay is a payment gateway that allows businesses to accept payments from customers through their website. It provides a secure and reliable way for businesses to process payments, and it can be integrated with a variety of payment methods, including credit and debit cards, PayPal, and other payment gateways. SwiftPay also",
+      "sec": 2.74
+    },
+    "functional_0064": {
+      "alt": "\"Mesa Wallet\"",
+      "sec": 0.41
+    },
+    "functional_0065": {
+      "alt": "The image shows a blue button with the text \"Harbour Pay\" written on it. The button is likely a logo or icon for a company or service related to \"Harbour Pay.\"",
+      "sec": 1.85
+    },
+    "informative_0001": {
+      "alt": "The image shows a simple, flat design icon of a sun. The sun is depicted in a bright yellow color, with a gradient effect that transitions from a lighter shade at the top to a darker shade at the bottom. The sun is centered in the image, with a clean and minimalistic design.",
+      "sec": 2.78
+    },
+    "informative_0002": {
+      "alt": "A simple, flat icon of a cloud.",
+      "sec": 0.61
+    },
+    "informative_0003": {
+      "alt": "A simple icon representing a rain cloud with raindrops falling from it.",
+      "sec": 0.76
+    },
+    "informative_0004": {
+      "alt": "A small, gray cloud with a few blue dots falling from it, against a light pink background.",
+      "sec": 1.17
+    },
+    "informative_0005": {
+      "alt": "A light grey cloud with a yellow lightning bolt coming out of it.",
+      "sec": 0.92
+    },
+    "informative_0006": {
+      "alt": "A simple, flat icon of a sun and a cloud.",
+      "sec": 0.73
+    },
+    "informative_0007": {
+      "alt": "The image features a simple, minimalist design with a blue and white color scheme. The background is a solid blue color, and the text \"e\" is written in a white, sans-serif font. The \"e\" is composed of three horizontal lines, creating a sense of movement and dynamism.",
+      "sec": 2.84
+    },
+    "informative_0008": {
+      "alt": "A cloud icon with a blue background and a white outline.",
+      "sec": 0.84
+    },
+    "informative_0009": {
+      "alt": "A set of five black stars arranged in a horizontal line.",
+      "sec": 0.68
+    },
+    "informative_0010": {
+      "alt": "A set of five star ratings, with the fifth star being a silver color.",
+      "sec": 0.85
+    },
+    "informative_0011": {
+      "alt": "Three stars with a yellow background and one star with a gray background.",
+      "sec": 0.77
+    },
+    "informative_0012": {
+      "alt": "Rating stars.",
+      "sec": 0.29
+    },
+    "informative_0013": {
+      "alt": "The image shows a five-star rating system with one star highlighted in black.",
+      "sec": 0.8
+    },
+    "informative_0014": {
+      "alt": "A set of five stars, with the fifth star being gray, representing a rating of one star.",
+      "sec": 1.06
+    },
+    "informative_0015": {
+      "alt": "A circular progress bar with a purple fill, indicating 25% completion.",
+      "sec": 0.89
+    },
+    "informative_0016": {
+      "alt": "The image shows a circular progress bar with a 40% filled section. The bar is green with a darker green inner circle and a lighter green outer circle. The background of the image is white.",
+      "sec": 2.01
+    },
+    "informative_0017": {
+      "alt": "The image shows a circular progress bar with 60% filled. The background is white, and the bar is black. The text \"60%\" is written inside the bar.",
+      "sec": 1.88
+    },
+    "informative_0018": {
+      "alt": "The image shows a circular progress bar with 75% filled in. The bar is divided into two sections: the left section is filled with a lighter shade of gray, and the right section is filled with a darker shade of gray. The background of the progress bar is a solid color, and",
+      "sec": 2.91
+    },
+    "informative_0019": {
+      "alt": "The image shows a red and white circular progress bar with 90% filled. The background is white, and the text \"90%\" is displayed inside the bar.",
+      "sec": 1.88
+    },
+    "informative_0020": {
+      "alt": "The image shows a white circle with a red line through it, which is commonly used to indicate prohibition or restriction. This symbol is often used in various contexts to denote something that is not allowed or is not permitted.",
+      "sec": 2.11
+    },
+    "informative_0021": {
+      "alt": "A green circle with a checkmark inside it.",
+      "sec": 0.67
+    },
+    "informative_0022": {
+      "alt": "The image shows a red circle with a white cross inside it. The cross is a universally recognized symbol for \"not\" or \"no.\"",
+      "sec": 1.39
+    },
+    "informative_0023": {
+      "alt": "A simple, minimalist icon of a clock with a white background and a light gray border. The clock face is white with black numbers and hands. The clock is shown in a 12-hour format.",
+      "sec": 1.96
+    },
+    "informative_0024": {
+      "alt": "A green truck icon on a white background.",
+      "sec": 0.57
+    },
+    "informative_0025": {
+      "alt": "A green icon of a padlock on a white background.",
+      "sec": 0.68
+    },
+    "informative_0026": {
+      "alt": "The image shows a green circle with the letters \"JD\" in white text.",
+      "sec": 0.85
+    },
+    "informative_0027": {
+      "alt": "The image shows a white circle with the letters \"RA\" written inside it. The background of the circle is a gradient of dark blue to light blue, creating a subtle contrast.",
+      "sec": 1.83
+    },
+    "informative_0028": {
+      "alt": "MK",
+      "sec": 0.21
+    },
+    "informative_0029": {
+      "alt": "The image shows a red circle with the word \"TO\" written inside it.",
+      "sec": 0.9
+    },
+    "informative_0030": {
+      "alt": "The image features a circular icon with a brown background and a white border. Inside the circle, there is a white text that reads \"LS.\" The overall design is simple and minimalistic.",
+      "sec": 1.82
+    },
+    "informative_0031": {
+      "alt": "The image displays a flag with the colors red, white, and green, commonly associated with the Italian flag. The flag is rectangular and has a white background with the colors of the Italian flag: red for the horizontal stripes, white for the vertical stripes, and green for the canton. The flag",
+      "sec": 2.81
+    },
+    "informative_0032": {
+      "alt": "The image displays a flag with three horizontal stripes: the top and bottom stripes are red, and the middle stripe is black.",
+      "sec": 1.33
+    },
+    "informative_0033": {
+      "alt": "The image depicts a flag with two horizontal stripes, one red and one white.",
+      "sec": 0.93
+    },
+    "informative_0034": {
+      "alt": "The image displays a flag with three horizontal stripes: the top and bottom stripes are white, and the middle stripe is red. The flag is centered on a white background.",
+      "sec": 1.78
+    },
+    "informative_0035": {
+      "alt": "Austria flag with red and white stripes.",
+      "sec": 0.79
+    },
+    "informative_0036": {
+      "alt": "The image displays a flag with three horizontal stripes of green, white, and orange. The green stripe is on the left, the white stripe is in the middle, and the orange stripe is on the right. The flag has a white cross in the center, which is divided into four equal parts by",
+      "sec": 3.25
+    },
+    "informative_0037": {
+      "alt": "The image depicts a flag with two horizontal stripes: one yellow and the other blue. The yellow stripe is on the left side, and the blue stripe is on the right side. The flag has a simple design with no additional symbols or text.",
+      "sec": 3.42
+    },
+    "informative_0038": {
+      "alt": "The image displays a flag with three horizontal stripes: red, white, and blue. The red stripe is on the left, the white stripe is in the middle, and the blue stripe is on the right. The flag has a simple design with a white background.",
+      "sec": 3.74
+    },
+    "informative_0039": {
+      "alt": "A red, cylindrical mug with a handle on the right side.",
+      "sec": 1.46
+    },
+    "informative_0040": {
+      "alt": "A purple envelope with a white background.",
+      "sec": 1.26
+    },
+    "informative_0041": {
+      "alt": "Book icon. Simple element illustration.",
+      "sec": 1.02
+    },
+    "informative_0042": {
+      "alt": "A green bottle with a white stripe on the front, sitting on a white background.",
+      "sec": 1.85
+    },
+    "informative_0043": {
+      "alt": "A green t-shirt with a white background.",
+      "sec": 1.39
+    },
+    "informative_0044": {
+      "alt": "A simple, flat design illustration of a table lamp. The lamp has a red shade and a grey base. The lamp is placed on a white background.",
+      "sec": 2.67
+    },
+    "informative_0045": {
+      "alt": "A purple potted plant with brown leaves sits on a white background.",
+      "sec": 1.22
+    },
+    "informative_0046": {
+      "alt": "A pink smartphone with a blank screen, isolated on a white background.",
+      "sec": 1.36
+    },
+    "informative_0047": {
+      "alt": "A green chair with four legs.",
+      "sec": 0.68
+    },
+    "informative_0048": {
+      "alt": "A purple camera icon with a black strap and a white background.",
+      "sec": 1.89
+    },
+    "informative_0049": {
+      "alt": "A graphical representation of a route with two markers, one red and one blue, indicating the start and end points of the journey.",
+      "sec": 2.83
+    },
+    "informative_0050": {
+      "alt": "A dashed line with two red markers representing a route or path.",
+      "sec": 1.55
+    },
+    "informative_0051": {
+      "alt": "A line connecting two red location markers with a purple dashed line, indicating a journey or path between the two points.",
+      "sec": 2.29
+    },
+    "informative_0052": {
+      "alt": "A red dashed line with two red markers at the ends, representing a route or path.",
+      "sec": 1.64
+    },
+    "informative_0053": {
+      "alt": "A graphical representation of a route with two markers, one red and one blue, indicating the start and end points of the journey.",
+      "sec": 2.94
+    },
+    "informative_0054": {
+      "alt": "A simple, minimalist illustration of a house with a brown roof and door, set against a yellow and green background with a large orange sun in the sky.",
+      "sec": 2.82
+    },
+    "informative_0055": {
+      "alt": "A cartoon illustration of a tree with green leaves and a full moon in the background. The tree is on the left side of the image, and the moon is on the right side. The background is dark, suggesting it is nighttime.",
+      "sec": 3.74
+    },
+    "informative_0056": {
+      "alt": "A minimalist landscape illustration featuring a mountain range with a prominent sun in the background. The mountains are rendered in shades of gray and brown, with the sun casting a warm orange glow. The overall style is abstract and modern, with clean lines and a simple color palette.",
+      "sec": 4.03
+    },
+    "informative_0057": {
+      "alt": "A simple, flat illustration of a sailboat on the water. The boat is brown with a white sail and is floating on the water. The background is a light blue sky.",
+      "sec": 2.51
+    },
+    "informative_0058": {
+      "alt": "A nighttime cityscape with a full moon in the sky. The buildings are illuminated by streetlights, creating a silhouette effect. The sky is dark blue, and the buildings are a gradient of dark blue to lighter blue, with some buildings having a golden glow from the streetlights. The moon is bright",
+      "sec": 3.76
+    },
+    "informative_0059": {
+      "alt": "A cartoon illustration of a small, orange tent pitched on a stick, set against a dark night sky filled with stars.",
+      "sec": 2.54
+    },
+    "informative_0060": {
+      "alt": "A bridge with two arches, supported by pillars, spanning a body of water.",
+      "sec": 2.19
+    },
+    "decorative_0001": {
+      "alt": "The image contains a single orange dot on a white background.",
+      "sec": 1.39
+    },
+    "decorative_0002": {
+      "alt": "The image shows a white diamond with a blue background.",
+      "sec": 1.21
+    },
+    "decorative_0003": {
+      "alt": "The image shows a horizontal line of text.",
+      "sec": 0.77
+    },
+    "decorative_0004": {
+      "alt": "The image shows a series of horizontal lines, each line being a single pixel wide. The lines are evenly spaced and run from the top to the bottom of the image. The lines are light blue in color.",
+      "sec": 2.83
+    },
+    "decorative_0005": {
+      "alt": "The image shows a horizontal line of text that reads \"(10,10),(990,990).\"",
+      "sec": 2.4
+    },
+    "decorative_0006": {
+      "alt": "The image shows a horizontal line with a small dot at the end.",
+      "sec": 1.21
+    },
+    "decorative_0007": {
+      "alt": "A diamond-shaped design with a peach-colored line running through it.",
+      "sec": 1.33
+    },
+    "decorative_0008": {
+      "alt": "The image shows a horizontal line of text.",
+      "sec": 1.27
+    },
+    "decorative_0009": {
+      "alt": "The image shows a horizontal line with a dashed pattern.",
+      "sec": 1.31
+    },
+    "decorative_0010": {
+      "alt": "The image shows a horizontal blue line.",
+      "sec": 0.98
+    },
+    "decorative_0011": {
+      "alt": "A horizontal line with a small dot at the end.",
+      "sec": 1.08
+    },
+    "decorative_0012": {
+      "alt": "A simple, curved line with a small dot at the beginning and a small dot at the end. The line is pink and has a smooth, flowing appearance.",
+      "sec": 2.57
+    },
+    "decorative_0013": {
+      "alt": "A red, wavy line with a small dot at the end.",
+      "sec": 1.14
+    },
+    "decorative_0014": {
+      "alt": "A horizontal line with a wavy, glowing pink line running through it.",
+      "sec": 1.38
+    },
+    "decorative_0015": {
+      "alt": "A wavy, brown, string-like object with two ends, one at the top and one at the bottom, against a white background.",
+      "sec": 2.11
+    },
+    "decorative_0016": {
+      "alt": "A red, curved line with a small dot at the end on a white background.",
+      "sec": 1.58
+    },
+    "decorative_0017": {
+      "alt": "A curved line with a small dot at the end, resembling a wave or a ribbon.",
+      "sec": 1.54
+    },
+    "decorative_0018": {
+      "alt": "A red, wavy line on a white background.",
+      "sec": 0.93
+    },
+    "decorative_0019": {
+      "alt": "A purple, wavy line with two small dots at the ends, creating a simple, abstract design.",
+      "sec": 2.1
+    },
+    "decorative_0020": {
+      "alt": "A green, wavy line with a small green dot at the end.",
+      "sec": 1.47
+    },
+    "decorative_0021": {
+      "alt": "A gradient-colored oval shape with a gradient from light green at the top to a darker green at the bottom. The background is a light purple color.",
+      "sec": 3.38
+    },
+    "decorative_0022": {
+      "alt": "A pink and purple gradient oval shape on a white background.",
+      "sec": 0.9
+    },
+    "decorative_0023": {
+      "alt": "A blurred, soft-focused image of a green and blue gradient oval shape on a white background.",
+      "sec": 1.6
+    },
+    "decorative_0024": {
+      "alt": "A gradient-colored abstract shape with a gradient from purple to light blue.",
+      "sec": 1.62
+    },
+    "decorative_0025": {
+      "alt": "The image is an oval shape with a gradient coloration. The top part of the oval is a light pink color, transitioning to a greenish-blue color towards the bottom. The background is white, and the oval is centered within the image.",
+      "sec": 3.39
+    },
+    "decorative_0026": {
+      "alt": "A blurred, abstract image of a pink and purple gradient shape on a white background.",
+      "sec": 1.81
+    },
+    "decorative_0027": {
+      "alt": "A blue and green gradient circle with a light blue background.",
+      "sec": 2.04
+    },
+    "decorative_0028": {
+      "alt": "A gradient of purple shades on a white background.",
+      "sec": 0.99
+    },
+    "decorative_0029": {
+      "alt": "A blurred, circular shape with a gradient from a lighter orange at the top to a darker orange at the bottom.",
+      "sec": 1.86
+    },
+    "decorative_0030": {
+      "alt": "A simple geometric shape, likely a corner or a corner of a room, with a small dot or dot-like object at the top right corner. The background is white.",
+      "sec": 2.54
+    },
+    "decorative_0031": {
+      "alt": "A geometric design featuring a brown and gold color scheme, consisting of a curved line with a small, round, gold-colored dot at the end.",
+      "sec": 1.67
+    },
+    "decorative_0032": {
+      "alt": "A brown and white graphic of a corner with a small white dot in the middle.",
+      "sec": 1.29
+    },
+    "decorative_0033": {
+      "alt": "The image depicts a simple geometric shape consisting of two lines forming a right angle at the top, with a small circle at the bottom. The lines are colored in a gradient of brown shades, transitioning from a lighter brown at the top to a darker brown at the bottom. The circle is positioned at the",
+      "sec": 3.66
+    },
+    "decorative_0034": {
+      "alt": "A brown and white graphic of a corner with a small white dot in the middle.",
+      "sec": 1.38
+    },
+    "decorative_0035": {
+      "alt": "A stylized image of a ball on a curved surface, with a small dot representing the ball's position. The background is plain white.",
+      "sec": 2.02
+    },
+    "decorative_0036": {
+      "alt": "A light beige background with a repeating pattern of small, round, beige dots.",
+      "sec": 1.59
+    },
+    "decorative_0037": {
+      "alt": "The image features a light green diagonal stripe pattern.",
+      "sec": 0.7
+    },
+    "decorative_0038": {
+      "alt": "A white and gray abstract pattern with a grid of small circles and dots.",
+      "sec": 1.34
+    },
+    "decorative_0039": {
+      "alt": "A white background with diagonal lines in shades of gray.",
+      "sec": 1.28
+    },
+    "decorative_0040": {
+      "alt": "A light blue and white abstract pattern featuring small, round shapes that create a sense of depth and movement.",
+      "sec": 1.88
+    },
+    "decorative_0041": {
+      "alt": "A horizontal line of diagonal lines in a light brown color, creating a diagonal pattern.",
+      "sec": 1.09
+    },
+    "decorative_0042": {
+      "alt": "A white background with a pattern of small, light blue dots arranged in a grid.",
+      "sec": 1.3
+    },
+    "decorative_0043": {
+      "alt": "A horizontal stripe pattern with alternating light and dark beige lines.",
+      "sec": 1.44
+    },
+    "decorative_0044": {
+      "alt": "The image is a placeholder with a light blue gradient background featuring a subtle wave pattern.",
+      "sec": 1.67
+    },
+    "decorative_0045": {
+      "alt": "A zigzag pattern in a light gray color.",
+      "sec": 1.16
+    },
+    "decorative_0046": {
+      "alt": "A horizontal banner with a soft, pastel-colored wave design. The wave is light purple and white, creating a gentle, flowing effect. The background is a light gray color, providing a neutral backdrop that allows the wave to stand out. The wave is centered in the image, with a slight gradient",
+      "sec": 3.61
+    },
+    "decorative_0047": {
+      "alt": "A zigzag pattern in grey color.",
+      "sec": 1.52
+    },
+    "decorative_0048": {
+      "alt": "A light blue wave pattern on a white background.",
+      "sec": 1.48
+    },
+    "decorative_0049": {
+      "alt": "The image shows a series of zigzag lines in a light green color against a white background.",
+      "sec": 1.7
+    },
+    "decorative_0050": {
+      "alt": "A light purple wave or ripple effect design on a white background.",
+      "sec": 1.72
+    },
+    "decorative_0051": {
+      "alt": "The image shows a series of horizontal lines arranged in a zigzag pattern. The lines are light gray and have a slight gradient effect, with the top line being slightly darker than the bottom line. The overall design is simple and minimalistic.",
+      "sec": 3.39
+    },
+    "decorative_0052": {
+      "alt": "A green circle with a white border.",
+      "sec": 0.64
+    },
+    "decorative_0053": {
+      "alt": "A red square with a diagonal line through it, representing a diagonal line.",
+      "sec": 0.93
+    },
+    "decorative_0054": {
+      "alt": "A red and white checkered flag with a white circle in the middle.",
+      "sec": 1.23
+    },
+    "decorative_0055": {
+      "alt": "play button icon.",
+      "sec": 0.63
+    },
+    "decorative_0056": {
+      "alt": "A bright orange circle with a white border.",
+      "sec": 0.86
+    },
+    "decorative_0057": {
+      "alt": "A red diamond-shaped object on a white background.",
+      "sec": 0.64
+    },
+    "decorative_0058": {
+      "alt": "A blue circle with a white background.",
+      "sec": 0.5
+    },
+    "decorative_0059": {
+      "alt": "The image shows a simple, minimalist design with a white background. The central element is a white square with a blue arrow pointing to the right, indicating a forward or play button. The arrow is bold and prominent, making it easy to identify as the primary focus of the image. The overall design is",
+      "sec": 3.58
+    },
+    "image_of_text_0001": {
+      "alt": "KESTREL BOOKS",
+      "sec": 1.29
+    },
+    "image_of_text_0002": {
+      "alt": "The logo for Northwind Tea features the text \"Northwind Tea\" in a modern, sans-serif font. The color of the text is a dark blue, which contrasts well with the white background. The font is clean and easy to read, making it a strong visual element for the brand.",
+      "sec": 4.25
+    },
+    "image_of_text_0003": {
+      "alt": "The text \"MARROW & CO\" is displayed in a modern, sans-serif font. The font is clean and professional, with a slight emphasis on the word \"MARROW\" which is larger and more prominent than the word \"CO\". The background of the text is white, which makes the black",
+      "sec": 4.3
+    },
+    "image_of_text_0004": {
+      "alt": "Lumen Health",
+      "sec": 0.92
+    },
+    "image_of_text_0005": {
+      "alt": "TIDEWATER BANK",
+      "sec": 0.67
+    },
+    "image_of_text_0006": {
+      "alt": "The text \"FOXGLOVE STUDIO\" is displayed in a red font on a light beige background.",
+      "sec": 2.19
+    },
+    "image_of_text_0007": {
+      "alt": "The text \"Copperline\" is written in a pink font.",
+      "sec": 1.77
+    },
+    "image_of_text_0008": {
+      "alt": "Halcyon Travel",
+      "sec": 0.56
+    },
+    "image_of_text_0009": {
+      "alt": "\"Bramble Grocers\"",
+      "sec": 1.03
+    },
+    "image_of_text_0010": {
+      "alt": "The text \"QUILL & SABLE\" is displayed in a red font on a white background.",
+      "sec": 1.52
+    },
+    "image_of_text_0011": {
+      "alt": "The text \"50% OFF this weekend\" is displayed on a gradient background that transitions from blue at the top to white at the bottom.",
+      "sec": 2.9
+    },
+    "image_of_text_0012": {
+      "alt": "Free shipping over 50",
+      "sec": 1.28
+    },
+    "image_of_text_0013": {
+      "alt": "\"Buy one get one free\"",
+      "sec": 1.38
+    },
+    "image_of_text_0014": {
+      "alt": "Summer sale starts Friday",
+      "sec": 0.96
+    },
+    "image_of_text_0015": {
+      "alt": "New arrivals every Thursday",
+      "sec": 1.4
+    },
+    "image_of_text_0016": {
+      "alt": "Members save 20% today.",
+      "sec": 1.36
+    },
+    "image_of_text_0017": {
+      "alt": "\"Last 3 days of the winter sale\"",
+      "sec": 1.66
+    },
+    "image_of_text_0018": {
+      "alt": "Order by 6pm for next day delivery",
+      "sec": 1.03
+    },
+    "image_of_text_0019": {
+      "alt": "The best time to plant a tree was twenty years ago.",
+      "sec": 2.17
+    },
+    "image_of_text_0020": {
+      "alt": "\"We shape our buildings, and afterwards our buildings shape us.\"",
+      "sec": 2.22
+    },
+    "image_of_text_0021": {
+      "alt": "The quote \"Simplicity is a great virtue but it requires hard work.\" by E. Dijkstra is displayed on a light green background.",
+      "sec": 3.7
+    },
+    "image_of_text_0022": {
+      "alt": "The quote \"A change of perspective is worth 80 IQ points\" by A. Kay is a reminder that changing our thinking and viewing things from a different angle can lead to significant improvements in our understanding and performance. It emphasizes the importance of having a fresh perspective on problems and challenges, which can",
+      "sec": 5.01
+    },
+    "image_of_text_0023": {
+      "alt": "The quote \"Everything should be made as simple as possible\" by Albert Einstein is a famous saying that emphasizes the importance of simplicity in various aspects of life, including technology, design, and communication. It encourages us to simplify complex things to make them easier to understand and use.",
+      "sec": 4.71
+    },
+    "image_of_text_0024": {
+      "alt": "The details are not the details, they make the design.",
+      "sec": 2.69
+    },
+    "image_of_text_0025": {
+      "alt": "The text \"How our returns work\" is displayed in a bold, black font on a white background. The text is centered and occupies the majority of the space in the image.",
+      "sec": 2.94
+    },
+    "image_of_text_0026": {
+      "alt": "The image contains the text \"Meet the founders.\"",
+      "sec": 1.2
+    },
+    "image_of_text_0027": {
+      "alt": "Frequently asked questions",
+      "sec": 1.18
+    },
+    "image_of_text_0028": {
+      "alt": "The text \"What is in the box\" is written in a purple font on a white background.",
+      "sec": 1.92
+    },
+    "image_of_text_0029": {
+      "alt": "Our 2026 impact report",
+      "sec": 1.48
+    },
+    "image_of_text_0030": {
+      "alt": "The text \"Delivery and collection\" is written in a white font on a white background.",
+      "sec": 1.35
+    },
+    "image_of_text_0031": {
+      "alt": "The image shows a mathematical expression \"3m^6\".",
+      "sec": 1.27
+    },
+    "image_of_text_0032": {
+      "alt": "The image you provided is a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) image. CAPTCHAs are used to prevent automated systems from accessing certain websites or services. They are typically composed of a series of characters that are difficult for humans to read but easy for",
+      "sec": 4.1
+    },
+    "image_of_text_0033": {
+      "alt": "The image appears to be a distorted or corrupted text. The characters are not clearly visible, and there are lines and shapes superimposed on the text. It is difficult to determine the exact content of the text.",
+      "sec": 3.08
+    },
+    "image_of_text_0034": {
+      "alt": "The image shows a series of intersecting lines on a light yellow background. The lines are not uniform in length or direction, creating a somewhat chaotic and abstract pattern.",
+      "sec": 2.43
+    },
+    "image_of_text_0035": {
+      "alt": "The image you provided is a series of random characters and lines, which do not form a coherent sentence or message. It appears to be a random sequence of letters and numbers.",
+      "sec": 2.77
+    },
+    "image_of_text_0036": {
+      "alt": "The image shows a distorted text \"javsh9\".",
+      "sec": 1.65
+    },
+    "image_of_text_0037": {
+      "alt": "The image contains the following text:\n\n- Kestrel Books\n- 14 Mill Lane\n- Bristol BS1 4TR",
+      "sec": 2.55
+    },
+    "image_of_text_0038": {
+      "alt": "The image contains the following text:\n\n- \"Northwind Tea\"\n- \"Unit 7, Harbour Road\"\n- \"Leith EH6 6QQ\"",
+      "sec": 2.74
+    },
+    "image_of_text_0039": {
+      "alt": "Lumen Health is located at 220 Ashfield Street, Manchester, M14 5PP.",
+      "sec": 2.23
+    },
+    "image_of_text_0040": {
+      "alt": "The text reads: \"Foxglove Studio 3rd floor, 8 Peach Yard London E2 8AA.\"",
+      "sec": 1.83
+    },
+    "image_of_text_0041": {
+      "alt": "Bramble Grocers, located at 44 Market Square, York, is a grocery store in the York area.",
+      "sec": 2.3
+    },
+    "image_of_text_0042": {
+      "alt": "The phone number is 0117 496 2210.",
+      "sec": 1.74
+    },
+    "image_of_text_0043": {
+      "alt": "The phone number is +44 20 7946 0912.",
+      "sec": 2.12
+    },
+    "image_of_text_0044": {
+      "alt": "The phone number is (555) 014-2200.",
+      "sec": 1.66
+    },
+    "image_of_text_0045": {
+      "alt": "The image contains the following text:\n\n0800 555 0199",
+      "sec": 1.44
+    },
+    "image_of_text_0046": {
+      "alt": "The image features a gradient background transitioning from a light pink at the top to a deeper pink at the bottom. Superimposed on this background is the text \"Doors open at 7\" in a bold, brown font. The overall design is simple and minimalistic, with the text being the",
+      "sec": 4.16
+    },
+    "image_of_text_0047": {
+      "alt": "Thank you for 10 years",
+      "sec": 0.99
+    },
+    "image_of_text_0048": {
+      "alt": "Now hiring bakers",
+      "sec": 0.97
+    },
+    "image_of_text_0049": {
+      "alt": "The text \"Closed for refurbishment\" is displayed on a gradient background that transitions from a light green at the top to a darker green at the bottom. The font color is a dark brown, which contrasts with the background, making the text stand out.",
+      "sec": 4.12
+    },
+    "image_of_text_0050": {
+      "alt": "Winter menu is here",
+      "sec": 1.51
+    },
+    "image_of_text_0051": {
+      "alt": "Join the waiting list",
+      "sec": 1.28
+    },
+    "image_of_text_0052": {
+      "alt": "Repair Cafe",
+      "sec": 1.02
+    },
+    "image_of_text_0053": {
+      "alt": "Book club Thursday 2 April, 7pm",
+      "sec": 1.54
+    },
+    "image_of_text_0054": {
+      "alt": "The image contains the following text:\n\nWinter market\nSunday 8 December, 11am",
+      "sec": 2.16
+    },
+    "image_of_text_0055": {
+      "alt": "Open Studio: Friday 20 June, 6pm",
+      "sec": 1.78
+    },
+    "image_of_text_0056": {
+      "alt": "Coffee tasting\nTuesday 5 May, 5pm",
+      "sec": 1.56
+    },
+    "complex_0001": {
+      "alt": "The image is a bar chart titled \"Total sales by quarter.\" The x-axis represents the quarters, with Q1, Q2, Q3, and Q4 labeled. The y-axis represents thousand pounds, with values of 48, 62, 71, and 5",
+      "sec": 4.63
+    },
+    "complex_0002": {
+      "alt": "The image is a bar chart titled \"Support tickets by channel\" with the x-axis labeled \"tickets\" and the y-axis labeled \"Email,\" \"Chat,\" and \"Phone.\" The chart shows the following data points:\n\n- Email: 82 tickets\n- Chat: 47 tickets",
+      "sec": 4.95
+    },
+    "complex_0003": {
+      "alt": "The image is a bar chart titled \"Weekly signups\" with the category \"signups\". The chart shows the number of signups for each day of the week (Mon, Tue, Wed, Thu, Fri) from Monday to Friday. The x-axis represents the days of the week, and",
+      "sec": 4.42
+    },
+    "complex_0004": {
+      "alt": "The bar chart titled \"Energy use by floor\" shows the energy consumption in kWh for each floor of a building. The data is represented using green bars, with the following values:\n\n- Ground floor: 64 kWh\n- First floor: 39 kWh\n- Second floor: 2",
+      "sec": 4.81
+    },
+    "complex_0005": {
+      "alt": "The image is a bar chart titled \"Books borrowed by genre.\" The x-axis represents the genres, with \"Fiction\" at the top and \"Science\" at the bottom. The y-axis represents the number of loans, with values ranging from 0 to 100. The chart shows",
+      "sec": 5.06
+    },
+    "complex_0006": {
+      "alt": "The image is a bar chart titled \"Average delivery time\" with the x-axis labeled \"Hours\" and the y-axis labeled \"North, South, East, West.\" The chart shows the average delivery times for four regions: North, South, East, and West. The bars represent the average delivery",
+      "sec": 5.2
+    },
+    "complex_0007": {
+      "alt": "The image is a bar chart titled \"Site visits by device\" with the x-axis labeled \"Device\" and the y-axis labeled \"percent.\" The chart shows the following data:\n\n- Mobile: 68%\n- Desktop: 25%\n- Tablet: 12%",
+      "sec": 4.88
+    },
+    "complex_0008": {
+      "alt": "The bar chart titled \"Rainfall by month\" shows the amount of rainfall in millimetres for each month. The data is as follows:\n\n- January: 88 millimetres\n- February: 61 millimetres\n- March: 47 millimetres\n-",
+      "sec": 5.01
+    },
+    "complex_0009": {
+      "alt": "The bar chart titled \"Volunteers by branch\" shows the number of people in each branch. The branches are Leith, Mill Lane, and Harbour. The chart shows that the number of volunteers in Leith is 19, in Mill Lane is 44, and in Harbour is",
+      "sec": 4.8
+    },
+    "complex_0010": {
+      "alt": "The bar chart titled \"Errors per release\" shows the number of errors per release for different versions of a software. The x-axis represents the release versions, and the y-axis represents the number of errors. The chart shows that the number of errors decreases as the release version increases. For example, the",
+      "sec": 5.33
+    },
+    "complex_0011": {
+      "alt": "The bar chart titled \"Energy use by floor\" shows the energy consumption for each floor in a building. The ground floor has the highest energy consumption at 64 units, followed by the first floor at 39 units, the second floor at 27 units, and the third floor at",
+      "sec": 4.81
+    },
+    "complex_0012": {
+      "alt": "The image is a bar chart titled \"Books borrowed by genre.\" The x-axis represents the genres, with \"Fiction\" at the top and \"Science\" at the bottom. The y-axis represents the number of books borrowed, with values ranging from 0 to 76. The bars are",
+      "sec": 5.14
+    },
+    "complex_0013": {
+      "alt": "The image is a bar chart titled \"Average delivery time.\" The chart compares the average delivery times for four regions: North, South, East, and West. The x-axis represents the regions, and the y-axis represents the average delivery time in minutes. The chart shows the following data points:\n\n-",
+      "sec": 5.45
+    },
+    "complex_0014": {
+      "alt": "The bar chart titled \"Site visits by device\" shows the following data:\n\n- Mobile: 68\n- Desktop: 25\n- Tablet: 12",
+      "sec": 3.66
+    },
+    "complex_0015": {
+      "alt": "The image is a bar chart titled \"Rainfall by month.\" The x-axis represents the months of the year, with January at the top and May at the bottom. The y-axis represents the rainfall in millimeters, with values ranging from 0 to 100. The chart shows the",
+      "sec": 5.61
+    },
+    "complex_0016": {
+      "alt": "The image is a bar chart titled \"Volunteers by branch.\" The chart compares three branches: Leith, Mill Lane, and Harbour. The vertical axis represents the number of volunteers, ranging from 0 to 44. The horizontal axis lists the branches. The chart shows that the number of",
+      "sec": 4.34
+    },
+    "complex_0017": {
+      "alt": "The graph titled \"Total sales by quarter\" shows the sales figures in thousand pounds for each quarter from Q1 to Q4. The data points are as follows:\n\n- Q1: 48 thousand pounds\n- Q2: 62 thousand pounds\n- Q3: 71",
+      "sec": 5.25
+    },
+    "complex_0018": {
+      "alt": "The graph titled \"Support tickets by channel\" shows the number of tickets for each channel: Email, Chat, and Phone. The data points are represented by purple dots on a horizontal axis labeled \"tickets\" and a vertical axis labeled \"channels.\" The data points are as follows:\n\n- Email:",
+      "sec": 5.06
+    },
+    "complex_0019": {
+      "alt": "The graph shows the weekly signups for a service over a week. The x-axis represents the days of the week, with Monday (Mon) at the lowest point and Friday (Fri) at the highest point. The y-axis represents the number of signups, with values ranging from 24",
+      "sec": 5.27
+    },
+    "complex_0020": {
+      "alt": "The graph titled \"Energy use by floor\" shows the energy consumption in kWh for different floors of a building. The x-axis represents the floors, with \"Ground\" at the bottom and \"Third\" at the top. The y-axis represents the energy consumption in kWh, ranging from 0 to",
+      "sec": 5.04
+    },
+    "complex_0021": {
+      "alt": "The graph titled \"Books borrowed by genre\" shows the number of loans for each genre. Fiction has the highest number of loans at 76, followed by History with 41, Poetry with 22, and Science with 35.",
+      "sec": 5.17
+    },
+    "complex_0022": {
+      "alt": "The graph titled \"Average delivery time\" shows the average delivery time in hours for four regions: North, South, East, and West. The data points are as follows:\n\n- North: 32 hours\n- South: 44 hours\n- East: 27 hours\n-",
+      "sec": 4.75
+    },
+    "complex_0023": {
+      "alt": "The pie chart shows the distribution of site visits by device. The largest segment is colored in a dark purple, representing mobile visits at 65%. The second largest segment is colored in a medium purple, representing desktop visits at 24%. The smallest segment is colored in a light orange, representing",
+      "sec": 5.44
+    },
+    "complex_0024": {
+      "alt": "The pie chart titled \"Rainfall by month\" shows the percentage distribution of rainfall in different months. The chart is divided into five segments, each representing a different month. The segments are color-coded as follows:\n\n- Blue: January (35%)\n- Orange: February (23%)",
+      "sec": 4.82
+    },
+    "complex_0025": {
+      "alt": "The pie chart titled \"Volunteers by branch\" shows the distribution of volunteers across three branches: Leith (22%), Mill Lane (49%), and Harbour (29%).",
+      "sec": 3.59
+    },
+    "complex_0026": {
+      "alt": "The image is a pie chart titled \"Errors per release.\" The chart is divided into four segments, each representing a different version of a software release. The segments are color-coded as follows:\n\n- The largest segment is brown, representing v1.2, which has 43% of the errors",
+      "sec": 4.86
+    },
+    "complex_0027": {
+      "alt": "The pie chart titled \"Members by plan\" shows the distribution of members across three different plan types: Free (54%), Standard (31%), and Premium (15%).",
+      "sec": 3.43
+    },
+    "complex_0028": {
+      "alt": "The pie chart shows the distribution of cups served per day over five days of the week. The largest segment is blue, representing the number of cups served on Friday (26%). The next largest segment is green, representing the number of cups served on Thursday (20%). The segment in purple represents",
+      "sec": 4.76
+    },
+    "complex_0029": {
+      "alt": "The pie chart titled \"Repairs completed\" shows the distribution of repairs completed by different categories. The largest category is \"Bikes\" with 53% of the total repairs, followed by \"Laptops\" with 24%, \"Kettles\" with 14%, and \"",
+      "sec": 4.2
+    },
+    "complex_0030": {
+      "alt": "The pie chart titled \"Newsletter opens\" is divided into four segments, each representing a different week. The segments are colored in red, blue, green, and purple, respectively. The following information is provided for each segment:\n\n- Week 1: 20%\n- Week 2:",
+      "sec": 3.92
+    },
+    "complex_0031": {
+      "alt": "The image is a bar chart titled \"Errors per release.\" The x-axis represents the releases, with \"v1.2,\" \"v1.3,\" \"v1.4,\" and \"v1.5\" as the categories. The y-axis represents the number of errors, with values",
+      "sec": 5.15
+    },
+    "complex_0032": {
+      "alt": "The image is a bar chart titled \"Members by plan.\" The chart shows the distribution of members across three different plan types: Free, Standard, and Premium. The x-axis represents the plan types, with \"Free\" on the left, \"Standard\" in the middle, and \"Premium\" on",
+      "sec": 4.44
+    },
+    "complex_0033": {
+      "alt": "The image is a bar chart titled \"Cups served per day.\" The x-axis represents the days of the week (Mon, Tue, Wed, Thu, Fri), while the y-axis represents the number of cups served (in hundreds). The chart shows the number of cups served each day for three",
+      "sec": 4.75
+    },
+    "complex_0034": {
+      "alt": "The bar chart titled \"Repairs completed\" shows the number of repairs completed for different types of items. The x-axis represents the items, with \"Bikes\" at the top and \"Radios\" at the bottom. The y-axis represents the number of repairs, with \"63\" at",
+      "sec": 4.17
+    },
+    "complex_0035": {
+      "alt": "The image is a bar chart titled \"Newsletter opens.\" The chart shows the number of newsletter opens for four weeks, with three categories: Online, In store, and Phone. The x-axis represents the weeks, with Week 1, Week 2, Week 3, and Week 4.",
+      "sec": 5.57
+    },
+    "complex_0036": {
+      "alt": "The image is a bar chart titled \"Stock by warehouse.\" The chart shows the distribution of stock across four warehouses: Bristol, Leeds, Cardiff, and Derby. The bars are color-coded as follows:\n\n- Bristol: 73% (Upper section of the bar is green, representing online sales,",
+      "sec": 4.52
+    },
+    "complex_0037": {
+      "alt": "The table is titled \"Weekly signups\" and it lists the name and number of signups for each day of the week. The table is in a pink color.",
+      "sec": 3.55
+    },
+    "complex_0038": {
+      "alt": "The table shows the energy use by floor in kilowatt-hours (Kwh). The data is as follows:\n\n- Ground: 64 Kwh\n- First: 39 Kwh\n- Second: 27 Kwh\n- Third: 18 Kwh",
+      "sec": 4.15
+    },
+    "complex_0039": {
+      "alt": "The table \"Books borrowed by genre\" shows the number of loans for each genre: Fiction, History, Poetry, and Science. Fiction has the highest number of loans with 76, followed by History with 41, Poetry with 22, and Science with 35.",
+      "sec": 4.19
+    },
+    "complex_0040": {
+      "alt": "The table \"Average delivery time\" shows the average delivery time in hours for four different regions: North, South, East, and West. The data is as follows:\n\n| Name | Hours |\n|------|-------|\n| North | 32   |\n| South | 44   |",
+      "sec": 5.46
+    },
+    "complex_0041": {
+      "alt": "The table \"Site visits by device\" shows the following data:\n\n| Name | Percent |\n|------|--------|\n| Mobile | 68 |\n| Desktop | 25 |\n| Tablet | 12 |\n\nThe table is a simple table with three columns and two rows. The first column",
+      "sec": 4.52
+    },
+    "complex_0042": {
+      "alt": "The table \"Rainfall by month\" shows the monthly rainfall in millimetres. The data is as follows:\n\n| Name | Millimetres |\n|------|--------------|\n| Jan  | 88           |\n| Feb  | 61           |\n| Mar  | 47",
+      "sec": 4.92
+    },
+    "complex_0043": {
+      "alt": "The image shows a process flow diagram for how a return works. The process starts with a \"Request\" at the top, followed by \"Print label\" in the middle, \"Post it\" to the right, and finally \"Refund\" at the bottom.",
+      "sec": 4.93
+    },
+    "complex_0044": {
+      "alt": "The article workflow is a process that involves creating a draft, reviewing it, editing it, and finally publishing it.",
+      "sec": 2.76
+    },
+    "complex_0045": {
+      "alt": "The image represents a support escalation process. It shows a ticket being processed through three stages: ticket, triage, and specialist.",
+      "sec": 3.16
+    },
+    "complex_0046": {
+      "alt": "The image represents a flowchart for an order pipeline, which is a sequence of steps involved in the process of placing, picking, packing, and shipping an order. The steps are as follows:\n\n1. Placed: The order is placed.\n2. Picked: The order is picked.\n3",
+      "sec": 5.17
+    },
+    "complex_0047": {
+      "alt": "The image shows a flowchart for the process of setting up an account. The process is as follows:\n\n1. Sign up\n2. Verify email\n3. Add details",
+      "sec": 3.34
+    },
+    "complex_0048": {
+      "alt": "Repair intake process flowchart with steps:\n\n1. Book slot\n2. Assess\n3. Quote\n4. Fix",
+      "sec": 3.01
+    },
+    "complex_0049": {
+      "alt": "The Store team structure is as follows:\n\n- Manager\n  - Bakery\n  - Deli\n  - Checkout",
+      "sec": 2.55
+    },
+    "complex_0050": {
+      "alt": "The image shows a simple organizational structure of a studio, with a Director at the top. Below the Director, there are three departments: Design, Build, and Accounts.",
+      "sec": 3.19
+    },
+    "complex_0051": {
+      "alt": "The image shows a hierarchical structure of library staff, with the head librarian at the top. Below the head librarian, there are three departments: Lending, Archives, and Events.",
+      "sec": 3.51
+    },
+    "complex_0052": {
+      "alt": "The image is an organizational chart titled \"Kitchen roles.\" At the top, there is a red box labeled \"Head chef.\" Below the head chef, there are three boxes, each representing a different kitchen role: Pastry, Grill, and Prep.",
+      "sec": 4.32
+    },
+    "complex_0053": {
+      "alt": "The image depicts a support desk organizational structure with a team lead at the top. Below the team lead, there are two tiers: Tier 1 and Tier 2.",
+      "sec": 3.02
+    },
+    "complex_0054": {
+      "alt": "The image is a timeline representing the milestones of a company. The timeline starts in 2016 with \"First shop\" and ends in 2025 with \"Repair service\". The milestones are as follows:\n\n- 2016: First shop\n- 201",
+      "sec": 4.62
+    },
+    "complex_0055": {
+      "alt": "The image is a timeline representing the project phases for a project that started in 2023, with the following phases:\n\n- 2023: Research\n- 2024: Pilot\n- 2026: Rollout",
+      "sec": 4.52
+    },
+    "complex_0056": {
+      "alt": "The timeline shows the building history of a structure from 1904 to 2011. It indicates that the building was built in 1904, extended in 1962, and restored in 2011.",
+      "sec": 4.67
+    },
+    "complex_0057": {
+      "alt": "The release history timeline shows the release dates for different versions of a product or service. The timeline starts in 2021 with a beta release, followed by Version 1 in 2022, Version 2 in 2024, and Version 3 in 2",
+      "sec": 4.0
+    },
+    "complex_0058": {
+      "alt": "The timeline shows the grant timeline from 2022 to 2025. The timeline starts with \"Applied\" in 2022, followed by \"Awarded\" in 2023, and concludes with \"Reported\" in 2025.",
+      "sec": 5.38
+    }
+  }
+}

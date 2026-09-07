@@ -1,0 +1,464 @@
+{
+  "n_items": 298,
+  "n_rows": 1192,
+  "by_category": {
+    "functional": 65,
+    "informative": 60,
+    "decorative": 59,
+    "image_of_text": 56,
+    "complex": 58
+  },
+  "models": [
+    "Qwen/Qwen2-VL-2B-Instruct",
+    "Salesforce/blip-image-captioning-large"
+  ],
+  "conditions": [
+    "caption",
+    "naive",
+    "wcag",
+    "wcag_context"
+  ],
+  "accuracy": {
+    "Qwen/Qwen2-VL-2B-Instruct": {
+      "naive": {
+        "all": 0.4262,
+        "complex": 0.6034,
+        "decorative": 0.0,
+        "functional": 0.4615,
+        "image_of_text": 0.9107,
+        "informative": 0.1833
+      },
+      "wcag": {
+        "all": 0.4799,
+        "complex": 0.3793,
+        "decorative": 1.0,
+        "functional": 0.2,
+        "image_of_text": 0.8571,
+        "informative": 0.0167
+      },
+      "wcag_context": {
+        "all": 0.3087,
+        "complex": 0.2241,
+        "decorative": 0.1356,
+        "functional": 0.5846,
+        "image_of_text": 0.3393,
+        "informative": 0.2333
+      }
+    },
+    "Salesforce/blip-image-captioning-large": {
+      "caption": {
+        "all": 0.1544,
+        "complex": 0.0,
+        "decorative": 0.0,
+        "functional": 0.1846,
+        "image_of_text": 0.3929,
+        "informative": 0.2
+      }
+    }
+  },
+  "severity": {
+    "Qwen/Qwen2-VL-2B-Instruct": {
+      "naive": {
+        "all": {
+          "correct": 99,
+          "harmless": 40,
+          "degraded": 132,
+          "silent": 0,
+          "misleading": 27,
+          "n": 298
+        },
+        "complex": {
+          "correct": 16,
+          "harmless": 19,
+          "degraded": 23,
+          "silent": 0,
+          "misleading": 0,
+          "n": 58
+        },
+        "decorative": {
+          "correct": 0,
+          "harmless": 12,
+          "degraded": 47,
+          "silent": 0,
+          "misleading": 0,
+          "n": 59
+        },
+        "functional": {
+          "correct": 29,
+          "harmless": 1,
+          "degraded": 33,
+          "silent": 0,
+          "misleading": 2,
+          "n": 65
+        },
+        "image_of_text": {
+          "correct": 45,
+          "harmless": 6,
+          "degraded": 0,
+          "silent": 0,
+          "misleading": 5,
+          "n": 56
+        },
+        "informative": {
+          "correct": 9,
+          "harmless": 2,
+          "degraded": 29,
+          "silent": 0,
+          "misleading": 20,
+          "n": 60
+        }
+      },
+      "wcag": {
+        "all": {
+          "correct": 142,
+          "harmless": 1,
+          "degraded": 52,
+          "silent": 98,
+          "misleading": 5,
+          "n": 298
+        },
+        "complex": {
+          "correct": 21,
+          "harmless": 1,
+          "degraded": 27,
+          "silent": 9,
+          "misleading": 0,
+          "n": 58
+        },
+        "decorative": {
+          "correct": 59,
+          "harmless": 0,
+          "degraded": 0,
+          "silent": 0,
+          "misleading": 0,
+          "n": 59
+        },
+        "functional": {
+          "correct": 13,
+          "harmless": 0,
+          "degraded": 18,
+          "silent": 34,
+          "misleading": 0,
+          "n": 65
+        },
+        "image_of_text": {
+          "correct": 48,
+          "harmless": 0,
+          "degraded": 0,
+          "silent": 8,
+          "misleading": 0,
+          "n": 56
+        },
+        "informative": {
+          "correct": 1,
+          "harmless": 0,
+          "degraded": 7,
+          "silent": 47,
+          "misleading": 5,
+          "n": 60
+        }
+      },
+      "wcag_context": {
+        "all": {
+          "correct": 62,
+          "harmless": 39,
+          "degraded": 123,
+          "silent": 3,
+          "misleading": 71,
+          "n": 298
+        },
+        "complex": {
+          "correct": 0,
+          "harmless": 13,
+          "degraded": 45,
+          "silent": 0,
+          "misleading": 0,
+          "n": 58
+        },
+        "decorative": {
+          "correct": 8,
+          "harmless": 9,
+          "degraded": 42,
+          "silent": 0,
+          "misleading": 0,
+          "n": 59
+        },
+        "functional": {
+          "correct": 31,
+          "harmless": 7,
+          "degraded": 12,
+          "silent": 2,
+          "misleading": 13,
+          "n": 65
+        },
+        "image_of_text": {
+          "correct": 9,
+          "harmless": 10,
+          "degraded": 2,
+          "silent": 0,
+          "misleading": 35,
+          "n": 56
+        },
+        "informative": {
+          "correct": 14,
+          "harmless": 0,
+          "degraded": 22,
+          "silent": 1,
+          "misleading": 23,
+          "n": 60
+        }
+      }
+    },
+    "Salesforce/blip-image-captioning-large": {
+      "caption": {
+        "all": {
+          "correct": 46,
+          "harmless": 19,
+          "degraded": 141,
+          "silent": 0,
+          "misleading": 92,
+          "n": 298
+        },
+        "complex": {
+          "correct": 0,
+          "harmless": 0,
+          "degraded": 45,
+          "silent": 0,
+          "misleading": 13,
+          "n": 58
+        },
+        "decorative": {
+          "correct": 0,
+          "harmless": 19,
+          "degraded": 40,
+          "silent": 0,
+          "misleading": 0,
+          "n": 59
+        },
+        "functional": {
+          "correct": 12,
+          "harmless": 0,
+          "degraded": 36,
+          "silent": 0,
+          "misleading": 17,
+          "n": 65
+        },
+        "image_of_text": {
+          "correct": 22,
+          "harmless": 0,
+          "degraded": 2,
+          "silent": 0,
+          "misleading": 32,
+          "n": 56
+        },
+        "informative": {
+          "correct": 12,
+          "harmless": 0,
+          "degraded": 18,
+          "silent": 0,
+          "misleading": 30,
+          "n": 60
+        }
+      }
+    }
+  },
+  "agreement": {
+    "n": 0,
+    "raters": [],
+    "cohen_kappa": 0.0,
+    "percent": 0.0,
+    "note": "results/human_ratings.csv not present or not filled in"
+  },
+  "examples": {
+    "correct": [
+      {
+        "id": "complex_0008",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "complex",
+        "alt": "The bar chart titled \"Rainfall by month\" shows the amount of rainfall in millimetres for each month. The data is as follows:\n\n- January: 88 millimetres\n- February: 61 millimetres\n- March: 47 millimetres\n-",
+        "rule": "complex_title_and_data",
+        "reason": "states the subject and 3 of 5 values"
+      },
+      {
+        "id": "complex_0014",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "complex",
+        "alt": "The bar chart titled \"Site visits by device\" shows the following data:\n\n- Mobile: 68\n- Desktop: 25\n- Tablet: 12",
+        "rule": "complex_title_and_data",
+        "reason": "states the subject and 3 of 3 values"
+      },
+      {
+        "id": "complex_0025",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "complex",
+        "alt": "The pie chart titled \"Volunteers by branch\" shows the distribution of volunteers across three branches: Leith (22%), Mill Lane (49%), and Harbour (29%).",
+        "rule": "complex_title_and_data",
+        "reason": "states the subject and 3 of 3 values"
+      },
+      {
+        "id": "complex_0027",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "complex",
+        "alt": "The pie chart titled \"Members by plan\" shows the distribution of members across three different plan types: Free (54%), Standard (31%), and Premium (15%).",
+        "rule": "complex_title_and_data",
+        "reason": "states the subject and 3 of 3 values"
+      }
+    ],
+    "harmless": [
+      {
+        "id": "decorative_0002",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "decorative",
+        "alt": "The image shows a white diamond with a blue background.",
+        "rule": "decorative_short_text",
+        "reason": "decorative image described in 6 words instead of left empty"
+      },
+      {
+        "id": "decorative_0003",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "decorative",
+        "alt": "The image shows a horizontal line of text.",
+        "rule": "decorative_short_text",
+        "reason": "decorative image described in 4 words instead of left empty"
+      },
+      {
+        "id": "decorative_0008",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "decorative",
+        "alt": "The image shows a horizontal line of text.",
+        "rule": "decorative_short_text",
+        "reason": "decorative image described in 4 words instead of left empty"
+      },
+      {
+        "id": "decorative_0009",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "decorative",
+        "alt": "The image shows a horizontal line with a dashed pattern.",
+        "rule": "decorative_short_text",
+        "reason": "decorative image described in 6 words instead of left empty"
+      }
+    ],
+    "degraded": [
+      {
+        "id": "functional_0001",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "functional",
+        "alt": "A green oval button with a white envelope icon in the center.",
+        "rule": "functional_appearance",
+        "reason": "describes appearance (envelope, icon) instead of the action"
+      },
+      {
+        "id": "functional_0002",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "functional",
+        "alt": "The image depicts a blue square with an arrow pointing upwards, which is commonly associated with sharing or exporting content.",
+        "rule": "functional_appearance",
+        "reason": "describes appearance (square, arrow) instead of the action"
+      },
+      {
+        "id": "functional_0004",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "functional",
+        "alt": "A blue line icon of a house.",
+        "rule": "functional_appearance",
+        "reason": "describes appearance (house, icon) instead of the action"
+      },
+      {
+        "id": "functional_0005",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "functional",
+        "alt": "A blue speech bubble icon with a white background.",
+        "rule": "functional_appearance",
+        "reason": "describes appearance (speech, bubble, icon) instead of the action"
+      }
+    ],
+    "silent": [
+      {
+        "id": "functional_0001",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "wcag",
+        "category": "functional",
+        "alt": "Empty",
+        "rule": "functional_empty",
+        "reason": "empty alt on a control, the element is silent to a screen reader"
+      },
+      {
+        "id": "functional_0002",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "wcag",
+        "category": "functional",
+        "alt": "Empty",
+        "rule": "functional_empty",
+        "reason": "empty alt on a control, the element is silent to a screen reader"
+      },
+      {
+        "id": "functional_0003",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "wcag",
+        "category": "functional",
+        "alt": "Empty",
+        "rule": "functional_empty",
+        "reason": "empty alt on a control, the element is silent to a screen reader"
+      },
+      {
+        "id": "functional_0005",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "wcag",
+        "category": "functional",
+        "alt": "Empty",
+        "rule": "functional_empty",
+        "reason": "empty alt on a control, the element is silent to a screen reader"
+      }
+    ],
+    "misleading": [
+      {
+        "id": "image_of_text_0031",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "image_of_text",
+        "alt": "The image shows a mathematical expression \"3m^6\".",
+        "rule": "text_wrong",
+        "reason": "does not reproduce the visible text (similarity 0.12)"
+      },
+      {
+        "id": "image_of_text_0032",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "image_of_text",
+        "alt": "The image you provided is a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) image. CAPTCHAs are used to prevent automated systems from accessing certain websites or services. They are typically composed of a series of characters that are difficult for humans to read but easy for",
+        "rule": "text_wrong",
+        "reason": "does not reproduce the visible text (similarity 0.00)"
+      },
+      {
+        "id": "image_of_text_0033",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "image_of_text",
+        "alt": "The image appears to be a distorted or corrupted text. The characters are not clearly visible, and there are lines and shapes superimposed on the text. It is difficult to determine the exact content of the text.",
+        "rule": "text_wrong",
+        "reason": "does not reproduce the visible text (similarity 0.02)"
+      },
+      {
+        "id": "image_of_text_0034",
+        "model": "Qwen/Qwen2-VL-2B-Instruct",
+        "condition": "naive",
+        "category": "image_of_text",
+        "alt": "The image shows a series of intersecting lines on a light yellow background. The lines are not uniform in length or direction, creating a somewhat chaotic and abstract pattern.",
+        "rule": "text_wrong",
+        "reason": "does not reproduce the visible text (similarity 0.02)"
+      }
+    ]
+  }
+}

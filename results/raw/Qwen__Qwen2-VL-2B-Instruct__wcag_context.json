@@ -1,0 +1,1201 @@
+{
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "condition": "wcag_context",
+  "prompt": "Write alt text for this image for a screen reader user, following WCAG. If the image is purely decorative, reply exactly: EMPTY. If it is a button or link, give the action it performs, not its appearance. If it contains text, transcribe the text. Be concise.\n\nThe image appears on a web page in the following context:\n{context}\nUse this context to decide the image's purpose on the page, and describe that purpose rather than the image's appearance.",
+  "device": "mps",
+  "load_sec": 7.7,
+  "outputs": {
+    "functional_0001": {
+      "alt": "The image is a button or link. Its purpose is to provide a way for users to get in touch with the website's contact information.",
+      "sec": 1.72
+    },
+    "functional_0002": {
+      "alt": "The image is a link. It is a button that, when clicked, will take the user to the full specification of the element.",
+      "sec": 1.53
+    },
+    "functional_0003": {
+      "alt": "The image is a button or link. Its purpose is to provide a way to contact the customer service team.",
+      "sec": 1.27
+    },
+    "functional_0004": {
+      "alt": "The image is a button or link that likely leads to the home page of Kestrel Books.",
+      "sec": 1.16
+    },
+    "functional_0005": {
+      "alt": "The image is a button with the text \"Support\" and an icon of a chat bubble. Its purpose is to provide a link to a support page or feature on the website.",
+      "sec": 1.85
+    },
+    "functional_0006": {
+      "alt": "Navigate to next page.",
+      "sec": 0.56
+    },
+    "functional_0007": {
+      "alt": "The image is a button or link that takes the user to their account page.",
+      "sec": 0.99
+    },
+    "functional_0008": {
+      "alt": "The image is a button or link. It is used to navigate to the next page of a series of results.",
+      "sec": 1.32
+    },
+    "functional_0009": {
+      "alt": "The image is a button that likely serves as a link to a wishlist or cart page.",
+      "sec": 1.14
+    },
+    "functional_0010": {
+      "alt": "The image is a button that likely serves as a link to a shopping cart or cart page. It is used to indicate that there are three items in the cart.",
+      "sec": 1.83
+    },
+    "functional_0011": {
+      "alt": "The button is a save button for the tide tables.",
+      "sec": 0.81
+    },
+    "functional_0012": {
+      "alt": "The image is a button that is part of a modal window on a web page. The purpose of this button is to close the modal window.",
+      "sec": 1.67
+    },
+    "functional_0013": {
+      "alt": "The image is a button on a web page. Its purpose is to initiate the printing of an invoice.",
+      "sec": 1.22
+    },
+    "functional_0014": {
+      "alt": "The image is a button on a web page. Its purpose is to initiate the checkout process, as indicated by the \"pay\" text and the \"submit\" button.",
+      "sec": 1.83
+    },
+    "functional_0015": {
+      "alt": "The image is a button that likely serves as a filter or sorting option for the results displayed on the page.",
+      "sec": 1.34
+    },
+    "functional_0016": {
+      "alt": "Download the Quarterly report.pdf.",
+      "sec": 0.59
+    },
+    "functional_0017": {
+      "alt": "The image is a button or link that directs users to the Mill Lane branch of the store.",
+      "sec": 1.17
+    },
+    "functional_0018": {
+      "alt": "The image is a button with a question mark icon, which is likely used to represent a security code field on a web page. The purpose of this image is to provide a visual cue for users to enter a security code, which is a common requirement for verifying the authenticity of a transaction or account.",
+      "sec": 3.06
+    },
+    "functional_0019": {
+      "alt": "The image is a button that likely serves as a navigation link or toggle for the main content area of the page.",
+      "sec": 1.41
+    },
+    "functional_0020": {
+      "alt": "The image is a button that likely leads to a settings page or account settings within a website.",
+      "sec": 1.19
+    },
+    "functional_0021": {
+      "alt": "The image is a button on a web page. Its purpose is to allow users to edit the address information for a specific location.",
+      "sec": 1.59
+    },
+    "functional_0022": {
+      "alt": "The image is a button with the text \"Quantity 2\" and an icon of a plus sign. Its purpose is to increase the quantity of an item in a shopping cart or cart.",
+      "sec": 2.21
+    },
+    "functional_0023": {
+      "alt": "The image is a button with the text \"5 unread\" and the icon of a bell, which is commonly associated with notifications or alerts. The purpose of this image is to inform the user that there are 5 unread notifications, which is a common feature on many websites and applications to keep users informed",
+      "sec": 3.15
+    },
+    "functional_0024": {
+      "alt": "Empty.",
+      "sec": 0.42
+    },
+    "functional_0025": {
+      "alt": "Search for products.",
+      "sec": 0.67
+    },
+    "functional_0026": {
+      "alt": "To view the image in detail, click on the button.",
+      "sec": 1.0
+    },
+    "functional_0027": {
+      "alt": "The image is a button on a web page. Its purpose is to provide a link to the \"npm install kestrel\" command, which is a command used to install the Kestrel package in Node.js.",
+      "sec": 2.41
+    },
+    "functional_0028": {
+      "alt": "The image is a button that is part of a web page. It is designed to be clicked to share the content of the article about sourdough in a home oven.",
+      "sec": 2.1
+    },
+    "functional_0029": {
+      "alt": "The image is a button on a web page. Its purpose is to provide a visual cue for the user to perform an action, likely to mark the content as favorite or to add it to a list of favorites.",
+      "sec": 2.49
+    },
+    "functional_0030": {
+      "alt": "To upload a document.",
+      "sec": 0.67
+    },
+    "functional_0031": {
+      "alt": "Empty",
+      "sec": 0.47
+    },
+    "functional_0032": {
+      "alt": "The image is a button on a web page. It is used to play a track from a playlist.",
+      "sec": 1.5
+    },
+    "functional_0033": {
+      "alt": "The image is a button on a web page, likely used to pause the current video or audio content.",
+      "sec": 1.38
+    },
+    "functional_0034": {
+      "alt": "The image is a button that likely reloads the content on the page.",
+      "sec": 1.02
+    },
+    "functional_0035": {
+      "alt": "The image is a button with the text \"Departure\" and an associated date field. The purpose of this image is to provide a date selection option for departure, likely for a travel or event planning website.",
+      "sec": 2.32
+    },
+    "functional_0036": {
+      "alt": "The image is a button that serves as a link to upload a document.",
+      "sec": 1.13
+    },
+    "functional_0037": {
+      "alt": "The image is a button with an image of a green bookmark and the text \"The tide tables\" on a web page. The purpose of the image is to provide a visual cue for the user to click on the button to access information about tide tables.",
+      "sec": 2.86
+    },
+    "functional_0038": {
+      "alt": "The image is a button on a web page. Its purpose is to provide a link to a section of the page titled \"Notes from Tuesday.\"",
+      "sec": 1.67
+    },
+    "functional_0039": {
+      "alt": "To perform a search or action on the product, click the \"wishlist\" button.",
+      "sec": 1.21
+    },
+    "functional_0040": {
+      "alt": "The image is a button on a web page. Its purpose is to add an item to the shopping cart.",
+      "sec": 1.47
+    },
+    "functional_0041": {
+      "alt": "The image is a button that, when clicked, will download the \"Annual report 2025\" report.",
+      "sec": 1.58
+    },
+    "functional_0042": {
+      "alt": "The button is a link to add a new list.",
+      "sec": 0.9
+    },
+    "functional_0043": {
+      "alt": "The image is a button that, when clicked, will perform the action of deleting an account.",
+      "sec": 1.37
+    },
+    "functional_0044": {
+      "alt": "The image is a button that, when clicked, will submit a message to the contact form on the page.",
+      "sec": 1.59
+    },
+    "functional_0045": {
+      "alt": "Book a viewing",
+      "sec": 0.7
+    },
+    "functional_0046": {
+      "alt": "Upload photos",
+      "sec": 0.7
+    },
+    "functional_0047": {
+      "alt": "The image is a button with the text \"Try again\" and an icon of a refresh arrow. Its purpose is to provide a button for users to try again after an error or failure, such as when loading orders.",
+      "sec": 3.4
+    },
+    "functional_0048": {
+      "alt": "The button's purpose is to provide a link to print the invoice.",
+      "sec": 1.68
+    },
+    "functional_0049": {
+      "alt": "The image is a button that, when clicked, will initiate the payment process.",
+      "sec": 1.39
+    },
+    "functional_0050": {
+      "alt": "The image is a link to the \"Northwind Tea\" section of the website.",
+      "sec": 1.35
+    },
+    "functional_0051": {
+      "alt": "The image is a logo for \"Foxglove Studio.\" It is a decorative element, not a button or link.",
+      "sec": 1.58
+    },
+    "functional_0052": {
+      "alt": "The image is a logo for Tidewater Bank. It is used to identify the bank and is placed in a header section of a webpage. The purpose of the image is to represent the bank and provide a visual link to their website.",
+      "sec": 2.67
+    },
+    "functional_0053": {
+      "alt": "The image is a logo for Copperline, a company that likely specializes in copper products or services. The purpose of the image is to represent the brand and its identity.",
+      "sec": 2.05
+    },
+    "functional_0054": {
+      "alt": "The image is a logo for Lumen Health, which is a website or brand associated with the shop, about, and basket navigation options.",
+      "sec": 1.73
+    },
+    "functional_0055": {
+      "alt": "The image is a link to the Halcyon Travel website.",
+      "sec": 1.13
+    },
+    "functional_0056": {
+      "alt": "The image is a logo for Bramble Grocers. It is used to identify the brand and is placed in a header section of a webpage. The purpose of the image is to represent the brand and provide a visual element that can be easily recognized by users.",
+      "sec": 2.84
+    },
+    "functional_0057": {
+      "alt": "The image is a link to the \"Shop\" section of the website.",
+      "sec": 1.13
+    },
+    "functional_0058": {
+      "alt": "The image is a button that says \"Continue with Nimbus\" and is part of a web page. The purpose of this button is to provide a link to a continuation of the user's session or a different page related to Nimbus.",
+      "sec": 2.6
+    },
+    "functional_0059": {
+      "alt": "The image is a button that says \"Continue with Orbit\" and is part of a web page. The purpose of this button is to allow users to continue their session or sign in with their Orbit account.",
+      "sec": 2.38
+    },
+    "functional_0060": {
+      "alt": "The image is a button that says \"Continue with Kite\" and is part of a web page. The purpose of this button is to provide a link to the Kite website, allowing users to continue their session or sign in with their email address.",
+      "sec": 2.79
+    },
+    "functional_0061": {
+      "alt": "Continue with Vertex",
+      "sec": 0.61
+    },
+    "functional_0062": {
+      "alt": "The image is a button that, when clicked, will initiate the secure checkout process for the payment.",
+      "sec": 1.38
+    },
+    "functional_0063": {
+      "alt": "The image is a button that, when clicked, initiates a secure checkout process.",
+      "sec": 1.17
+    },
+    "functional_0064": {
+      "alt": "The image is a button that likely leads to a payment or checkout process.",
+      "sec": 1.07
+    },
+    "functional_0065": {
+      "alt": "The button is a link to the Harbour Pay payment gateway.",
+      "sec": 0.98
+    },
+    "informative_0001": {
+      "alt": "The image is a weather icon representing a sunny day with a temperature of 24 degrees.",
+      "sec": 1.29
+    },
+    "informative_0002": {
+      "alt": "The image is a weather icon representing a cloudy day with a temperature of 12 degrees.",
+      "sec": 1.27
+    },
+    "informative_0003": {
+      "alt": "The image is a weather icon representing rain.",
+      "sec": 0.78
+    },
+    "informative_0004": {
+      "alt": "The image is a weather icon representing light snow.",
+      "sec": 0.95
+    },
+    "informative_0005": {
+      "alt": "The image is a weather icon representing a stormy day with a cloud and a lightning bolt. Its purpose is to provide information about the weather forecast for Tuesday, indicating that it will be 12 degrees.",
+      "sec": 2.48
+    },
+    "informative_0006": {
+      "alt": "The image is a weather icon representing a sunny day with a temperature of 26 degrees.",
+      "sec": 1.26
+    },
+    "informative_0007": {
+      "alt": "The image is a link to an informational page.",
+      "sec": 0.92
+    },
+    "informative_0008": {
+      "alt": "The image is a weather icon representing cloudy weather with a temperature of 17 degrees.",
+      "sec": 1.42
+    },
+    "informative_0009": {
+      "alt": "The image is a button that likely serves as a call-to-action, possibly to visit a page with more information about the noise cancelling headphones mentioned in the text.",
+      "sec": 1.83
+    },
+    "informative_0010": {
+      "alt": "The image is a button that likely serves as a link to the \"Canvas weekend bag\" product page.",
+      "sec": 1.32
+    },
+    "informative_0011": {
+      "alt": "The image is a button that likely serves as a link to a page with more information about the product or service being advertised.",
+      "sec": 1.54
+    },
+    "informative_0012": {
+      "alt": "The image is a placeholder for a rating icon, likely used to indicate the number of reviews or ratings a product or service has received.",
+      "sec": 1.65
+    },
+    "informative_0013": {
+      "alt": "The image is a button that likely serves as a link to a page with more information about the product or service being advertised.",
+      "sec": 1.55
+    },
+    "informative_0014": {
+      "alt": "The image is a button that likely leads to more information about the \"Canvas weekend bag\" with 354 reviews.",
+      "sec": 1.58
+    },
+    "informative_0015": {
+      "alt": "The image is a button that likely leads to more information about the backup process or a related feature on the website.",
+      "sec": 1.49
+    },
+    "informative_0016": {
+      "alt": "The image is a loading icon, commonly used to indicate that a page is loading or that an image is being loaded. It is used to convey that the content is being processed or that the page is still loading.",
+      "sec": 2.48
+    },
+    "informative_0017": {
+      "alt": "The image is a progress indicator, showing that the upload process is currently 60% complete.",
+      "sec": 1.43
+    },
+    "informative_0018": {
+      "alt": "The image is a loading icon, indicating that the backup process is in progress.",
+      "sec": 1.23
+    },
+    "informative_0019": {
+      "alt": "The image is a loading icon, commonly used to indicate that a file is being processed or downloaded. It is used to convey that the course progress is in the process of being calculated or displayed.",
+      "sec": 2.36
+    },
+    "informative_0020": {
+      "alt": "The image is a link to an informational page.",
+      "sec": 0.88
+    },
+    "informative_0021": {
+      "alt": "The image is a button or link. It is used to navigate to a page or section related to Rana Ahmed.",
+      "sec": 1.64
+    },
+    "informative_0022": {
+      "alt": "The image is a button that likely performs the action of opening a page or a specific section of the website.",
+      "sec": 1.73
+    },
+    "informative_0023": {
+      "alt": "The image is a button that likely serves as a link to a webpage or a product page featuring a Walnut desk lamp.",
+      "sec": 1.93
+    },
+    "informative_0024": {
+      "alt": "The image is a button that likely leads to more information about the invoice.",
+      "sec": 1.32
+    },
+    "informative_0025": {
+      "alt": "The image is a button or link. Its purpose is to provide a link to a specific section or page on the website.",
+      "sec": 2.04
+    },
+    "informative_0026": {
+      "alt": "The image is a button that likely serves as a link to more information about Jamie Doyle, the Editor.",
+      "sec": 1.44
+    },
+    "informative_0027": {
+      "alt": "The image is a button that likely serves as a link to a profile or information page for a person named Rana Ahmed, who is an editor.",
+      "sec": 1.79
+    },
+    "informative_0028": {
+      "alt": "The image is a button that likely serves as a link to a profile or information page for a person named Mira Kaya, who is described as an Editor.",
+      "sec": 1.88
+    },
+    "informative_0029": {
+      "alt": "The image is a button or link that is part of a web page. It is designed to be clicked to navigate to a specific section or page related to Tom Okafor, the Editor.",
+      "sec": 2.26
+    },
+    "informative_0030": {
+      "alt": "The image is a button that likely serves as a link to more information about Lena Sorensen, the Editor.",
+      "sec": 1.54
+    },
+    "informative_0031": {
+      "alt": "The image is a link to the Italian language page.",
+      "sec": 0.91
+    },
+    "informative_0032": {
+      "alt": "The image is a link to the German language page.",
+      "sec": 0.92
+    },
+    "informative_0033": {
+      "alt": "The image is a link to the \"Poland\" page.",
+      "sec": 1.03
+    },
+    "informative_0034": {
+      "alt": "The image is a link to the French language page.",
+      "sec": 0.86
+    },
+    "informative_0035": {
+      "alt": "The image is a link to the Austrian flag.",
+      "sec": 0.85
+    },
+    "informative_0036": {
+      "alt": "The image is a link to the \"Ireland\" page.",
+      "sec": 0.96
+    },
+    "informative_0037": {
+      "alt": "The image is a link to the Ukraine page on the website. It is used to provide a way for users to select their country, which is a common feature on websites to allow users to choose their preferred language or country of origin.",
+      "sec": 2.58
+    },
+    "informative_0038": {
+      "alt": "The image is a link to the Netherlands.",
+      "sec": 0.82
+    },
+    "informative_0039": {
+      "alt": "The image is a placeholder for an image of a mug.",
+      "sec": 1.02
+    },
+    "informative_0040": {
+      "alt": "The image is a placeholder for an image of a cardboard box.",
+      "sec": 1.13
+    },
+    "informative_0041": {
+      "alt": "The image is a product image for a hardback book.",
+      "sec": 1.03
+    },
+    "informative_0042": {
+      "alt": "The image is a placeholder for an image of a water bottle.",
+      "sec": 1.08
+    },
+    "informative_0043": {
+      "alt": "The image is a product image for a t-shirt.",
+      "sec": 0.99
+    },
+    "informative_0044": {
+      "alt": "The image is a product image for a table lamp. It is used to display the product's details, such as its price, on the webpage.",
+      "sec": 1.91
+    },
+    "informative_0045": {
+      "alt": "The image is a product image for a potted plant. It is used to display the product information, including its price, on the webpage.",
+      "sec": 2.26
+    },
+    "informative_0046": {
+      "alt": "The image is a product image for a smartphone.",
+      "sec": 1.09
+    },
+    "informative_0047": {
+      "alt": "Empty.",
+      "sec": 0.59
+    },
+    "informative_0048": {
+      "alt": "Camera, 17.00",
+      "sec": 0.99
+    },
+    "informative_0049": {
+      "alt": "The image is a visual representation of a walking route, indicating that it is an informative element on the page. It is used to provide a visual representation of the walking time, which is 12 minutes.",
+      "sec": 3.29
+    },
+    "informative_0050": {
+      "alt": "The image is a placeholder for an instructional or informative image, likely used to provide a visual representation of a walking route for a specific duration, in this case, 12 minutes.",
+      "sec": 3.09
+    },
+    "informative_0051": {
+      "alt": "The image is a visual representation of a walking route, indicating that it is an informative element on the page. It is used to provide a visual representation of the walking time, which is 12 minutes.",
+      "sec": 3.39
+    },
+    "informative_0052": {
+      "alt": "The image is a placeholder for an instructional or informative image, likely used to provide a walking route for a specific duration, in this case, 12 minutes.",
+      "sec": 2.78
+    },
+    "informative_0053": {
+      "alt": "The image is a visual representation of a walking route, indicating that it is an informative element on the page. It is used to provide a visual representation of the walking time, which is 12 minutes.",
+      "sec": 3.33
+    },
+    "informative_0054": {
+      "alt": "The image is a decorative illustration of a house at sunrise.",
+      "sec": 1.39
+    },
+    "informative_0055": {
+      "alt": "The image is a decorative illustration used to provide context for the text \"A tree under a full moon.\" It is not a button or link, and it does not contain any text.",
+      "sec": 2.91
+    },
+    "informative_0056": {
+      "alt": "This image is a decorative illustration of mountains at sunset.",
+      "sec": 1.23
+    },
+    "informative_0057": {
+      "alt": "The image is a placeholder for an illustration that will be used to provide information about sailing boats.",
+      "sec": 1.83
+    },
+    "informative_0058": {
+      "alt": "The image is a decorative illustration of a city skyline at night. It is used to provide context or information about the cityscape depicted in the image.",
+      "sec": 2.52
+    },
+    "informative_0059": {
+      "alt": "The image is a decorative illustration of a campfire under the stars, likely intended to evoke a sense of adventure and relaxation.",
+      "sec": 2.17
+    },
+    "informative_0060": {
+      "alt": "The image is a placeholder for an illustration that will be used to provide information about a bridge over a river.",
+      "sec": 2.03
+    },
+    "decorative_0001": {
+      "alt": "Weekly digest",
+      "sec": 0.64
+    },
+    "decorative_0002": {
+      "alt": "The image is a decorative element, likely used for aesthetic purposes, as it is not related to the content of the page. It is not a button, link, or part of a web page's functionality.",
+      "sec": 3.12
+    },
+    "decorative_0003": {
+      "alt": "The image is a decorative element, likely used for visual appeal or branding purposes. It is not a button or link, and it does not contain text.",
+      "sec": 2.3
+    },
+    "decorative_0004": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to break up the content of the page. It does not contain any text or interactive elements.",
+      "sec": 2.43
+    },
+    "decorative_0005": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the page. It serves to draw attention to the text \"Built for small kitchens\" and to create a cohesive design.",
+      "sec": 2.7
+    },
+    "decorative_0006": {
+      "alt": "The image is a decorative element, likely used for aesthetic purposes, as it is not related to the content of the page. It is not a button, link, or part of a navigation menu.",
+      "sec": 3.0
+    },
+    "decorative_0007": {
+      "alt": "The image is a decorative element, likely used to add visual interest or to separate sections of the page. It does not contain any text or interactive elements.",
+      "sec": 2.36
+    },
+    "decorative_0008": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the page. It is not related to the content of the page and does not provide any useful information.",
+      "sec": 2.6
+    },
+    "decorative_0009": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to break up the content of the page. It does not contain any text or interactive elements.",
+      "sec": 2.47
+    },
+    "decorative_0010": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the text on the webpage. It is not a button or link, and it does not contain any text.",
+      "sec": 2.8
+    },
+    "decorative_0011": {
+      "alt": "The image is a decorative element, likely used for visual emphasis or to add a touch of elegance to the text. It is not a button or link, and it does not contain text.",
+      "sec": 2.85
+    },
+    "decorative_0012": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the web page. It is not related to any specific action or function on the page.",
+      "sec": 2.52
+    },
+    "decorative_0013": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or functional content.",
+      "sec": 2.66
+    },
+    "decorative_0014": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the text \"Our team\" on the webpage. It is a stylized, abstract design that does not contain any text or functional elements.",
+      "sec": 2.96
+    },
+    "decorative_0015": {
+      "alt": "The image is a decorative element used to visually separate the text \"Free returns for 30 days\" from the rest of the content on the page. It is not a button or link, and it does not contain any text.",
+      "sec": 3.98
+    },
+    "decorative_0016": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the web page. It is not related to any specific action or function on the page.",
+      "sec": 2.9
+    },
+    "decorative_0017": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the page. It is not a button or link, and it does not contain text.",
+      "sec": 2.56
+    },
+    "decorative_0018": {
+      "alt": "The image is a decorative element used to separate sections on a webpage. It is not related to any specific question or topic.",
+      "sec": 2.11
+    },
+    "decorative_0019": {
+      "alt": "The image is a decorative element used to separate sections on a webpage. It is not related to any specific question or topic.",
+      "sec": 1.68
+    },
+    "decorative_0020": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the footer of a web page. It is a stylized wave pattern with a green color scheme, and it is placed within a div element with the class \"footer-pattern\". The purpose of this image is to add a visually appealing and",
+      "sec": 3.19
+    },
+    "decorative_0021": {
+      "alt": "The image is a decorative element used for visual appeal on a web page. It is not a button, link, or part of a navigation menu.",
+      "sec": 2.11
+    },
+    "decorative_0022": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the page.",
+      "sec": 1.2
+    },
+    "decorative_0023": {
+      "alt": "The image is a decorative element used to separate sections on a webpage. It is not related to any specific content or action.",
+      "sec": 1.56
+    },
+    "decorative_0024": {
+      "alt": "Empty",
+      "sec": 0.77
+    },
+    "decorative_0025": {
+      "alt": "Weekly digest",
+      "sec": 0.84
+    },
+    "decorative_0026": {
+      "alt": "Empty.",
+      "sec": 0.81
+    },
+    "decorative_0027": {
+      "alt": "The image is a placeholder for a link or button.",
+      "sec": 1.18
+    },
+    "decorative_0028": {
+      "alt": "Empty.",
+      "sec": 0.56
+    },
+    "decorative_0029": {
+      "alt": "The image is a placeholder for a button or link.",
+      "sec": 1.21
+    },
+    "decorative_0030": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the text on the webpage.",
+      "sec": 1.33
+    },
+    "decorative_0031": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the text on the webpage.",
+      "sec": 1.34
+    },
+    "decorative_0032": {
+      "alt": "Empty",
+      "sec": 0.46
+    },
+    "decorative_0033": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the text in the paragraph. It is not a button or link, and it does not contain any text.",
+      "sec": 2.03
+    },
+    "decorative_0034": {
+      "alt": "Empty.",
+      "sec": 0.49
+    },
+    "decorative_0035": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements.",
+      "sec": 1.95
+    },
+    "decorative_0036": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page.",
+      "sec": 1.6
+    },
+    "decorative_0037": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It is not related to any specific action or content on the page.",
+      "sec": 2.21
+    },
+    "decorative_0038": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the text.",
+      "sec": 1.38
+    },
+    "decorative_0039": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the text.",
+      "sec": 1.37
+    },
+    "decorative_0040": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the web page. It serves to draw attention to the text \"Built for small kitchens\" and to create a cohesive design.",
+      "sec": 2.22
+    },
+    "decorative_0041": {
+      "alt": "Weekly digest",
+      "sec": 0.51
+    },
+    "decorative_0042": {
+      "alt": "Weekly digest",
+      "sec": 0.59
+    },
+    "decorative_0043": {
+      "alt": "The image is a decorative element used to separate sections on the page. It is not related to the content of the text, which is about how the company works.",
+      "sec": 2.1
+    },
+    "decorative_0044": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the webpage. It does not contain any text or interactive elements, so its purpose is purely decorative.",
+      "sec": 2.12
+    },
+    "decorative_0045": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the text \"Our team\" on the webpage. It is not a button or link, and it does not contain any text.",
+      "sec": 2.26
+    },
+    "decorative_0046": {
+      "alt": "The image is a decorative element used to separate sections on the page. It is not related to the content of the text, which is about how the company works.",
+      "sec": 2.07
+    },
+    "decorative_0047": {
+      "alt": "The image is a decorative element used to separate the main content from the subheading \"Our team\" on a web page. It is not a button or link, and it does not contain text. The purpose of the image is to visually separate the main heading from the subheading, making it easier",
+      "sec": 3.37
+    },
+    "decorative_0048": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the page. It serves as a visual separator or a decorative pattern, adding a touch of elegance to the layout.",
+      "sec": 2.51
+    },
+    "decorative_0049": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the page. It is not related to any specific action or content on the page.",
+      "sec": 2.41
+    },
+    "decorative_0050": {
+      "alt": "The image is a decorative element used to enhance the visual appeal of the web page. It serves to draw attention to the text \"Built for small kitchens\" and to create a cohesive design.",
+      "sec": 3.97
+    },
+    "decorative_0051": {
+      "alt": "The image is a decorative element used to separate sections on the page. It is not related to the content of the text, which is about how the company works.",
+      "sec": 2.68
+    },
+    "decorative_0052": {
+      "alt": "Weekly digest",
+      "sec": 0.55
+    },
+    "decorative_0053": {
+      "alt": "Weekly digest",
+      "sec": 0.59
+    },
+    "decorative_0054": {
+      "alt": "The image is a decorative element, likely used to enhance the visual appeal of the page. It serves to draw attention to the text \"Built for small kitchens\" and to create a cohesive design.",
+      "sec": 2.97
+    },
+    "decorative_0055": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the footer of the page.",
+      "sec": 2.1
+    },
+    "decorative_0056": {
+      "alt": "Empty",
+      "sec": 0.51
+    },
+    "decorative_0057": {
+      "alt": "Weekly digest",
+      "sec": 0.63
+    },
+    "decorative_0058": {
+      "alt": "Empty.",
+      "sec": 0.68
+    },
+    "decorative_0059": {
+      "alt": "Empty",
+      "sec": 0.49
+    },
+    "image_of_text_0001": {
+      "alt": "The image is a button or link. Its purpose is to direct users to a website or page where they can find more information about Kestrel Books.",
+      "sec": 2.73
+    },
+    "image_of_text_0002": {
+      "alt": "The image is a button. Its purpose is to link to a page or website.",
+      "sec": 1.58
+    },
+    "image_of_text_0003": {
+      "alt": "The image is a link to a website.",
+      "sec": 1.11
+    },
+    "image_of_text_0004": {
+      "alt": "The image is a button or link. It is designed to be clicked to navigate to a website or page related to Lumen Health.",
+      "sec": 2.85
+    },
+    "image_of_text_0005": {
+      "alt": "The image is a button or link. Its purpose is to direct users to a specific page or section on the website.",
+      "sec": 2.68
+    },
+    "image_of_text_0006": {
+      "alt": "The image is a logo for \"FOXGLOVE STUDIO.\" It is used to identify the studio and is likely featured on the page to convey trust and reliability.",
+      "sec": 3.7
+    },
+    "image_of_text_0007": {
+      "alt": "The image is a button or link. Its purpose is to direct users to a specific page or section on the website.",
+      "sec": 2.92
+    },
+    "image_of_text_0008": {
+      "alt": "The image is a logo for \"HALCYON TRAVEL.\" It is used to represent the brand and is likely featured on the page to convey trust and reliability, as indicated by the text \"Trusted by.\"",
+      "sec": 4.47
+    },
+    "image_of_text_0009": {
+      "alt": "The image is a button or link. Its purpose is to direct users to a Bramble Grocers website or page.",
+      "sec": 3.03
+    },
+    "image_of_text_0010": {
+      "alt": "The image is a logo for Quill & Sable, a company that appears to be related to the content of the page. The purpose of the image is to represent the brand or company, which is likely to be associated with the content or services offered by Quill & Sable.",
+      "sec": 5.84
+    },
+    "image_of_text_0011": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the image is to draw attention to the sale and encourage users to shop.",
+      "sec": 2.58
+    },
+    "image_of_text_0012": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the image is to draw attention to the sale and encourage visitors to shop.",
+      "sec": 2.14
+    },
+    "image_of_text_0013": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the image is to draw attention to the sale and encourage users to shop. The text \"Buy one get one free\" is displayed in the banner, indicating a special offer where customers can purchase one item and receive another item for free.",
+      "sec": 3.82
+    },
+    "image_of_text_0014": {
+      "alt": "The image is a promotional banner for a summer sale that starts on Friday. The purpose of the image is to draw attention to the sale and encourage users to shop for it.",
+      "sec": 2.74
+    },
+    "image_of_text_0015": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the banner is to draw attention to the sale and encourage visitors to shop.",
+      "sec": 2.17
+    },
+    "image_of_text_0016": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the image is to draw attention to the sale and encourage users to shop. The text \"Members save 20% today\" indicates that members of the organization or community being advertised are eligible for a discount. The action the image performs",
+      "sec": 3.81
+    },
+    "image_of_text_0017": {
+      "alt": "The image is a promotional banner for a winter sale. It is designed to attract attention and encourage users to shop during the last three days of the sale. The purpose of the image is to inform users about the sale and encourage them to take advantage of it.",
+      "sec": 3.54
+    },
+    "image_of_text_0018": {
+      "alt": "The image is a promotional banner for a sale. The purpose of the image is to draw attention to the sale and encourage customers to shop for next-day delivery.",
+      "sec": 2.5
+    },
+    "image_of_text_0019": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements.",
+      "sec": 2.62
+    },
+    "image_of_text_0020": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements, so its purpose is purely decorative.",
+      "sec": 2.89
+    },
+    "image_of_text_0021": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements, so its purpose is purely decorative.",
+      "sec": 3.24
+    },
+    "image_of_text_0022": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements, so its purpose is purely decorative.",
+      "sec": 3.13
+    },
+    "image_of_text_0023": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page. It does not contain any text or interactive elements, so its purpose is purely decorative.",
+      "sec": 3.18
+    },
+    "image_of_text_0024": {
+      "alt": "The image is a decorative element, likely used for visual appeal or to add a touch of elegance to the page.",
+      "sec": 2.64
+    },
+    "image_of_text_0025": {
+      "alt": "The image is a placeholder for text that will be displayed on the page.",
+      "sec": 1.34
+    },
+    "image_of_text_0026": {
+      "alt": "The image is a button that performs the action of opening a new tab or window.",
+      "sec": 1.39
+    },
+    "image_of_text_0027": {
+      "alt": "The image is a button that likely serves as a call-to-action or a navigation link.",
+      "sec": 1.54
+    },
+    "image_of_text_0028": {
+      "alt": "The image is a placeholder for text.",
+      "sec": 0.99
+    },
+    "image_of_text_0029": {
+      "alt": "The image is a button that, when clicked, will take the user to the \"Our 2026 impact report\" page.",
+      "sec": 2.21
+    },
+    "image_of_text_0030": {
+      "alt": "The image is a button that performs the action of opening a new tab or window.",
+      "sec": 1.42
+    },
+    "image_of_text_0031": {
+      "alt": "The image is a CAPTCHA, a challenge to verify that the user is human, typically used to prevent automated bots from accessing websites. The text \"3mjc6\" is displayed on the image, which is the challenge for the user to solve.",
+      "sec": 3.11
+    },
+    "image_of_text_0032": {
+      "alt": "The image is a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) image, which is used to verify that the user is a human and not a computer. The purpose of the CAPTCHA is to prevent automated bots from accessing the website. The text \"Type the characters",
+      "sec": 3.69
+    },
+    "image_of_text_0033": {
+      "alt": "The image is a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) image, which is used to verify that the user is a human and not a computer. The purpose of the CAPTCHA is to prevent automated bots from accessing the website.",
+      "sec": 3.45
+    },
+    "image_of_text_0034": {
+      "alt": "The image is a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) image, which is used to verify that the user is a human and not a computer. The purpose of the CAPTCHA is to prevent automated bots from accessing the website. The text \"8gV",
+      "sec": 3.7
+    },
+    "image_of_text_0035": {
+      "alt": "The image is a CAPTCHA, a type of challenge used to prevent automated bots from accessing websites. The purpose of the CAPTCHA is to verify that the user is human and not a machine. The text \"Phm749\" is displayed on the image, which is the challenge for the",
+      "sec": 3.78
+    },
+    "image_of_text_0036": {
+      "alt": "The image is a CAPTCHA, a challenge to verify that the user is human and not a bot. It requires the user to type the characters shown in the image, which are not visible in the image itself. The purpose of the CAPTCHA is to prevent automated bots from accessing the website.",
+      "sec": 3.87
+    },
+    "image_of_text_0037": {
+      "alt": "The image is a button or link that provides information about Kestrel Books. It is used to direct users to the location of the bookstore, which is 14 Mill Lane, Bristol BS1 4TR. The purpose of the image is to provide a clear and accessible way for users to",
+      "sec": 3.87
+    },
+    "image_of_text_0038": {
+      "alt": "The image is a button or link. It is designed to be clicked to navigate to the Northwind Tea location.",
+      "sec": 1.84
+    },
+    "image_of_text_0039": {
+      "alt": "The image is a button that likely serves as a link to a website or a page. It is designed to be clicked to navigate to the Lumen Health website.",
+      "sec": 2.42
+    },
+    "image_of_text_0040": {
+      "alt": "The image is a button that opens a link to the Foxglove Studio's address.",
+      "sec": 1.57
+    },
+    "image_of_text_0041": {
+      "alt": "The image is a button that opens a link to Bramble Grocers.",
+      "sec": 1.42
+    },
+    "image_of_text_0042": {
+      "alt": "The image is a call-to-action button. Its purpose is to direct users to contact the service provider by phone.",
+      "sec": 1.85
+    },
+    "image_of_text_0043": {
+      "alt": "The image is a contact strip with a phone icon and contact details. The purpose of this image is to provide a way for users to call the service or organization, with the text \"Call us, 9am to 5pm\" indicating the operating hours.",
+      "sec": 3.42
+    },
+    "image_of_text_0044": {
+      "alt": "The image is a phone number for a contact strip. The purpose of the image is to provide a way for users to call the contact number for assistance or information.",
+      "sec": 2.5
+    },
+    "image_of_text_0045": {
+      "alt": "The image is a call-to-action button. Its purpose is to direct users to contact the service or organization by phone.",
+      "sec": 1.86
+    },
+    "image_of_text_0046": {
+      "alt": "The image is a button that opens doors at 7.",
+      "sec": 1.24
+    },
+    "image_of_text_0047": {
+      "alt": "The image is a decorative element, likely used for aesthetic purposes rather than conveying a specific message or action.",
+      "sec": 1.7
+    },
+    "image_of_text_0048": {
+      "alt": "The image is a button that is part of a web page. It is designed to be clicked to perform a specific action, which is not clear from the text alone.",
+      "sec": 2.36
+    },
+    "image_of_text_0049": {
+      "alt": "The image is a placeholder for text.",
+      "sec": 1.27
+    },
+    "image_of_text_0050": {
+      "alt": "The image is a button that likely leads to more information about the winter menu.",
+      "sec": 1.59
+    },
+    "image_of_text_0051": {
+      "alt": "JOIN THE WAITING LIST",
+      "sec": 0.88
+    },
+    "image_of_text_0052": {
+      "alt": "The image is a button that opens a link to an event titled \"Repair cafe.\" The purpose of this button is to provide information about an upcoming event, which is a repair cafe happening on Saturday, 14 March, at 10 am.",
+      "sec": 3.22
+    },
+    "image_of_text_0053": {
+      "alt": "The image is a button that is part of a web page's navigation menu. It is designed to be clicked to access more information about upcoming events, specifically a book club event. The purpose of this button is to direct users to the event page where they can find details about the book club, including",
+      "sec": 4.14
+    },
+    "image_of_text_0054": {
+      "alt": "The image is a link to an event.",
+      "sec": 1.29
+    },
+    "image_of_text_0055": {
+      "alt": "The image is a button that opens a link to an event. The purpose of the image is to direct users to the event page.",
+      "sec": 2.13
+    },
+    "image_of_text_0056": {
+      "alt": "The image is a button that is part of a web page's navigation menu. It is designed to be clicked to access more information about upcoming events, specifically a coffee tasting event scheduled for Tuesday, 5 May at 5 pm.",
+      "sec": 3.08
+    },
+    "complex_0001": {
+      "alt": "The image is a bar chart that displays the total sales by quarter in thousand pounds. The chart is used to visualize the sales data for the specified quarters.",
+      "sec": 2.84
+    },
+    "complex_0002": {
+      "alt": "The image is a bar chart that displays the number of support tickets by channel. The chart is titled \"Support tickets by channel\" and is part of a report. The purpose of the chart is to show the distribution of support tickets across different channels, such as email, chat, and phone. The",
+      "sec": 4.74
+    },
+    "complex_0003": {
+      "alt": "The image is a bar chart that displays the number of weekly signups for different days of the week. The purpose of the image is to provide a visual representation of the number of signups for each day of the week, which can be used to track and analyze the number of signups over time",
+      "sec": 4.3
+    },
+    "complex_0004": {
+      "alt": "The image is a bar chart that displays the energy use by floor in kWh. The purpose of the image is to provide a visual representation of the energy consumption across different floors in a building.",
+      "sec": 3.45
+    },
+    "complex_0005": {
+      "alt": "The image is a bar chart that displays the number of books borrowed by genre. The chart is titled \"Books borrowed by genre\" and is categorized into four genres: Fiction, History, Poetry, and Science. The chart shows the number of loans for each genre, with Fiction having the highest number of",
+      "sec": 4.39
+    },
+    "complex_0006": {
+      "alt": "The image is a bar chart that displays the average delivery time for four regions: North, South, East, and West. The chart is used to compare the average delivery times across these regions.",
+      "sec": 3.31
+    },
+    "complex_0007": {
+      "alt": "The image is a bar chart that shows the percentage of site visits by different devices. The chart is used to represent data on the number of visits to a website, categorized by device type. The x-axis represents the device types (Mobile, Desktop, and Tablet), while the y-axis represents the percentage",
+      "sec": 4.55
+    },
+    "complex_0008": {
+      "alt": "The image is a bar chart titled \"Rainfall by month\" with a scale of millimetres on the y-axis and months of the year on the x-axis. The chart shows the amount of rainfall in millimetres for each month from January to May. The purpose of the image is to",
+      "sec": 4.71
+    },
+    "complex_0009": {
+      "alt": "The image is a bar chart that displays the number of volunteers by branch. The chart is titled \"Volunteers by branch\" and is accompanied by a note indicating that the full report is available. The chart is divided into three bars, each representing a different branch: Leith, Mill Lane, and",
+      "sec": 4.74
+    },
+    "complex_0010": {
+      "alt": "The image is a bar chart that shows the number of errors per release for different versions of a software release. The chart is used to compare the number of errors in each version.",
+      "sec": 3.51
+    },
+    "complex_0011": {
+      "alt": "The image is a bar chart displaying energy use by floor in a building. The purpose of the image is to visually represent the energy consumption across different floors, which can help in understanding the distribution of energy usage in the building.",
+      "sec": 3.45
+    },
+    "complex_0012": {
+      "alt": "The image is a bar chart displaying the number of books borrowed by genre. The purpose of the image is to visually represent the distribution of books borrowed across different genres.",
+      "sec": 2.79
+    },
+    "complex_0013": {
+      "alt": "The image is a bar chart displaying the average delivery time for four regions: North, South, East, and West. The chart is used to compare the average delivery times for these regions. The purpose of the image is to provide a visual representation of the data, allowing users to easily compare the delivery",
+      "sec": 3.65
+    },
+    "complex_0014": {
+      "alt": "The image is a bar chart displaying the number of site visits by different devices. The purpose of the image is to visually represent the data on the page, which is likely used to understand user behavior and preferences when accessing the website.",
+      "sec": 3.42
+    },
+    "complex_0015": {
+      "alt": "The image is a bar chart displaying the rainfall by month. Its purpose is to provide a visual representation of the monthly rainfall data, allowing users to easily compare the rainfall amounts across different months.",
+      "sec": 3.29
+    },
+    "complex_0016": {
+      "alt": "The image is a bar chart displaying the number of volunteers by branch. The purpose of the image is to visually represent the data, which is likely used for a report or dashboard to show the distribution of volunteers across different branches.",
+      "sec": 3.2
+    },
+    "complex_0017": {
+      "alt": "The image is a line graph displaying the total sales by quarter in thousand pounds. The purpose of the image is to visually represent the sales data over the specified quarters.",
+      "sec": 2.82
+    },
+    "complex_0018": {
+      "alt": "The image is a line graph that shows the number of support tickets by channel. The x-axis represents the channels (Email, Chat, Phone), and the y-axis represents the number of tickets. The graph shows a downward trend, indicating that the number of tickets has decreased from the highest point on the",
+      "sec": 4.08
+    },
+    "complex_0019": {
+      "alt": "The image is a line graph displaying weekly signups over a period of five days. The purpose of the image is to show the trend in signups over time, which can be used to track the number of signups each day.",
+      "sec": 3.5
+    },
+    "complex_0020": {
+      "alt": "The image is a line graph that displays energy use by floor in kWh. The purpose of the image is to visually represent the energy consumption across different floors in a building, which can help in understanding energy usage patterns and potential areas for improvement.",
+      "sec": 3.47
+    },
+    "complex_0021": {
+      "alt": "The image is a line graph that shows the number of books borrowed by genre. The x-axis represents the genre, with \"Fiction\" at the top and \"Science\" at the bottom. The y-axis represents the number of loans, with a range of 0 to 76. The",
+      "sec": 4.43
+    },
+    "complex_0022": {
+      "alt": "The image is a line graph that displays the average delivery time for different regions. The purpose of the image is to provide a visual representation of the data, allowing users to easily compare the delivery times across different regions.",
+      "sec": 3.72
+    },
+    "complex_0023": {
+      "alt": "The image is a pie chart showing the distribution of site visits by device. The chart is used to represent the percentage of visits made on different devices, with \"Mobile\" representing 65%, \"Desktop\" representing 24%, and \"Tablet\" representing 11%. The purpose of",
+      "sec": 5.14
+    },
+    "complex_0024": {
+      "alt": "The image is a pie chart showing the rainfall distribution by month. The purpose of the image is to provide a visual representation of the rainfall data, which can be used to understand the monthly patterns of rainfall.",
+      "sec": 4.83
+    },
+    "complex_0025": {
+      "alt": "The image is a pie chart displaying the distribution of volunteers among three branches: Leith, Mill Lane, and Harbour. The chart is titled \"Volunteers by branch\" and is part of a larger section on the page. The purpose of the chart is to visually represent the percentage of volunteers in each",
+      "sec": 4.28
+    },
+    "complex_0026": {
+      "alt": "The image is a pie chart displaying the percentage of errors per release for different versions of a software release. The chart is used to show the distribution of errors across different versions, with each section color-coded to represent the percentage of errors for each version. The purpose of the image is to provide a visual",
+      "sec": 3.63
+    },
+    "complex_0027": {
+      "alt": "The image is a pie chart representing the distribution of members across different plan types. The chart is titled \"Members by plan\" and is sourced from an internal dashboard. The chart shows three segments: Free (54%), Standard (31%), and Premium (15%).",
+      "sec": 3.61
+    },
+    "complex_0028": {
+      "alt": "The image is a pie chart displaying the distribution of cups served per day across different days of the week. The chart is used to show the percentage of cups served on each day.",
+      "sec": 2.86
+    },
+    "complex_0029": {
+      "alt": "The image is a pie chart showing the percentage of repairs completed for different categories. The chart is used to provide a visual representation of the data, making it easier for users to understand the distribution of repairs across different types of items.",
+      "sec": 3.18
+    },
+    "complex_0030": {
+      "alt": "The image is a pie chart displaying the percentage of newsletter opens for different weeks. The chart is used to show the distribution of newsletter opens across different weeks.",
+      "sec": 2.63
+    },
+    "complex_0031": {
+      "alt": "The image is a bar chart that displays the number of errors per release for different versions of a product. The chart is titled \"Errors per release\" and is sourced from an internal dashboard. The chart is divided into four sections, each representing a different release version: v1.2, v1",
+      "sec": 3.89
+    },
+    "complex_0032": {
+      "alt": "The image is a bar chart that visually represents the distribution of members across different plan types. The chart is titled \"Members by plan\" and is part of a larger section on the page. The purpose of the chart is to provide a clear and concise visual representation of the data, making it easy for",
+      "sec": 4.18
+    },
+    "complex_0033": {
+      "alt": "The image is a bar chart that shows the number of cups served per day for different days of the week. The chart is used to display the data in a visually appealing and easy-to-read format.",
+      "sec": 3.26
+    },
+    "complex_0034": {
+      "alt": "The image is a bar chart that shows the number of repairs completed for different types of items. The chart is titled \"Repairs completed\" and is part of a report. The chart is divided into four categories: Bikes, Laptops, Kettles, and Radios. Each category has",
+      "sec": 3.77
+    },
+    "complex_0035": {
+      "alt": "The image is a bar chart that displays the number of newsletter opens for different weeks. The chart is used to show the performance of the newsletter over time.",
+      "sec": 2.98
+    },
+    "complex_0036": {
+      "alt": "The image is a bar chart that visually represents the distribution of stock across different warehouses. The chart is titled \"Stock by warehouse\" and is displayed on a webpage. The purpose of the chart is to provide a visual representation of the stock distribution among the four warehouses: Bristol, Leeds, Cardiff, and",
+      "sec": 3.7
+    },
+    "complex_0037": {
+      "alt": "The image is a screenshot of a table showing the number of signups for different days of the week. The purpose of the image is to display the weekly signups for a particular week, which can be used for tracking and reporting purposes.",
+      "sec": 3.52
+    },
+    "complex_0038": {
+      "alt": "The image is a button that, when clicked, will take the user to a full report on energy use by floor.",
+      "sec": 2.8
+    },
+    "complex_0039": {
+      "alt": "The image is a table displaying the number of books borrowed by genre. The purpose of the image is to provide a visual representation of the data, which is likely used for educational or informational purposes, such as a report or a presentation.",
+      "sec": 4.1
+    },
+    "complex_0040": {
+      "alt": "The image is a table displaying the average delivery time for different regions. The purpose of this image is to provide a visual representation of the average delivery times for each region, which can help in understanding the efficiency of the delivery process.",
+      "sec": 3.09
+    },
+    "complex_0041": {
+      "alt": "The image is a table showing the distribution of site visits by device type. The purpose of the image is to provide a visual representation of the data, which is likely used for educational or informational purposes, such as explaining the popularity of different devices for accessing the site.",
+      "sec": 3.17
+    },
+    "complex_0042": {
+      "alt": "The image is a table displaying rainfall data by month. The purpose of the image is to provide a visual representation of the monthly rainfall amounts.",
+      "sec": 2.46
+    },
+    "complex_0043": {
+      "alt": "The image is a screenshot of a web page, specifically a section titled \"How a return works\" from an internal dashboard. The purpose of the image is to visually represent the process of a return, which includes the steps of requesting a return, printing a label, posting it, and then refunding",
+      "sec": 3.74
+    },
+    "complex_0044": {
+      "alt": "The image is a figure that visually represents the article workflow. It shows a sequence of steps: Draft, Review, Edit, and Publish. The purpose of this image is to visually communicate the process of creating and publishing an article on a web page.",
+      "sec": 3.24
+    },
+    "complex_0045": {
+      "alt": "The image is a diagram illustrating the process of support escalation. It shows a ticket being processed through three stages: ticket, triage, and specialist. The purpose of the image is to visually represent the flow of support requests and the different stages involved in their resolution.",
+      "sec": 3.26
+    },
+    "complex_0046": {
+      "alt": "The image is a button that, when clicked, will take the user to a report titled \"Order pipeline.\"",
+      "sec": 1.91
+    },
+    "complex_0047": {
+      "alt": "The image is a figure that visually represents the process of account setup on a web page. It shows a sequence of steps: sign up, verify email, and add details. The purpose of this image is to visually guide users through the account setup process, making it easier for them to understand the sequence",
+      "sec": 3.53
+    },
+    "complex_0048": {
+      "alt": "The image is a diagram that represents the process of repair intake. It shows a sequence of steps: book slot, assess, quote, and fix. The purpose of the image is to visually represent the flow of the repair intake process, making it easier for users to understand the sequence of actions involved.",
+      "sec": 3.84
+    },
+    "complex_0049": {
+      "alt": "The image is a screenshot of a web page section titled \"Store team\" with a link to an internal dashboard. The purpose of the image is to provide a visual representation of the store team structure, which includes a manager and three departments: Bakery, Deli, and Checkout. The image is used",
+      "sec": 3.77
+    },
+    "complex_0050": {
+      "alt": "The image is a figure that displays a simple organizational chart. The purpose of this image is to illustrate the structure of a studio, specifically showing the roles and responsibilities of the Director and the three departments: Design, Build, and Accounts. The chart is used to convey the hierarchical relationship between the Director and",
+      "sec": 3.9
+    },
+    "complex_0051": {
+      "alt": "The image is a screenshot of a webpage section titled \"Library staff\" with a subheading \"Head librarian\" and three subcategories: Lending, Archives, and Events. The purpose of the image is to provide a visual representation of the organizational structure of the library staff, specifically highlighting the head librarian",
+      "sec": 3.9
+    },
+    "complex_0052": {
+      "alt": "The image is a figure that displays a hierarchical structure of kitchen roles. The purpose of this image is to visually represent the different roles within a kitchen, with the head chef at the top and the three main departments (Pastry, Grill, and Prep) branching out from the head chef. This structure",
+      "sec": 3.78
+    },
+    "complex_0053": {
+      "alt": "The image is a figure that contains a chart with a caption. The purpose of the image is to visually represent the organizational structure of a support desk, showing the hierarchy and levels of management.",
+      "sec": 2.58
+    },
+    "complex_0054": {
+      "alt": "The image is a timeline graphic that outlines the milestones of a company's growth and development. The timeline starts in 2016 with the establishment of the first shop, followed by the online store in 2019, the second shop in 2022, and the repair",
+      "sec": 3.77
+    },
+    "complex_0055": {
+      "alt": "The image is a visual representation of a project timeline, indicating the phases of a project from 2023 to 2026. The purpose of the image is to provide a visual summary of the project's timeline, helping users understand the progression of the project phases.",
+      "sec": 3.67
+    },
+    "complex_0056": {
+      "alt": "The image is a timeline illustrating the building history of a structure, specifically detailing the years 1904, 1962, and 2011. The purpose of the image is to provide a visual representation of the building's evolution over time, highlighting the periods of construction",
+      "sec": 3.82
+    },
+    "complex_0057": {
+      "alt": "The image is a timeline representing the release history of a product or service. It shows the release dates for different versions of the product, starting from 2021 and ending in 2026. The timeline is designed to provide a visual representation of the product's development and progression over",
+      "sec": 3.98
+    },
+    "complex_0058": {
+      "alt": "The image is a visual representation of a grant timeline, indicating the stages of a grant application process: applied, awarded, and reported. The purpose of the image is to provide a visual summary of the grant timeline, helping users understand the progression from the initial application to the final reporting phase.",
+      "sec": 4.85
+    }
+  }
+}
