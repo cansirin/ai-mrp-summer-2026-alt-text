@@ -421,7 +421,8 @@ def slides(summary, manifest, images_dir, figures_dir):
     categories = [c for c in CATEGORY_ORDER if c in counts] or CATEGORY_ORDER
     n_items = summary.get("n_items") or sum(counts.values())
     n_models = len(accuracy)
-    model_list = " and ".join(f"https://huggingface.co/{m}" for m in sorted(accuracy))
+    model_list = ", ".join(model_label(m) for m in sorted(accuracy))
+    model_links = " and ".join(f"https://huggingface.co/{m}" for m in sorted(accuracy))
 
     naive_f = get_acc(summary, model, "naive", "functional")
     wcag_f = get_acc(summary, model, "wcag", "functional")
@@ -604,7 +605,7 @@ A second rater subset is set aside and the agreement number, once scored, lands 
       <p><strong>Scoring.</strong> Rule based against per-item required and forbidden keywords, plus a severity label: correct, harmless, degraded, silent, misleading. {rater_short}</p>
     </div>
   </div>
-  <p class="note">Code {REPO_URL} &middot; decision tree {DECISION_TREE_URL} &middot; models {esc(model_list)}</p>
+  <p class="note">Code {REPO_URL} &middot; decision tree {DECISION_TREE_URL} &middot; models {esc(model_links)}</p>
 </section>"""
     )
 
