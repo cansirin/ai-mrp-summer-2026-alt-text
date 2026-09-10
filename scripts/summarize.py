@@ -147,8 +147,10 @@ def cohen_kappa(a: list[bool], b: list[bool]) -> float:
     return (observed - expected) / (1 - expected)
 
 
-def agreement_block(ratings_path: Path) -> dict:
-    """Percent agreement and Cohen's kappa between the two rater columns."""
+def agreement_block(ratings_path: Path, script: dict[tuple[str, str], bool] | None = None) -> dict:
+    """Agreement between human raters, and between each rater and the script.
+
+    script maps (item id, condition) to the scorer's correct flag."""
     empty = {"n": 0, "raters": [], "cohen_kappa": 0.0, "percent": 0.0,
              "note": "results/human_ratings.csv not present or not filled in"}
     if not ratings_path.exists():
@@ -158,26 +160,46 @@ def agreement_block(ratings_path: Path) -> dict:
         rows = list(reader)
         fieldnames = list(reader.fieldnames or [])
     cols = _rater_columns(fieldnames)
-    if len(cols) < 2:
-        note = dict(empty)
-        note["note"] = ("results/human_ratings.csv needs two columns whose names end in "
-                        "'correct', one per rater")
-        return note
-    first, second = cols[0], cols[1]
-    a: list[bool] = []
-    b: list[bool] = []
-    for row in rows:
-        va, vb = _truthy(row.get(first, "")), _truthy(row.get(second, ""))
-        if va is None or vb is None:
-            continue
-        a.append(va)
-        b.append(vb)
-    if not a:
+    filled = [c for c in cols if any(_truthy(r.get(c, "")) is not None for r in rows)]
+    if not filled:
         return empty
-    percent = sum(1 for x, y in zip(a, b) if x == y) / len(a)
-    return {"n": len(a), "raters": [first, second],
-            "cohen_kappa": round(cohen_kappa(a, b), 4),
-            "percent": round(percent, 4)}
+
+    def pair(get_a, get_b) -> dict | None:
+        a: list[bool] = []
+        b: list[bool] = []
+        for row in rows:
+            va, vb = get_a(row), get_b(row)
+            if va is None or vb is None:
+                continue
+            a.append(va)
+            b.append(vb)
+        if not a:
+            return None
+        percent = sum(1 for x, y in zip(a, b) if x == y) / len(a)
+        return {"n": len(a), "cohen_kappa": round(cohen_kappa(a, b), 4),
+                "percent": round(percent, 4)}
+
+    def script_flag(row: dict):
+        if not script:
+            return None
+        return script.get((row.get("id", ""), row.get("condition", "")))
+
+    versus_script = {}
+    for c in filled:
+        got = pair(lambda r, c=c: _truthy(r.get(c, "")), script_flag)
+        if got:
+            versus_script[c] = got
+
+    out = {"n": 0, "raters": filled, "cohen_kappa": 0.0, "percent": 0.0,
+           "versus_script": versus_script}
+    if len(filled) >= 2:
+        first, second = filled[0], filled[1]
+        got = pair(lambda r: _truthy(r.get(first, "")), lambda r: _truthy(r.get(second, "")))
+        if got:
+            out.update(got)
+    elif versus_script:
+        out["note"] = "one human rater so far; the inter-rater figure needs a second"
+    return out
 
 
 def build_subset(rows: list[dict], manifest: dict[str, dict], n: int = SUBSET_N) -> list[dict]:
@@ -263,7 +285,7 @@ def summarize(scores: dict, manifest: dict[str, dict], ratings_path: Path) -> di
         "conditions": sorted({row["condition"] for row in rows}),
         "accuracy": accuracy,
         "severity": severity,
-        "agreement": agreement_block(ratings_path),
+        "agreement": agreement_block(ratings_path, {(r["id"], r["condition"]): bool(r["correct"]) for r in scores["rows"]}),
         "examples": pick_examples(rows),
     }
 

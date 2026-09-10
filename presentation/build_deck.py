@@ -239,6 +239,15 @@ def pct(value):
     return f"{value * 100:.0f}%" if isinstance(value, (int, float)) else "n/a"
 
 
+def agreement_vs_script(agreement):
+    """One clause per human rater giving their agreement with the rule-based scorer."""
+    bits = []
+    for col, got in (agreement.get("versus_script") or {}).items():
+        name = col.replace("_correct", "").replace("_", " ").strip() or "rater"
+        bits.append(f" {name} versus the script, {got['n']} items: {pct1(got['percent'])} agreement, kappa {got['cohen_kappa']:.2f}.")
+    return "".join(bits)
+
+
 def pct1(value):
     return f"{value * 100:.1f}%" if isinstance(value, (int, float)) else "n/a"
 
@@ -448,10 +457,14 @@ def slides(summary, manifest, images_dir, figures_dir):
     agree_pct = agreement.get("percent")
     agree_text = pct1(agree_pct / 100 if isinstance(agree_pct, (int, float)) and agree_pct > 1 else agree_pct)
     agree_n = agreement.get("n", 0)
+    versus = agreement_vs_script(agreement)
     if agree_n:
-        rater_short = f"{rater_short}"
-        rater_long = (f"A second rater scored {agree_n} items: {esc(agree_text)} agreement, "
-                      f"Cohen kappa {esc(kappa_text)}.")
+        rater_short = f"Two human raters scored {agree_n} items independently."
+        rater_long = (f"Two human raters scored {agree_n} items: {esc(agree_text)} agreement, "
+                      f"Cohen kappa {esc(kappa_text)}.{esc(versus)}")
+    elif versus:
+        rater_short = "A human rater scored a 30 item subset against the script."
+        rater_long = f"Human check on the scorer:{esc(versus)} A second rater is still to come."
     else:
         rater_short = "A 30 item subset is set aside for a second rater."
         rater_long = "The 30 item second rater subset is in the repo and not yet scored, so no agreement number is claimed."

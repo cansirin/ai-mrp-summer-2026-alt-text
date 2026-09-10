@@ -195,7 +195,7 @@ A second rater subset is set aside and the agreement number, once scored, lands 
     </div>
     <div>
       <p><strong>Models.</strong> Qwen2-VL-2B, blip-image-captioning-large. BLIP is the pure captioner baseline.</p>
-      <p><strong>Scoring.</strong> Rule based against per-item required and forbidden keywords, plus a severity label: correct, harmless, degraded, silent, misleading. A 30 item subset is set aside for a second rater.</p>
+      <p><strong>Scoring.</strong> Rule based against per-item required and forbidden keywords, plus a severity label: correct, harmless, degraded, silent, misleading. A human rater scored a 30 item subset against the script.</p>
     </div>
   </div>
   <p class="note">Code https://github.com/cansirin/ai-mrp-summer-2026-alt-text &middot; decision tree https://www.w3.org/WAI/tutorials/images/decision-tree/ &middot; models on Hugging Face: Qwen2-VL-2B, blip-image-captioning-large</p>
@@ -267,7 +267,7 @@ implicit. Give the agreement number as it is, whatever it is.
     <li>Images are generated, not scraped. Clean and unambiguous, so these numbers are an upper bound on real web images.</li>
     <li>2 models evaluated, one family plus a captioner baseline. This is not a claim about vision models in general.</li>
     <li>Scoring is rule based on per-item keywords. The judgment calls are in the repo, not hidden: partial credit rules, what counts as a synonym, how padding is treated.</li>
-    <li>n = 298, so per-category cells are small. The 30 item second rater subset is in the repo and not yet scored, so no agreement number is claimed.</li>
+    <li>n = 298, so per-category cells are small. Human check on the scorer: rater versus the script, 30 items: 93.3% agreement, kappa 0.87. A second rater is still to come.</li>
   </ul>
   <p class="note">The effect on functional images is large enough to survive all of this. The exact percentages are not the claim, the direction is.</p>
 </section><!--

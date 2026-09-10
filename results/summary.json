@@ -264,10 +264,19 @@
   },
   "agreement": {
     "n": 0,
-    "raters": [],
+    "raters": [
+      "rater_correct"
+    ],
     "cohen_kappa": 0.0,
     "percent": 0.0,
-    "note": "results/human_ratings.csv not present or not filled in"
+    "versus_script": {
+      "rater_correct": {
+        "n": 30,
+        "cohen_kappa": 0.8667,
+        "percent": 0.9333
+      }
+    },
+    "note": "one human rater so far; the inter-rater figure needs a second"
   },
   "examples": {
     "correct": [
