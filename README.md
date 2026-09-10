@@ -24,7 +24,7 @@ Set up the environment once.
     .venv/bin/pip install -e .
 
 Then run the pipeline in order. Each step reads and writes only the files named in
-docs/CONTRACT.md, so any step can be rerun on its own.
+docs/formats.md, so any step can be rerun on its own.
 
     .venv/bin/python scripts/make_dataset.py          # data/images and data/manifest.json
     scripts/run_all.sh                                # results/raw/<model>__<condition>.json
@@ -52,7 +52,7 @@ already written and continues. Add --limit N to any run for a quick smoke test.
     results/summary.json    the aggregated numbers, the only source the deck reads
     results/human_subset.csv  the 30 item subset set aside for a second rater
     presentation/           build_deck.py, the figures, slides.html, slides.pdf
-    docs/CONTRACT.md        the file formats every script agrees on
+    docs/formats.md        the file formats every script agrees on
     docs/literature.md      annotated literature review with citations and links
 
 ## Design

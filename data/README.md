@@ -65,7 +65,7 @@ Total: 298 images.
 
 ## The manifest
 
-data/manifest.json follows docs/CONTRACT.md. Each item gives the id, the file, the
+data/manifest.json follows docs/formats.md. Each item gives the id, the file, the
 category, expected_alt, must_include, must_not_include, a context block and a notes
 string recording how the image was drawn and at what size.
 
